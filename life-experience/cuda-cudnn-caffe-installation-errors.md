@@ -39,6 +39,20 @@ INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 ## Makefile:625: recipe for target '.build_release/tools/compute_image_mean.bin' failed
 出现这个问题是在使用 `OpenCV` 相关库的时候出错了，可能是没找到。只需使 `Makefile.config` 里面的 `USE_PKG_CONFIG := 1`，然后再编译一遍。
 
+## cudnn 版本太旧
+这个的错误提示比较多，像什么 `too few xxx`、`CUDNN XXX` 都可以考虑一下这个原因。
+把当前 `cudnn` 安装目录下的文件和最新版本的目录保持一致就地。
+
+一个博主的解决方法 [原地址](http://blog.csdn.net/alickr/article/details/78512405)：
+```
+下载最新版本的caffe，将旧版caffe里的几个文件替换成最新版里面的
+caffe-fast-rcnn/include/caffe/util/cudnn.hpp  
+caffe-fast-rcnn/include/caffe/layers/下面cudnn_开头的所有文件
+caffe-fast-rcnn/src/caffe/util/cudnn.cpp
+caffe-fast-rcnn/src/caffe/layers/ 下面cudnn_开头的所有文件
+提示：要将旧代码从文件夹里面移除，不能只改名字做备份，否则依旧有错误提示
+```
+
 # 注意事项
 - 安装 `tensorflw` 时，需要一些库可能会与 `caffe` 的库起冲突，所以要先安装 `caffe` 再安装 `tensorflow`。
 - `OpenCV` 在安装的过程中，会检查本机中相关的 `cuda` 等库，所以要先安装 `cuda` 再安装 `OpenCV`。
