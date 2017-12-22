@@ -30,7 +30,11 @@ sudo apt-get install libblas-dev
 sudo apt-get install libatlas-base-dev
 ```
 
+## Makefile:625: recipe for target '.build_release/tools/compute_image_mean.bin' failed
+出现这个问题是在使用 `OpenCV` 相关库的时候出错了，可能是没找到。只需使 `Makefile.config` 里面的 `USE_PKG_CONFIG := 1`，然后再编译一遍。
+
 # 注意事项
 - 安装 `tensorflw` 时，需要一些库可能会与 `caffe` 的库起冲突，所以要先安装 `caffe` 再安装 `tensorflow`。
 - `OpenCV` 在安装的过程中，会检查本机中相关的 `cuda` 等库，所以要先安装 `cuda` 再安装 `OpenCV`。
 - 不同库的安装顺序*很重要*
+- 如果在编译 `caffe` 时候出错了，最好 `make clean` 之后再编译一次。
