@@ -9,7 +9,12 @@
 ![cuda](./cuda.png)
 
 
-
+## protoc: Command not found
+这个需要安装一下 [`protobuf`](https://github.com/google/protobuf)
+```Shell
+sudo apt-get install protobuf-c-compiler protobuf-compiler
+```
+## 
 
 
 # 注意事项
