@@ -30,6 +30,9 @@ sudo apt-get install libblas-dev
 sudo apt-get install libatlas-base-dev
 ```
 
+## 安装 `caffe` 和使用 `pycaffe` 的时候，要安装两个 `protobuf`
+注意这两个 `protobuf` 的版本可能导致安装时出错。
+
 ## Makefile:625: recipe for target '.build_release/tools/compute_image_mean.bin' failed
 出现这个问题是在使用 `OpenCV` 相关库的时候出错了，可能是没找到。只需使 `Makefile.config` 里面的 `USE_PKG_CONFIG := 1`，然后再编译一遍。
 
