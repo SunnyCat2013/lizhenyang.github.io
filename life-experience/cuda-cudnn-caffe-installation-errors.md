@@ -7,3 +7,11 @@
 目前还不明白为什么。
 
 ![cuda](./cuda.png)
+
+
+
+
+
+# 注意事项
+- 安装 `tensorflw` 时，需要一些库可能会与 `caffe` 的库起冲突，所以要先安装 `caffe` 再安装 `tensorflow`。
+- `OpenCV` 在安装的过程中，会检查本机中相关的 `cuda` 等库，所以要先安装 `cuda` 再安装 `OpenCV`。
