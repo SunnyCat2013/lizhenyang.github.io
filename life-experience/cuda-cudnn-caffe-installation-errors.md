@@ -14,9 +14,13 @@
 ```Shell
 sudo apt-get install protobuf-c-compiler protobuf-compiler
 ```
-## 
+## ./include/caffe/util/mkl_alternate.hpp:14:19: fatal error: cblas.h: No such file or directory
 
+```
+sudo apt-get install libblas-dev
+```
 
 # 注意事项
 - 安装 `tensorflw` 时，需要一些库可能会与 `caffe` 的库起冲突，所以要先安装 `caffe` 再安装 `tensorflow`。
 - `OpenCV` 在安装的过程中，会检查本机中相关的 `cuda` 等库，所以要先安装 `cuda` 再安装 `OpenCV`。
+- 不同库的安装顺序*很重要*
