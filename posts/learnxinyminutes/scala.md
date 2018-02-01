@@ -60,3 +60,9 @@ addWithDefault(1, 2) // => 3
 addWithDefault(1)    // => 6
 ```
 设置默认参数类型。
+
+```
+// Anonymous functions look like this:
+(x: Int) => x * x
+```
+匿名函数
