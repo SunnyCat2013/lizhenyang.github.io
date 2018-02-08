@@ -27,6 +27,12 @@ POST把提交的数据则放置在是HTTP包的包体中。
 ## 参考
 https://www.jianshu.com/p/80e25cb1d81a
 https://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html
+
+
+# requests 用法
+> 简单了解了 HTTP 及 get/post 之后，我觉得我可能了解错方向了。requests 应该是发出信息的一方，而我想要的是接收数据的一方。
+
+
 # 参考
 [Requests: HTTP for Humans](http://docs.python-requests.org/en/master/)
 
