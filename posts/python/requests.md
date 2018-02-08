@@ -4,13 +4,25 @@
 # HTTP 及 POST/GET/PUT/DELETE 的区别
 > HTTP(Hyper Text Transfer Protocol)，是从服务器到浏览器传输 Hyper Text 的协议。
 ## get 安全且幂等
+例如，用户请求新闻主页内容。
+
 1. 只获取信息，不修改信息
 2. 幂等意味着，多次请求，得到的结果是相同的。
 
-例如，用户请求新闻主页内容。
+### 请求格式
+GET请求的数据会附在URL之后（就是把数据放置在HTTP协议头中），以?分割URL和传输数据，参数之间以&相连，如：login.action?name=hyddd&password=idontknow&verify=%E4%BD%A0%E5%A5%BD。如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64加密，得出如：%E4%BD%A0%E5%A5%BD，其中％XX中的XX为该符号以16进制表示的ASCII。
+
+### 数据大小
+GET方式提交的数据最多只能是1024字节
+
 
 ## post 可能会修改服务器上的资源
 例如，用户发表自己对新闻的评论。
+
+### 请求格式 
+POST把提交的数据则放置在是HTTP包的包体中。
+### 数据大小
+理论上POST没有限制，可传较大量的数据，IIS4中最大为80KB，IIS5中为100KB。
 
 ## 参考
 https://www.jianshu.com/p/80e25cb1d81a
