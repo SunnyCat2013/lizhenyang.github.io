@@ -31,8 +31,34 @@ https://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html
 
 # requests 用法
 > 简单了解了 HTTP 及 get/post 之后，我觉得我可能了解错方向了。requests 应该是发出信息的一方，而我想要的是接收数据的一方。
+## 测试网站
+[http://httpbin.org/](http://httpbin.org/)
+
+```
+import requests 
+# 发送一个 get 请求，但是这个用作样例的 url 可能会变。
+r = requests.get('http://git.io/17AROg')
+r.status_code # 200
+
+# put/delete/head/options 实例
+>>> r = requests.put("http://httpbin.org/put")
+>>> r = requests.delete("http://httpbin.org/delete")
+>>> r = requests.head("http://httpbin.org/get")
+>>> r = requests.options("http://httpbin.org/get")
+
+```
+
+## URL 传递参数
+
+用字典的方式确实非常人性化。
+```
+>>> payload = {'key1': 'value1', 'key2': 'value2'}
+>>> r = requests.get("http://httpbin.org/get", params=payload)
+>>> print(r.url)
+http://httpbin.org/get?key1=value1&key2=value2
+```
 
 
 # 参考
 [Requests: HTTP for Humans](http://docs.python-requests.org/en/master/)
-
+[快速上手](http://docs.python-requests.org/zh_CN/latest/user/quickstart.html)
