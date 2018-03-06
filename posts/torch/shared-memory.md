@@ -32,7 +32,24 @@ socket.error: [Errno 111] Connection refused
 
 
 在 [这个](http://noahsnail.com/2018/01/15/2018-01-15-PyTorch%20socket.error%20[Errno%20111]%20Connection%20refused/) 文章里面说是共享内存的问题。我就简单看了一下共享内存：`df -h /dev/shm/`。我现在的共享内存大约是 `64M`，好像不太够。
+
+
+```
+shm                                                                                               64M     0   64M   0% /dev/shm
+```
+
+
 就手动调整了一下。
+
+```
+mount tmpfs /some/path/to/mount -t tmpfs -o size=16G
+```
+
+文件类型和挂载点应该不太一样，我还没有试。
+
+## 共享内存
+
+共享内存就是允许两个不相关的进程访问同一个逻辑内存。共享内存是在两个正在运行的进程之间共享和传递数据的一种非常有效的方式。不同进程之间共享的内存通常安排为同一段物理内存。进程可以将同一段共享内存连接到它们自己的地址空间中，所有进程都可以访问共享内存中的地址，就好像它们是由用C语言函数malloc分配的内存一样。而如果某个进程向共享内存写入数据，所做的改动将立即影响到可以访问同一段共享内存的任何其他进程。
 
 
 # 参考
@@ -40,3 +57,4 @@ socket.error: [Errno 111] Connection refused
 [yTorch socket.error](http://noahsnail.com/2018/01/15/2018-01-15-PyTorch%20socket.error%20[Errno%20111]%20Connection%20refused/)
 
 [Linux - Shared Memory (SHM)(/dev/shm)](https://gerardnico.com/linux/shared_memory)
+[shared memory](http://blog.csdn.net/ljianhui/article/details/10253345)
