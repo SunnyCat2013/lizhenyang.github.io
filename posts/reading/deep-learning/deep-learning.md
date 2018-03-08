@@ -23,7 +23,7 @@ Individual pixels in an MRI scan have negligible correlation with any complicati
 
 *读完这一段，突然有些明白了 AI 领域里面的层次关系*：Knowledge base 尽量写好预先的规则；Machine learning 从拟定好的特征数据里面，学习一些决策规则；Representation learning 从原始数据里面学习特征？；Deep learning 就从原始数据里面学习特征，到最后的决策都有了。
 
-[ai-region](./ai-region.PNG)
+![ai-region](./ai-region.PNG)
 
 
 
