@@ -10,7 +10,20 @@ The diﬃculties faced by systems relying on hard-coded knowledge suggestthat AI
 
 
 
+```
+The performance of these simple machine learning algorithms depends heavilyon therepresentationof the data they are given. 
+For example, when logisticregression is used to recommend cesarean delivery, the AI system does not examinethe patient directly. 
+Instead, the doctor tells the system several pieces of relevantinformation, such as the presence or absence of a uterine scar. 
+Each piece ofinformation included in the representation of the patient is known as afeature.
+Logistic regression learns how each of these features of the patient correlates withvarious outcomes. 
+However, it cannot inﬂuence how features are deﬁned in anyway. 
+If logistic regression were given an MRI scan of the patient, rather thanthe doctor’s formalized report, it would not be able to make useful predictions.
+Individual pixels in an MRI scan have negligible correlation with any complicationsthat might occur during delivery.
+```
 
+*读完这一段，突然有些明白了 AI 领域里面的层次关系*：Knowledge base 尽量写好预先的规则；Machine learning 从拟定好的特征数据里面，学习一些决策规则；Representation learning 从原始数据里面学习特征？；Deep learning 就从原始数据里面学习特征，到最后的决策都有了。
+
+[ai-region](./ai-region.PNG)
 
 
 
