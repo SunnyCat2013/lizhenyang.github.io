@@ -2,6 +2,18 @@
 
 
 # [Introduction](http://www.deeplearningbook.org/contents/intro.html)
+
+```
+The diﬃculties faced by systems relying on hard-coded knowledge suggestthat AI systems need the ability to acquire their own knowledge, by extracting patterns from raw data. This capability is known asmachine learning.
+```
+从原始数据中抽取模式，获取新知识的研究，被称作机器学习（Machine Learning)。
+
+
+
+
+
+
+
 ```
 This solution isto allow computers to learn from experience and understand the world in terms ofa hierarchy of concepts, with each concept deﬁned through its relation to simplerconcepts. By gathering knowledge from experience, this approach avoids the needfor human operators to formally specify all the knowledge that the computer needs.
 The hierarchy of concepts enables the computer to learn complicated concepts bybuilding them out of simpler ones. 
