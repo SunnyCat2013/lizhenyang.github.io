@@ -28,7 +28,7 @@ _读完这一段，突然有些明白了 AI 领域里面的层次关系_：Knowl
 ![ai-region](./ai-region.PNG)
 
 
-合理地处理数据，生成用于描述数据的特征，对机器学习来说十分重要。通过图 ![coordinate-matters](./coordinate-matters.png) 可以看出同样的问题，在不同的体系内，处理的难度是不一样的。
+合理地处理数据，生成用于描述数据的特征，对机器学习来说十分重要。通过图 ![coordinate-matters](./coordinate-matters.PNG) 可以看出同样的问题，在不同的体系内，处理的难度是不一样的。
 
 
 
