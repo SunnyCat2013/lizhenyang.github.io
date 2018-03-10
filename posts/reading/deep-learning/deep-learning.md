@@ -40,6 +40,25 @@ This approach is known as representation learning.
 为了解决人工构造特征的困境，就引入了 representation learning。这一研究领域不仅想学习出特征到输出结果的模型，还要学习出从原始数据到特征的模型。
 
 
+## 两点好处
+
+```
+Learned representationsoften result in much better performance than can be obtained with hand-designedrepresentations. They also enable AI systems to rapidly adapt to new tasks, withminimal human intervention.
+```
+
+1. 通常通过 representation learning 学习到的特征，都要比人工设计的特征要好。
+2. 只需要少量人工干预，就可以快速适应新任务。
+
+
+## 设计特征的目标
+
+```
+When designing features or algorithms for learning features, our goal is usuallyto separate thefactors of variationthat explain the observed data.
+```
+
+设计特征时，我们的主要目标是获得变量的主要因素(the factors of variation)。这个因素可以等价理解为矩阵的秩。
+
+
 
 ```
 This solution isto allow computers to learn from experience and understand the world in terms ofa hierarchy of concepts, with each concept deﬁned through its relation to simplerconcepts. By gathering knowledge from experience, this approach avoids the needfor human operators to formally specify all the knowledge that the computer needs.
