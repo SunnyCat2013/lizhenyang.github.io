@@ -77,3 +77,13 @@ These layers are called “hidden” because their values are not givenin the da
 ```
 隐藏层只所以叫隐藏层，是因为这些层的数据并不是直接来源于原始数据。
 取而代之的是，由上层网络决定哪些从数据里面学习到的概念对解释数据是有效的。
+
+
+## 
+
+```
+However, deep learning can be safely regarded as thestudy of models that involve a greater amount of composition of either learnedfunctions or learned concepts than traditional machine learning does.
+```
+
+与传统的机器学习相比，深度学习可以被看作是对一系列组合模型的研究。
+这些组合模型，是由学习出的函数或者概念组成的。
