@@ -68,3 +68,12 @@ If we draw a graph showing how these concepts built on top of each other, the gr
 
 深度学习：通过经验数据，学习出一系列层次概念。每个概念又通过这个概念与一些简单的概念之间的关系进行定义。通过对经验数据的学习，避免了人工定义计算机所需的所有知识。这种架构使计算机可以在简单概念的基础上学习出复杂的概念。如果我们要用图来表示这些概念之间的关系，我们将得到一个非常深的、具有很多层的图。因此，我们称这种方法为深度学习（deep learning）。
 
+
+## hidden layers
+
+```
+Then a series ofhidden layersextracts increasingly abstractfeatures from the image. 
+These layers are called “hidden” because their values are not givenin the data; instead the model must determine which concepts are useful for explainingthe relationships in the observed data.
+```
+隐藏层只所以叫隐藏层，是因为这些层的数据并不是直接来源于原始数据。
+取而代之的是，由上层网络决定哪些从数据里面学习到的概念对解释数据是有效的。
