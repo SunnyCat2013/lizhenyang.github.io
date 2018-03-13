@@ -34,6 +34,12 @@ model = Model(inputs=a, outputs=b)
 > 为什么要写再次 `a(input)` 呢？
 
 
+# [`Lambda`](https://github.com/keras-team/keras/blob/master/keras/layers/core.py#L542)
+与传统的机器学习相比，深度学习可以被看作是对涉及大量学习好的函数或者概念组合体的模型的研究。
+)
+Wraps arbitrary expression as a Layer object.
+把任意一个函数，变成神经网络的一层。
+
 
 
 # 理解
