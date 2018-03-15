@@ -13,4 +13,6 @@
   * [socket.error](posts/torch/shared-memory.md)
 * Latex
   * [use-katex.md](posts/latex/mathematical-formula.md)
+* Haversine
+  * [haversine-formula.md](posts/haversine/haversine-formula.md)
 
