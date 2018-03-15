@@ -4,7 +4,7 @@
 
 
 $$
- LER(h(x), S') = \frac{1}{\|S'\|} * \sum\frac{ED(h(x),z)}{\|z\|} 
+ LER(h(x), S') = \frac{1}{|S'|} * \sum\frac{ED(h(x),z)}{|z|}
 $$
 
 
