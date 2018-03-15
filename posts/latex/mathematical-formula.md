@@ -4,7 +4,8 @@
 
 
 $$
- LER(h(x), S') = \frac{1}{|S'|} * \sum\frac{ED(h(x),z)}{|z|}
+ LER(h(x), S') = \frac{1}{|S'|} * \sum_{(x, z) \in S'}\frac{ED(h(x),z)}{|z|}
 $$
+> 公式来自[2.1. Label Error Rate](ftp://ftp.idsia.ch/pub/juergen/icml2006.pdf)
 
 
