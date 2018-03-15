@@ -11,4 +11,6 @@
   * [data\_parallel](posts/torch/data_parallel.md)
   * [LSTM](posts/torch/LSTM.md)
   * [socket.error](posts/torch/shared-memory.md)
+* Latex
+  * [use-katex.md](posts/latex/mathematical-formula.md)
 
