@@ -20,6 +20,7 @@ $$
 求 $$q$$ 的经纬度。
 
 # 图例
+问题图 ![question](./question.svg)
 
 * 中心角
   AOB 被称作中心角
