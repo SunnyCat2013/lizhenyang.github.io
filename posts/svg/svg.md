@@ -38,8 +38,9 @@ SVG 的形状元素：
 [原图](https://upload.wikimedia.org/wikipedia/commons/c/cb/Illustration_of_great-circle_distance.svg)
 
 [-] 改大写 P、Q 为小写
-[ ] 连接 u、v
-[ ] 画出球心
+[-] 连接 u、v
+[-] 画出球心
+[-] 连接 op, oq
 
 
 > 周末在公司学习好爽啊。。安静又舒坦。。
