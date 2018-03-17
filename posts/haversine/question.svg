@@ -304,21 +304,15 @@
        sodipodi:end="5.0875176"
        sodipodi:open="true"
        d="M 382.29999,279.80548 A 150.89287,26.428572 0 0 1 308.00046,277.80548"/>
-       <!-- 过 pq 的红线 -->
-    <path
-       transform="matrix(-0.53199349,0.84674844,-0.84674844,-0.53199349,0,0)"
-       id="path5444"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff2a2a;stroke-width:4.00000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.79999995;stroke-opacity:1"
-       sodipodi:type="arc"
-       sodipodi:cx="78.407135"
-       sodipodi:cy="-469.60797"
-       sodipodi:rx="130.89287"
-       sodipodi:ry="61.27861"
-       sodipodi:start="1.6383301"
-       sodipodi:end="2.5101563"
-       sodipodi:open="true"
-       d="M 69.574164,-408.46905 A 130.89287,61.27861 0 0 1 -27.24703,-433.43492" />
+
        
+       
+<!-- 过 pq 的红线 -->
+    <path
+       d="M -28.24703,-433.43492 A 150.89287,26.428572 -20 0 1 35.88605,-474.47765"
+
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff2a2a;stroke-width:4.00000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3.79999995;stroke-opacity:1"
+       transform="matrix(-0.53199349,0.84674844,-0.84674844,-0.53199349,0,0)" />
        
     <circle
        style="opacity:1;fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
