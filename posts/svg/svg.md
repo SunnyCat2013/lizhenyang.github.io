@@ -7,7 +7,19 @@
 [w3school](http://www.w3school.com.cn/svg/index.asp) 的教程看起来很短，知用它补充一点基础知识。
 
 ## 基本图形
-圆：![circle](./circle.svg)
+SVG 的形状元素：
+
+```
+矩形 <rect>
+圆形 <circle>
+椭圆 <ellipse>
+线 <line>
+折线 <polyline>
+多边形 <polygon>
+路径 <path>
+```
+
+如圆：![circle](./circle.svg)
 
 ```
 <svg with="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -16,6 +28,18 @@
 
 ```
 
+> path 非常强大。
+
+下面还介绍了一些特效，实在没什么兴趣，先不看了。
+
+# 画 haversine 问题图
+我想解决的问题在 [问题讨论](https://sunnycat2013.gitbooks.io/blogs/content/posts/haversine/haversine-formula.html) 中。
+
+[原图](https://upload.wikimedia.org/wikipedia/commons/c/cb/Illustration_of_great-circle_distance.svg)
+
+[ ] 改大写 P、Q 为小写
+[ ] 连接 u、v
+[ ] 画出球心
 
 
 > 周末在公司学习好爽啊。。安静又舒坦。。
