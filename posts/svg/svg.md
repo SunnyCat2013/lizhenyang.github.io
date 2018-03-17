@@ -7,7 +7,7 @@
 [w3school](http://www.w3school.com.cn/svg/index.asp) 的教程看起来很短，知用它补充一点基础知识。
 
 ## 基本图形
-圆：[circle](./circle.svg)
+圆：![circle](./circle.svg)
 
 ```
 <svg with="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
