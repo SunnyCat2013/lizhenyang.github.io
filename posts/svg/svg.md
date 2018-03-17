@@ -30,6 +30,13 @@ SVG 的形状元素：
 
 > path 非常强大。
 
+# 问题
+## 画不完整椭圆
+参考了一下 [segmentfault](https://segmentfault.com/a/1190000004393817)。
+
+SVG 会采用 `A(a) rx ry x-axis-rotation large-arc sweep x y` 这样的形式
+原博文中给了个例子 ![ellipse](https://sfault-image.b0.upaiyun.com/416/014/4160144800-56acef9582989_articlex)
+
 下面还介绍了一些特效，实在没什么兴趣，先不看了。
 
 # 画 haversine 问题图

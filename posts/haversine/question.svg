@@ -102,10 +102,22 @@
        sodipodi:start="0"
        sodipodi:end="3.0875176"
        sodipodi:open="true"
-       d="M 480.87498,277.80548 A 130.89287,26.428572 0 0 1 359.5207,342.63827 130.89287,26.428572 0 0 1 225.28057,317.64779" />
+       d="M 480.87498,277.80548 A 13.89287,2.428572 0 0 1 355.92856,277.80548 130.89287,26.428572 0 0 1 355.92856,277.80548" />
 
-
-
+    <circle
+       style="opacity:1;fill:red;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path605334"
+       cx="130.89287"
+       cy="26.428572"
+       r="50" />
+<!-- O 所指向的圆点 -->
+    <circle
+       r="4"
+       cx="355.92856"
+       cy="316.21936"
+       id="circle6078"
+       style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+ 
 <!-- 大圆圆心 O -->
     <text
        xml:space="preserve"
@@ -179,14 +191,7 @@
          x="440.31732"
          y="293.23767"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif">v</tspan></text>
-<!-- O 所指向的圆点 -->
-    <circle
-       r="4"
-       cx="355.92856"
-       cy="316.21936"
-       id="circle6078"
-       style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
- 
+
 <!-- u 所指向的圆点 -->
     <circle
        r="4"
