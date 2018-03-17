@@ -37,7 +37,7 @@ SVG 的形状元素：
 
 [原图](https://upload.wikimedia.org/wikipedia/commons/c/cb/Illustration_of_great-circle_distance.svg)
 
-[ ] 改大写 P、Q 为小写
+[-] 改大写 P、Q 为小写
 [ ] 连接 u、v
 [ ] 画出球心
 
