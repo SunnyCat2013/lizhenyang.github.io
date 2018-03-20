@@ -13,4 +13,4 @@
 
 下面是个对文字进行标注的工具，大家可以看一下。如果我们在做文字识别工作时，对每个文字都要明确标出这个字在图片中的位置、高、宽，这将会是一个多么巨大的工作量。
 
-![jtessboxeditor](http://vietocr.sourceforge.net/training.html)
+![jtessboxeditor](./jTessBoxEditor.png)
