@@ -1,22 +1,14 @@
 # Summary
 
 * [Introduction](README.md)
-* [python](python.md)
-  * [requests](posts/python/requests.md)
-  * [The Python Debugger](posts/python/pdb.md)
-* [读书](du-shu.md)
-  * [耶路撒冷三千年](posts/reading/israel/耶路撒冷三千年.md)
-  * [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
-* [torch](torch.md)
-  * [data\_parallel](posts/torch/data_parallel.md)
-  * [LSTM](posts/torch/LSTM.md)
-  * [socket.error](posts/torch/shared-memory.md)
-* Latex
-  * [use-katex.md](posts/latex/mathematical-formula.md)
-* Haversine
-  * [haversine-formula.md](posts/haversine/haversine-formula.md)
+* [学习 SVG](posts/svg/svg.md)
+* [haversine-formula.md](posts/haversine/haversine-formula.md)
 * [SVG](svg.md)
-  * [学习 SVG](posts/svg/svg.md)
-* [CTC](ctc.md)
-  * [CTC 学习笔记](posts/ctc/learning-ctc.md)
+* [requests](posts/python/requests.md)
+* [CTC 学习笔记](posts/ctc/learning-ctc.md)
+* [The Python Debugger](posts/python/pdb.md)
+* [use-katex.md](posts/latex/mathematical-formula.md)
+* [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
+* [LSTM](posts/torch/LSTM.md)
+* [socket.error](posts/torch/shared-memory.md)
 
