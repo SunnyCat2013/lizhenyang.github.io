@@ -18,5 +18,5 @@
 * [SVG](svg.md)
   * [学习 SVG](posts/svg/svg.md)
 * [CTC](ctc.md)
-  * [CTC 学习笔记](ctc/ctc-xue-xi-bi-ji.md)
+  * [CTC 学习笔记](posts/ctc/learning-ctc.md)
 
