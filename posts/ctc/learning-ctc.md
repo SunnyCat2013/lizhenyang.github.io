@@ -59,8 +59,13 @@ $$
 这里我们需要知道“[最小编辑距离（Edit Distance, ED）](https://en.wikipedia.org/wiki/Edit_distance)”这个概念，在 CTC 的损失函数就用到了。 
 > 在学习算法的时候，`ED` 算是一个比较经典的动态规划问题，但在实际工作中其实很少用到这类算法。
 所以第一次知道这个算法能用在这里，我还是挺开心的。
+
 损失函数定义如下：
 $$
 LER(h, S') = \frac{1}{|S'|}\sum_{(x,z) \in S'}\frac{ED(h(x), z)}{|z|}
 $$
+用编辑距离（ED）来衡量文字串的预测情况还是一件蛮符合直观理解的事情。
 
+
+# 连接的时序分类（Connectionist Temporal Classification）
+写了半天终于到正题了，下面开始讲 CTC!
