@@ -112,8 +112,9 @@ $$
 B(hh-ee-l-l-oo) = hello 
 $$
 
+则模型预测标签为：
 $$
-则模型预测标签 l = B(\pi), |l| \leq T
+l = B(\pi), |l| \leq T
 $$
 
 
