@@ -105,10 +105,14 @@ $$
 一句话：把空格和连续重复的字母去掉。
 那么
 $$
-B(hheel-loo) = hello \\
+B(hheel-loo) = hello 
+$$
 
-B(hh-ee-l-l-oo) = hello \\ 
+$$
+B(hh-ee-l-l-oo) = hello 
+$$
 
+$$
 则模型预测标签 l = B(\pi), |l| \leq T
 $$
 
