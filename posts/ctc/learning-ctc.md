@@ -93,3 +93,30 @@ p(\pi | x) = \prod y_{\pi_t}^t, \forall_{t = 1}^{T}\pi \in L'^T.
 $$
 
 如，![hello](./hello.png) 的一种可能的输出 `hheelloo` 的概率可以表示为 $$p('hheelloo' | hello.png) = y_8^1\ast y_8^2 \ast y_{5}^3 \ast y_{5}^4 \ast y_{12}^5 \ast y_{12}^6 \ast  y_{15}^7 \ast y_{15}^8 $$ 
+
+## 一种输出序列的规整
+同一种输入对应的多种输出可能会有多种形式。
+如 ![hello](./hello.png) 的输出可能是 `hheel-loo` 也可能是 `hh-ee-l-l-oo` 等。这里的 `-` 表示空格。
+原论文处理这种情况的规则非常简单：
+$$
+we do this by simply removing all blanks and repeated labels from the paths (e.g. B(a-ab-) = B(-aa--abb) = aab).
+$$
+一句话：把空格和连续重复的字母去掉。
+那么
+$$
+B(hheel-loo) = hello
+
+B(hh-ee-l-l-oo) = hello
+
+则模型预测标签 l = B(\pi), |l| \leq T
+$$
+
+
+## 预测标签的概率
+我们可以看到预测标签有很多备选的输出序列，所以预测标签 $$l$$ 的概率公式：
+$$
+p(l|x) = \sum_{\pi \in B^{-1}(l)}p(\pi|x).
+$$
+其中，$$B^{-1}(l}$$ 是输出序列规整函数 $$B(\pi)$$ 的反函数。
+
+讲到这里，大家就应该明白 CTC 是怎么工作的了。当然还有很多为了实现而做的工作，有时间再接着写吧。
