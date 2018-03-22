@@ -89,7 +89,7 @@ $$
 
 - $$p(\pi | x)$$ 一种输出组合的概率。公式如下：
 $$
-p(\pi | x) = \prod y_{\pi_t}^t, \forall_{t = 1}^{T}\pi \in L'^T.
+p(\pi | x) = \prod y_{\pi_t}^t, \forall_{t = 1}^{T}\pi \in {L'}^T.
 $$
 
 如，![hello](./hello.png) 的一种可能的输出 `hheelloo` 的概率可以表示为 $$p('hheelloo' | hello.png) = y_8^1\ast y_8^2 \ast y_{5}^3 \ast y_{5}^4 \ast y_{12}^5 \ast y_{12}^6 \ast  y_{15}^7 \ast y_{15}^8 $$ 
