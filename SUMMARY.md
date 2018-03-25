@@ -11,4 +11,5 @@
 * [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
 * [LSTM](posts/torch/LSTM.md)
 * [socket.error](posts/torch/shared-memory.md)
+* [Spark 学习笔记](posts/spark/learning-spark.md)
 
