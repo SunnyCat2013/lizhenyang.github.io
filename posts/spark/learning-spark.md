@@ -40,6 +40,7 @@ Dataset 是 Spark 1.6 中加入的新接口，它使用 Spark SQL 的优化引�
 
 Dataset 可以用 Java 虚拟机对象构建，然后使用函数转换函数（如，map, flatMap, filter 等）进行操作。
 
+Dataset 提供了 Scala 和 Java 的 API。Python 还不支持 Dataset API，是因为 python 自有的动态语言特征，很多操作都可以通过 python 自身实现（如，可以通过 row.columnName 获得一行）。
 
 # 参考
 [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/preview/sql-programming-guide.html)
