@@ -30,6 +30,15 @@ DataFrame 是用列名组织起来的分布式数据集合。这里的分布式�
 它与关系型数据库、R/Python 里的 data frame，但是有更多的优化操作。
 DataFrame 可以由很多数据源构成，比如结构数据文件、Hive 里面的表、外部数据库和现有的 RDDs。
 
+DataFrame API 有 Scala, Java, Python 和 R 语言的版本。
+
+## Datasets
+Dataset 是 Spark 1.6 中加入的新接口，它使用 Spark SQL 的优化引擎，把 RDD 的优势（如，存储类型、lambda 函数）引入进来。
+
+对下面这个话也不是很明白：
+>  A Dataset can be constructed from JVM objects and then manipulated using functional transformations (map, flatMap, filter, etc.).
+
+Dataset 可以用 Java 虚拟机对象构建，然后使用函数转换函数（如，map, flatMap, filter 等）进行操作。
 
 
 # 参考
