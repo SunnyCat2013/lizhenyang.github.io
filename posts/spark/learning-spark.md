@@ -42,5 +42,21 @@ Dataset 可以用 Java 虚拟机对象构建，然后使用函数转换函数（
 
 Dataset 提供了 Scala 和 Java 的 API。Python 还不支持 Dataset API，是因为 python 自有的动态语言特征，很多操作都可以通过 python 自身实现（如，可以通过 row.columnName 获得一行）。
 
+
+# 实例
+假如已有 DataFrame 对象 df。
+
+```Python
+# 选择出 name 和 age 两列，并将 age 列加 1，同时显示出来。
+df.select(df['name'], df['age'] + 1).show()
+```
+
+
+# 注意事项
+1. 在 pyspark shell 里面运行操作的时候，默认计算资源有限。
+我在  pyspark shell 里面测试的时候，就感觉比 hive shell 里面直接跑要慢上很多。
+后来请教了一下同事，应该是这两个客户端配置的默认计算资源不同导致的。
+
+
 # 参考
 [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/preview/sql-programming-guide.html)
