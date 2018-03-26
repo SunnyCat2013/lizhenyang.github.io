@@ -51,6 +51,9 @@ Dataset 提供了 Scala 和 Java 的 API。Python 还不支持 Dataset API，是
 df.select(df['name'], df['age'] + 1).show()
 ```
 
+## select 去重
+1. select.dropDuplicates()
+2. select.distinct
 
 # 注意事项
 1. 在 pyspark shell 里面运行操作的时候，默认计算资源有限。
