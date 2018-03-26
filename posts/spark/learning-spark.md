@@ -57,6 +57,8 @@ df.select(df['name'], df['age'] + 1).show()
 我在  pyspark shell 里面测试的时候，就感觉比 hive shell 里面直接跑要慢上很多。
 后来请教了一下同事，应该是这两个客户端配置的默认计算资源不同导致的。
 
+2. dataframe.groupby 之后得到的是一个 GroupedData 对象。
+
 
 # 参考
 [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/preview/sql-programming-guide.html)
