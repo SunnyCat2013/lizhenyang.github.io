@@ -51,6 +51,11 @@ Dataset 提供了 Scala 和 Java 的 API。Python 还不支持 Dataset API，是
 df.select(df['name'], df['age'] + 1).show()
 ```
 
+# 常用函数
+- count()
+- collect()
+
+
 ## select 去重
 1. select.dropDuplicates()
 2. select.distinct
