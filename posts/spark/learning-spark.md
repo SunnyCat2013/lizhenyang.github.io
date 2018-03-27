@@ -54,6 +54,10 @@ df.select(df['name'], df['age'] + 1).show()
 # 常用函数
 - count()
 - collect()
+- agg()
+调用函数有哪种几种常用函数的方式？
+几种方式生成的默认别名的规则？
+如何修改别名？
 
 
 ## select 去重
