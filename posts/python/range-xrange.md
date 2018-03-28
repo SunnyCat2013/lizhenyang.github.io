@@ -27,6 +27,15 @@ range(start, stop[, step])
 
 # xrange
 与 range 的主要区别，就是 xrange 节省内存。
+主要实现方式就是，xrange 调用之后产生一个 xrange object，这个对象里面把数字生成的算法写好了，每次迭代的时候生成一个序号出来。
+range 则是在程序开始的时候就生成一个 list。所以占用空间的表：
+
+函数名 | 占用空间复杂度
+----|----
+range | $$\mathcal{O}(n)$$
+xrange | $$\mathcal{O}(1)$$
+
+
 
 # 参考
 https://docs.python.org/2.7/library/functions.html
