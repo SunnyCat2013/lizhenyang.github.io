@@ -51,12 +51,33 @@ Dataset 提供了 Scala 和 Java 的 API。Python 还不支持 Dataset API，是
 df.select(df['name'], df['age'] + 1).show()
 ```
 
+# 常用函数
+- count()
+- collect()
+- agg()
+调用函数有哪种几种常用函数的方式？
+几种方式生成的默认别名的规则？
+如何修改别名？
+
+
+## select 去重
+1. select.dropDuplicates()
+2. select.distinct
 
 # 注意事项
 1. 在 pyspark shell 里面运行操作的时候，默认计算资源有限。
 我在  pyspark shell 里面测试的时候，就感觉比 hive shell 里面直接跑要慢上很多。
 后来请教了一下同事，应该是这两个客户端配置的默认计算资源不同导致的。
 
+2. dataframe.groupby 之后得到的是一个 GroupedData 对象。
+
+
+# 学习参数
+提交 pyspark 的时候，并不理解参数的含义，导致在 pyspark shell 里可以运行，而在 spark-submit 里面不能运行。
+
+
 
 # 参考
 [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/preview/sql-programming-guide.html)
+[documentation](http://spark.apache.org/documentation.html)
+这里提供了很多书和教程
