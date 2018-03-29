@@ -72,5 +72,12 @@ df.select(df['name'], df['age'] + 1).show()
 2. dataframe.groupby 之后得到的是一个 GroupedData 对象。
 
 
+# 学习参数
+提交 pyspark 的时候，并不理解参数的含义，导致在 pyspark shell 里可以运行，而在 spark-submit 里面不能运行。
+
+
+
 # 参考
 [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/preview/sql-programming-guide.html)
+[documentation](http://spark.apache.org/documentation.html)
+这里提供了很多书和教程
