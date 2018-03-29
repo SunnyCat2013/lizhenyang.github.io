@@ -6,10 +6,11 @@
 * [SVG](svg.md)
 * [requests](posts/python/requests.md)
 * [CTC 学习笔记](posts/ctc/learning-ctc.md)
-* [The Python Debugger](posts/python/pdb.md)
 * [use-katex.md](posts/latex/mathematical-formula.md)
 * [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
 * [LSTM](posts/torch/LSTM.md)
 * [socket.error](posts/torch/shared-memory.md)
 * [Spark 学习笔记](posts/spark/learning-spark.md)
+* python
+  * [range&xrange](posts/python/range-xrange.md)
 
