@@ -11,6 +11,7 @@
 * [LSTM](posts/torch/LSTM.md)
 * [socket.error](posts/torch/shared-memory.md)
 * [Spark 学习笔记](posts/spark/learning-spark.md)
+  * [spark-submit](posts/spark/spark-submit.md)
 * python
   * [range&xrange](posts/python/range-xrange.md)
 
