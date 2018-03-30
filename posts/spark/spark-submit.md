@@ -24,3 +24,9 @@ spark-submit 可以把任务分配到 spark 集群的每台机器上。
 ```
 一些比较常用的选项如下：
  - `--class`： 应用入口（如，`org.apache.spark.examples.SparkPi`）
+ - `--master`：spark 集群的 master URL 
+ - `--deploy-mode`： client 模式还是 cluster 模型。
+ - `--conf`：任意的 spark 配置，用 `key=value` 这样的形式。如果 value 中包含空格，则用 qoutes 把键值对包含起来：`"key=value"`
+ - `application-jar`： 应用打包文件的路径
+ - `application-arguments`：传给主函数的参数
+
