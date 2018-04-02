@@ -14,4 +14,6 @@
   * [spark-submit](posts/spark/spark-submit.md)
 * python
   * [range&xrange](posts/python/range-xrange.md)
+* Machine Learning
+  * [The Method of Least Squares](posts/least-square/learning-least-square.md)
 
