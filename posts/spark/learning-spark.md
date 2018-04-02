@@ -59,6 +59,19 @@ df.select(df['name'], df['age'] + 1).show()
 几种方式生成的默认别名的规则？
 如何修改别名？
 
+- SparkSession.createDataFrame
+从 RDD 或者 pandas.DataFrame 数据里，创建一个 DataFrame。
+最近遇到一个问题，我关联几个表得到一个 DataFrame。我需要把 DataFrame 里面的数据都取出来，于是就执行了 df.collect()，然而我还需要把这个表在到 hive 里面，以备不时之需。
+因为 df 是由一系列 Spark SQL 操作生成的，鉴于 DataFrame 是惰性的，所以我先用 collect 把数据取出来，再把它插回去。代码如下：
+```
+df = Spark.select.xxxx
+data = df.collect()
+tdf = spark.createDataFrame(data)
+tdf.createOrReplaceTempView('tempTable')
+spark.sql('create table xxx if not exist as select * from tempTable')
+```
+如果先保存到 hive 里面，再执行 collect，那么 Spark SQL 部分就需要计算再次，比较费时间。
+
 
 ## select 去重
 1. select.dropDuplicates()
