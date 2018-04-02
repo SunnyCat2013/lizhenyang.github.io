@@ -29,4 +29,5 @@ spark-submit 可以把任务分配到 spark 集群的每台机器上。
  - `--conf`：任意的 spark 配置，用 `key=value` 这样的形式。如果 value 中包含空格，则用 qoutes 把键值对包含起来：`"key=value"`
  - `application-jar`： 应用打包文件的路径
  - `application-arguments`：传给主函数的参数
-
+ - `--py-files`：是可以指定文件的相对路径的，如 `../parent/file.py`
+ - `executor-cores`：用于设置每个 excecutor 可用的 core 的数量。因为 CPU 现在一般都是多核的，分配的核数越多，executor 的执行能力超强。
