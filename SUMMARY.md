@@ -16,4 +16,7 @@
   * [range&xrange](posts/python/range-xrange.md)
 * Machine Learning
   * [The Method of Least Squares](posts/least-square/learning-least-square.md)
+* 学外语
+  * English
+    * [流利说](posts/English/liulishuo.md)
 
