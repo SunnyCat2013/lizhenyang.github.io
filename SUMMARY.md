@@ -3,8 +3,6 @@
 * [Introduction](README.md)
 * [学习 SVG](posts/svg/svg.md)
 * [haversine-formula.md](posts/haversine/haversine-formula.md)
-* [CTC 学习笔记](posts/ctc/learning-ctc.md)
-* [use-katex.md](posts/latex/mathematical-formula.md)
 * [Spark 学习笔记](posts/spark/learning-spark.md)
   * [spark-submit](posts/spark/spark-submit.md)
 * python
@@ -19,4 +17,7 @@
   * [socket.error](posts/torch/shared-memory.md)
   * [LSTM](posts/torch/LSTM.md)
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
+  * [CTC 学习笔记](posts/ctc/learning-ctc.md)
+* [latex](latex.md)
+  * [katex](posts/latex/mathematical-formula.md)
 
