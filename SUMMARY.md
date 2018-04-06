@@ -18,5 +18,5 @@
 * [机器学习杂记](ji-qi-xue-xi-za-ji.md)
   * [socket.error](posts/torch/shared-memory.md)
   * [LSTM](posts/torch/LSTM.md)
-* [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
+  * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
 
