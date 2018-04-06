@@ -17,6 +17,6 @@
     * [流利说](posts/English/liulishuo.md)
 * [机器学习杂记](ji-qi-xue-xi-za-ji.md)
   * [socket.error](posts/torch/shared-memory.md)
-  * [LSTM](posts/torch/lstm.md)
+  * [LSTM](posts/torch/LSTM.md)
 * [Deep-Learning](posts/reading/deep-learning/deep-learning.md)
 
