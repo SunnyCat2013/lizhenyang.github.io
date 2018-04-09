@@ -20,5 +20,10 @@ CREATE TABLE cities(
 );
 ```
 
+# 设置分隔符
+```shell
+sqlite>.separator "\t"
+```
+
 # 参考
 http://www.sqlitetutorial.net/sqlite-import-csv/
