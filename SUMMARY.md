@@ -22,4 +22,6 @@
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
   * [data-types](posts/sqlite/datatype.md)
+* [cs231n 学习笔记](cs231n-xue-xi-bi-ji.md)
+  * [setup](posts/cs231n/setup-instructions.md)
 
