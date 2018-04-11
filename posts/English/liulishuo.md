@@ -24,3 +24,7 @@ I'd like to relax, but I have a lot on my mind.
 Because it was so early, there were almost no cars.
 Early tomorrow morning they are going to cross the Golden Gate Bridge and go to the north along the coast.
 The oceans are also an most important source of oxygen.
+
+# 2018-04-11
+今天学完了 level-4 的 unit 1。
+
