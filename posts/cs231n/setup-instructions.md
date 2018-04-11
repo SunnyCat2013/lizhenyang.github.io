@@ -3,3 +3,5 @@
 > 之前用过一段时间 Google Cloud，现在打算在这个课程里接着用。
 
 - 按照 [gce-tutorial](http://cs231n.github.io/gce-tutorial/) 里面的介绍，开户、启动服务器。
+
+下面做：Connect to Your Virtual Instance
