@@ -8,8 +8,12 @@
 - However, she knows what needs to be done around the house.
 - She isn't aware of how hard he has been working.
 
+## religions
+- Some Buddists practice a form of meditation in which they empty their mind of any thought.
+
 ## others
 - One major cause of accidents is driving too fast.
+- Accident with fire can be very serious and can result in very painful injuries.
 
 
 # 2018-04-03
