@@ -10,6 +10,20 @@
 
 ## religions
 - Some Buddists practice a form of meditation in which they empty their mind of any thought.
+- Judaism was founded over 3500 years ago in the Middle East.
+- Christians believe that Jesus is the son of God.
+
+## dentist
+- An X-ray shows what can't be seen on the surface of the teeth and gums.
+- A dental cavity is a hole in a tooth.
+- Brushing your teeth frequently and regularly can help prevent cavities.
+- A cracked tooth can be caused by biting down on something hard.
+
+## systems in body
+- The heart pumps blood to all parts of the body through a system of arteries and veins.
+- The lungs exchange oxygen from the air with carbon dioxide from the blood.
+- They expand when inhaling air and contract when exhaling air.
+
 
 ## others
 - One major cause of accidents is driving too fast.
