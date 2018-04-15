@@ -4,6 +4,14 @@
 ## Malaysia Airlines 370 有关对话
 - Have the found the wreckage yet?
 
+## Conclusions from different points of view
+- However, she knows what needs to be done around the house.
+- She isn't aware of how hard he has been working.
+
+## others
+- One major cause of accidents is driving too fast.
+
+
 # 2018-04-03
 今天学习的单词里有一些图形、力、面积的词汇，跟读起来就有一些不顺。
 回头要专业记一下。
