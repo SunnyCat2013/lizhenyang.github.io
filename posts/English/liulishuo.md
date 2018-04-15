@@ -23,7 +23,18 @@
 - The heart pumps blood to all parts of the body through a system of arteries and veins.
 - The lungs exchange oxygen from the air with carbon dioxide from the blood.
 - They expand when inhaling air and contract when exhaling air.
+- The kidneys remove waste and toxins from the blood.
+- In an adult, the bladder can hold about half a liter of urine.
 
+## traveling
+- And tomorrow night they have something special planned.
+- Chcristina has never seen a baseball game, but she has heard that it is very popular in the US.
+- Then they returned to the US and went back to school.
+
+## driving
+- You were going well above the speed limit.
+- Your license has expired. Are you aware of that?
+- 
 
 ## others
 - One major cause of accidents is driving too fast.
