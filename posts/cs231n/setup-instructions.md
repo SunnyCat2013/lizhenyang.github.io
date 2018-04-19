@@ -5,3 +5,13 @@
 - 按照 [gce-tutorial](http://cs231n.github.io/gce-tutorial/) 里面的介绍，开户、启动服务器。
 
 下面做：Connect to Your Virtual Instance
+- Install the latest Cloud Tools 
+- 设置特定的时区 `us-west1-b`
+
+# First time setup
+开始第一次使用 gce。
+
+# Using Jupyter Notebook with Google Compute Engine
+Interesting!
+
+# Submission: Transferring Files From Your Instance To Your Computer
