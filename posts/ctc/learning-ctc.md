@@ -130,3 +130,11 @@ p(l = 'hello'| x) = p(\pi = 'hheel-loo'|x) + p(\pi = 'hh-ee-l-l-oo' | x) + \cdot
 $$
 
 讲到这里，大家就应该明白 CTC 是怎么工作的了。当然还有很多为了实现而做的工作，有时间再接着写吧。
+
+------------------------------------------------------
+# ctc evaluation 中有关 loss 的含义
+
+# ctc_decode
+
+# 参考
+[tensorflow ctc_ops](https://github.com/tensorflow/tensorflow/blob/r1.7/tensorflow/python/ops/ctc_ops.py)
