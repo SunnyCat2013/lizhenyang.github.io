@@ -83,3 +83,4 @@ print(s.replace('l', '(ell)'))  # 字符串替换;
                                 # prints "he(ell)(ell)o"
 print('  world '.strip())  # 剔除首尾指定字符，默认是空格; prints "world"
 ```
+更多 string 内建函数参见 [String Methods](https://docs.python.org/3.5/library/stdtypes.html#string-methods)
