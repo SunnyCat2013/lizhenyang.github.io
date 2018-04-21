@@ -290,3 +290,66 @@ print(v)    # Prints "[1 2 3]"
 print(v.T)  # Prints "[1 2 3]"
 ```
 更多参考 [routines.arry-manipulation](https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html)
+
+# Broadcasting
+Broadcasting 这个机制可以对不同 shape 的数组之间按照某种补全逻辑进行一些操作，这个机制我之间倒也没有用过。
+如，我有个 (n,) 大小的数组 a 和一个 (m, n) 大小的数组 b，我想得到数组 c，而其中 c 的每行是 a 和 b 的每行的加和。
+如果没有 broadcasting 机制，我们可以这样做：
+```
+import numpy as np
+
+x = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+v = np.array([1, 0, 1])
+y = np.empty_like(x)   # y 随机生成数据
+
+for i in range(4):
+        y[i, :] = x[i, :] + v
+
+# Now y is the following
+# [[ 2  2  4]
+#  [ 5  5  7]
+#  [ 8  8 10]
+#  [11 11 13]]
+print(y)
+```
+
+然而这种方式，需要显示的进行一次遍历操作，可能会比较慢，我们可以通过复制的方式来代替这种方式。
+
+```
+import numpy as np
+
+x = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+v = np.array([1, 0, 1])
+vv = np.tile(v, (4, 1))   # 拷贝 4 份 v 
+print(vv)                 # Prints "[[1 0 1]
+                          #          [1 0 1]
+                          #          [1 0 1]
+                          #          [1 0 1]]"
+y = x + vv  
+print(y)  # Prints "[[ 2  2  4
+          #          [ 5  5  7]
+          #          [ 8  8 10]
+          #          [11 11 13]]"
+```
+
+而 broadcasting 方式，便可以隐式地完成这种方式。
+
+```
+import numpy as np
+
+x = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+v = np.array([1, 0, 1])
+y = x + v   
+print(y)  # Prints "[[ 2  2  4]
+          #          [ 5  5  7]
+          #          [ 8  8 10]
+          #          [11 11 13]]"
+
+```
+
+这种方式把 (3,) 大小的数组当 (4, 3) 大小的数组来用。
+x 的每行都与 v 进行按元素进行加和。
+
+--------------------------------------------- 待补充 ---------------------------------------
+两个数组的 broadcasting 机制的原则如下：
+- 
