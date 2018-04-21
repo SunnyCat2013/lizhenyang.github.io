@@ -1,3 +1,107 @@
 # Numpy
 Numpy 是 python 中用于科学计算的库中一个比较重要的库。
 它对高维的数组计算有很多优化。
+
+# Arrays
+
+numpy array 是网络状的数据，所有的数据都是相同的类型，索引是非负的整数。
+维度的数目是数组的层级数。
+numpy array 的 shape 是一个 tuple。每个维度的大小，按照维度的顺序排列。
+
+```
+
+import numpy as np
+
+a = np.array([1, 2, 3])   # 创建一维数组。
+print(type(a))            # Prints "<class 'numpy.ndarray'>"
+print(a.shape)            # Prints "(3,)"
+print(a[0], a[1], a[2])   # Prints "1 2 3"
+a[0] = 5                  # 修改元素
+print(a)                  # Prints "[5, 2, 3]"
+
+b = np.array([[1,2,3],[4,5,6]])    # 创建二维数组
+print(b.shape)                     # Prints "(2, 3)"
+print(b[0, 0], b[0, 1], b[1, 0])   # Prints "1 2 4"
+
+```
+Numpy 也提供了一些用于创建数组的函数：
+
+```
+import numpy as np
+
+a = np.zeros((2,2))   # 全是 0 的矩阵
+print(a)              # Prints "[[ 0.  0.]
+                      #          [ 0.  0.]]"
+
+b = np.ones((1,2))    # 都是 1 的矩阵
+print(b)              # Prints "[[ 1.  1.]]"
+
+c = np.full((2,2), 7)  # 常数矩阵
+print(c)               # Prints "[[ 7.  7.]
+                       #          [ 7.  7.]]"
+
+d = np.eye(2)         # 对角矩阵
+print(d)              # Prints "[[ 1.  0.]
+                      #          [ 0.  1.]]"
+
+e = np.random.random((2,2))  # 随机矩阵
+                                                                   print(e)                     # Might print "[[ 0.91940167  0.08143941]
+                                                                                        #               [ 0.68744134  0.87236687]]"
+```
+更多参考 [arrays-creation](https://docs.scipy.org/doc/numpy/user/basics.creation.html#arrays-creation)
+
+# Array Index
+Numpy 提供了一些 Index 的方法
+## Slicing
+与 Python 相同，numpy array 也可以用 slicing 的方法来使用获取子矩阵
+
+```
+import numpy as np
+
+# 创建矩阵 shape (3, 4)
+# [[ 1  2  3  4]
+#  [ 5  6  7  8]
+#  [ 9 10 11 12]]
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+
+# 获取前两行，下标是 1 和 2 两列的子矩阵
+# [[2 3]
+#  [6 7]]
+# 但是这种方式，只能在 numpy.array 中使用，list 中只能用在一维 list 中。也就是说 list 只是一维，不能作为矩阵。
+b = a[:2, 1:3]
+
+# 但是一定要注意，数组的切片与原数据指向的是同一块数据。
+# 对 slicing 数据的修改，也会修改原数据。
+# list 中并不会
+print(a[0, 1])   # Prints "2"
+b[0, 0] = 77     # b[0, 0] is the same piece of data as a[0, 1]
+print(a[0, 1])   # Prints "77"
+```
+
+使用整数和 slicing 混合索引的方式：
+```
+import numpy as np
+
+# Create the following rank 2 array with shape (3, 4)
+# [[ 1  2  3  4]
+#  [ 5  6  7  8]
+#  [ 9 10 11 12]]
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+
+# Two ways of accessing the data in the middle row of the array.
+# Mixing integer indexing with slices yields an array of lower rank,
+# while using only slices yields an array of the same rank as the
+# original array:
+row_r1 = a[1, :]    # Rank 1 view of the second row of a
+row_r2 = a[1:2, :]  # Rank 2 view of the second row of a
+print(row_r1, row_r1.shape)  # Prints "[5 6 7 8] (4,)"
+print(row_r2, row_r2.shape)  # Prints "[[5 6 7 8]] (1, 4)"
+
+# We can make the same distinction when accessing columns of an array:
+col_r1 = a[:, 1]
+col_r2 = a[:, 1:2]
+print(col_r1, col_r1.shape)  # Prints "[ 2  6 10] (3,)"
+print(col_r2, col_r2.shape)  # Prints "[[ 2]
+                             #          [ 6]
+                             #          [10]] (3, 1)"
+```
