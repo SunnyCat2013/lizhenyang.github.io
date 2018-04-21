@@ -195,3 +195,98 @@ x = np.array([1, 2], dtype=np.int64)   # 指定数据类型
 print(x.dtype)                         # Prints "int64"
 ```
 更多数据类型 [arrays.datatypes](https://docs.scipy.org/doc/numpy/reference/arrays.dtypes.html)
+
+# Array math
+基本的数据运算，按元素进行计算。
+并且，运算重载符和函数都可以完成这种运算。
+
+```
+# 按元素加、减、乘、除及开方。
+import numpy as np
+
+x = np.array([[1,2],[3,4]], dtype=np.float64)
+y = np.array([[5,6],[7,8]], dtype=np.float64)
+
+# [[ 6.0  8.0]
+#  [10.0 12.0]]
+print(x + y)
+print(np.add(x, y))
+
+# [[-4.0 -4.0]
+#  [-4.0 -4.0]]
+print(x - y)
+print(np.subtract(x, y))
+
+# [[ 5.0 12.0]
+#  [21.0 32.0]]
+print(x * y)
+print(np.multiply(x, y))
+
+# [[ 0.2         0.33333333]
+#  [ 0.42857143  0.5       ]]
+print(x / y)
+print(np.divide(x, y))
+
+# [[ 1.          1.41421356]
+#  [ 1.73205081  2.        ]]
+print(np.sqrt(x))
+```
+
+与 MATLAB 中的矩阵简洁 `*` 不同，numpy 中的 `*` 是按元素相乘的。
+在 python 中的矩阵乘法是 `dot`。
+`dot` 在 numpy 模块和 array 对象中都有。
+
+```
+import numpy as np
+
+x = np.array([[1,2],[3,4]])
+y = np.array([[5,6],[7,8]])
+
+v = np.array([9,10])
+w = np.array([11, 12])
+
+# v w 的内积
+print(v.dot(w))
+print(np.dot(v, w))
+
+# 矩阵和向量的乘积
+print(x.dot(v))
+print(np.dot(x, v))
+
+# 矩阵和矩阵的乘积。
+# [[19 22]
+#  [43 50]]
+print(x.dot(y))
+print(np.dot(x, y))
+```
+
+numpy 也提供了一些有用的函数，如 sum
+
+```
+import numpy as np
+
+x = np.array([[1,2],[3,4]])
+
+print(np.sum(x))  # 计算所有元素的和; prints "10"
+print(np.sum(x, axis=0))  # 计算每列的和; prints "[4 6]"
+print(np.sum(x, axis=1))  # 计算每行的和; prints "[3 7]"
+```
+怎么理解 `axis = 0` 呢？是按行的方向增长，于是就是列的和。
+更多数学函数 [routines.math](https://docs.scipy.org/doc/numpy/reference/routines.math.html)
+
+有时候，我们可能还需要改变一下 array 中元素的位置，如 reshape 或者 transpose。
+```
+import numpy as np
+
+x = np.array([[1,2], [3,4]])
+print(x)    # Prints "[[1 2]
+            #          [3 4]]"
+print(x.T)  # Prints "[[1 3]
+            #          [2 4]]"
+
+# 对于秩为 1 的数组，不改变任何事情。
+v = np.array([1,2,3])
+print(v)    # Prints "[1 2 3]"
+print(v.T)  # Prints "[1 2 3]"
+```
+更多参考 [routines.arry-manipulation](https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html)
