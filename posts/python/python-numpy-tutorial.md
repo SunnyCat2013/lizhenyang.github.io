@@ -229,3 +229,32 @@ print(len(animals))       # Prints "3"
 animals.remove('cat')     # Remove an element from a set
 print(len(animals))       # Prints "2"
 ```
+更多参考 [set](https://docs.python.org/3.5/library/stdtypes.html#set)
+
+set 的遍历和解析与 list dictionary 类似
+
+```
+animals = {'cat', 'dog', 'fish'}
+for idx, animal in enumerate(animals):
+        print('#%d: %s' % (idx + 1, animal))
+# Prints "#1: fish", "#2: dog", "#3: cat"
+
+from math import sqrt
+nums = {int(sqrt(x)) for x in range(30)}
+print(nums)  # Prints "{0, 1, 2, 3, 4, 5}"
+
+```
+
+## Tuple
+tuple 的元素是不可变的(immutable)，且 tuple 中的元素是有序的。
+tuple 和 list 很像，但是它们之间最大的差别就是 tuple 里的元素是不可变的。这是因为 list 中在的都的数据的指针，而 tuple 里面在的是 数据。
+因此 tuple 里面的元素可以作为 dictionary 里面的 key 和 set 的 element。list 的元素不可以。
+
+
+```
+d = {(x, x + 1): x for x in range(10)}  # 用 tuple 作 dictionary 的 key。
+t = (5, 6)        # 生成一个 tuple 
+print(type(t))    # Prints "<class 'tuple'>"
+print(d[t])       # Prints "5"
+print(d[(1, 2)])  # Prints "1"
+```
