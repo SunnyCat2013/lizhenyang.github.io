@@ -104,3 +104,23 @@ print(col_r2, col_r2.shape)  # Prints "[[ 2]
                              #          [ 6]
                              #          [10]] (3, 1)"
 ```
+## Integer array indexing
+
+当然使用 slicing 方式得到的数组视图是原数组的一个子数组，也就是说修改 array view 是会同时修改原数组的。
+integer slicing 混合的方式也是这样的。
+
+而使用 integer 方式，得到的是一个全新的数组，是原数组的深度拷贝。
+还可以使用下面这种整数数组的方式：
+```
+import numpy as np
+
+a = np.array([[1,2], [3, 4], [5, 6]])
+
+# 下面这种方式，作用相同
+print(a[[0, 1, 2], [0, 1, 0]])  # Prints "[1 4 5]"
+print(np.array([a[0, 0], a[1, 1], a[2, 0]]))  # Prints "[1 4 5]"
+
+print(a[[0, 0], [1, 1]])  # Prints "[2 2]"
+print(np.array([a[0, 1], a[0, 1]]))  # Prints "[2 2]"
+
+```
