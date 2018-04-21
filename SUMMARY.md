@@ -8,6 +8,7 @@
 * python
   * [range&xrange](posts/python/range-xrange.md)
   * [requests](/posts/python/requests.md#requests)
+  * [learning-python](posts/python/learning-python.md)
 * Machine Learning
   * [The Method of Least Squares](posts/least-square/learning-least-square.md)
 * 学外语
