@@ -124,3 +124,74 @@ print(a[[0, 0], [1, 1]])  # Prints "[2 2]"
 print(np.array([a[0, 1], a[0, 1]]))  # Prints "[2 2]"
 
 ```
+
+选择和修改列
+```
+import numpy as np
+
+a = np.array([[1,2,3], [4,5,6], [7,8,9], [10, 11, 12]])
+
+print(a)  # prints "array([[ 1,  2,  3],
+#                [ 4,  5,  6],
+#                [ 7,  8,  9],
+#                [10, 11, 12]])"
+
+b = np.array([0, 2, 0, 1])
+
+# 使用 b 选择每一行的某一列
+print(a[np.arange(4), b])  # Prints "[ 1  6  7 11]"
+
+# 修改列
+a[np.arange(4), b] += 10
+
+print(a)  # prints "array([[11,  2,  3],
+#                [ 4,  5, 16],
+#                [17,  8,  9],
+#                [10, 21, 12]])
+```
+
+## Boolean array indexing
+使用这种方式，可以在一个数组中选出符合某一条件的元素
+
+```
+import numpy as np
+
+a = np.array([[1,2], [3, 4], [5, 6]])
+
+bool_idx = (a > 2)   # 找出大于 2 的元素;
+                     # 这个操作返回一个与 a 具有相同 shape 的一个 boolean 数组
+                     # 这个数组中的每个元素，代表了这个元素是不是大于 2
+
+print(bool_idx)      # Prints "[[False False]
+                     #          [ True  True]
+                     #          [ True  True]]"
+
+# We use boolean array indexing to construct a rank 1 array
+# consisting of the elements of a corresponding to the True values
+# of bool_idx
+print(a[bool_idx])  # Prints "[3 4 5 6]"
+
+# We can do all of the above in a single concise statement:
+print(a[a > 2])     # Prints "[3 4 5 6]"
+```
+更多参考 [indexing](https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html)
+
+## Datatype
+
+每个 numpy 数组，都是一组相同数据类型的数据。
+numpy 给出大量的数据类型，可以用来构建数组。
+在构建数组的时候，可以指明数据类型。
+numpy 也会自己去『猜』给定数据的类型。
+```
+import numpy as np
+
+x = np.array([1, 2])   # numpy 自己去猜数据类型
+print(x.dtype)         # Prints "int64"
+
+x = np.array([1.0, 2.0])  
+print(x.dtype)             # Prints "float64"
+
+x = np.array([1, 2], dtype=np.int64)   # 指定数据类型
+print(x.dtype)                         # Prints "int64"
+```
+更多数据类型 [arrays.datatypes](https://docs.scipy.org/doc/numpy/reference/arrays.dtypes.html)
