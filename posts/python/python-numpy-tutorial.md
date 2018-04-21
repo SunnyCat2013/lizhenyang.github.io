@@ -287,5 +287,28 @@ def hello(name, loud=False):
         hello('Bob') # Prints "Hello, Bob"
         hello('Fred', loud=True)  # Prints "HELLO, FRED!"
 ```
+更多参考 [defining-functions](https://docs.python.org/3.5/tutorial/controlflow.html#defining-functions)
+
 
 ## Class
+
+```
+class Greeter(object):
+
+    # Constructor
+    def __init__(self, name):
+        self.name = name  # Create an instance variable
+
+    # Instance method
+    def greet(self, loud=False):
+        if loud:
+            print('HELLO, %s!' % self.name.upper())
+        else:
+            print('Hello, %s' % self.name)
+
+g = Greeter('Fred') # 构建
+g.greet() # prints "Hello, Fred"
+g.greet(loud = True) # prints "HELLO, FRED!"
+
+```
+
