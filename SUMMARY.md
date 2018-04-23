@@ -28,5 +28,5 @@
 * [Git](git.md)
   * [reset](git/reset.md)
 * Tools
-  * [gitbook to pdf](posts/gitbook/gitbook2pdf.md)
+  * [gitbook to pdf/epub/mobi](posts/gitbook/gitbook2pdf.md)
 
