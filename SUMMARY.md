@@ -27,4 +27,6 @@
   * [setup](posts/cs231n/setup-instructions.md)
 * [Git](git.md)
   * [reset](git/reset.md)
+* Tools
+  * [gitbook to pdf](posts/gitbook/gitbook2pdf.md)
 
