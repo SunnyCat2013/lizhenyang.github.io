@@ -15,7 +15,9 @@ source ~/.zshrc
 到 gitbook 文档根目录下
 
 ```
-gitbook ./ ./test.pdf
+gitbook pdf ./ ./test.pdf
+gitbook epub ./ ./test.pdf
+gitbook mobi ./ ./test.pdf
 ```
 
 
