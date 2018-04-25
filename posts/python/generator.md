@@ -13,3 +13,6 @@
 
  # reference
  [The Python yield keyword explained](https://pythontips.com/2013/09/29/the-python-yield-keyword-explained/)
+ [When to use yield instead of return in Python?](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)
+ [Python yields are Fun!](https://www.pydanny.com/python-yields-are-fun.html)
+ [Understanding Python's Yield Keyword](http://stackabuse.com/understanding-pythons-yield-keyword/)
