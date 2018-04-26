@@ -1,0 +1,10 @@
+REPOSITORY                      TAG                 IMAGE ID            CREATED             SIZE
+wordpress                       4                   34947222d667        2 weeks ago         410MB
+nginx                           latest              f895b3fb9e30        4 weeks ago         108MB
+mysql                           5                   7d83a47ab2d2        4 weeks ago         408MB
+busybox                         latest              6ad733544a63        2 months ago        1.13MB
+tutum/lamp                      latest              3d49e175ec00        23 months ago       427MB
+dockerinaction/ch3_myapp        latest              a62e1f678670        2 years ago         420MB
+dockerinaction/ch3_myotherapp   latest              68dcbe3ab484        2 years ago         420MB
+dockerinaction/ch2_mailer       latest              d4bd30aedcdc        2 years ago         2.45MB
+dockerinaction/ch2_agent        latest              dcd74f00ef30        2 years ago         2.45MB
