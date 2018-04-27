@@ -64,6 +64,8 @@
 - The kidneys remove waste and toxins from the blood.
 - In an adult, the bladder can hold about half a liter of urine.
 - Brushing your teeth frequently and regularly can help prevent cavities.
+- The stomach is below the heart and is part of the disgestive system.
+- 
 
 ## traveling
 - And tomorrow night they have something special planned.
@@ -75,6 +77,8 @@
 - The journey to Shanghai took many hours, but it was an unforgettable experience.
 - On the train, they met a Chinese professor who spoke English.
 - Harry loves to travel and he has traveled to many countries.
+- The people they met were very nice, but most of them didn't speak English.
+- By then they will have been in the park for nearly 5 hours.
 
 # Festival
 - New Year's Day
@@ -86,6 +90,26 @@
 - Christmas
 - Dragon Boat Festival
 - Easter is a religious festival.
+- Children believe Santa Claus will put presents in their stocking on Christmas Eve.
+- Many people will make New Years's resolutions before New Year's Day.
+- I wish you a happy and prosperous New Year!
+
+# Makeup
+- Foundation 粉底
+- Nail polish 指甲油
+- Premier
+- Sunscreen 防晒霜
+- concealer 遮瑕
+- Highlighter 高光
+- Eyeliner 眼线
+- Lipstick 口红
+- Perfume 香水
+- Fake eyelash 假睫毛
+- I didn't wear any makeup yesterday.
+- She dyed her hair blonde.
+- I painted my nails black.
+- Do you watch reviews about facial masks online?
+
 
 ## driving
 - You were going well above the speed limit.
@@ -112,6 +136,8 @@
 - One major cause of accidents is driving too fast.
 - Accident with fire can be very serious and can result in very painful injuries.
 
+# Extinction
+- Since that time, life has evolved into many different types, or species.
 
 
 # 2018-04-03
