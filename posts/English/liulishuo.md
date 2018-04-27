@@ -1,5 +1,10 @@
 # 流利说学习笔记
-# 2018-04015
+
+# 2018.04.27
+- Most of the world's water is in the oceans, which are large bodies of salt water.
+- 
+
+# 2018.04.15
 竟然有近两周没有做笔记了。
 > Trust yourself, you know more than you think you do. ---- Benjamin Spock
 
@@ -58,6 +63,7 @@
 - They expand when inhaling air and contract when exhaling air.
 - The kidneys remove waste and toxins from the blood.
 - In an adult, the bladder can hold about half a liter of urine.
+- Brushing your teeth frequently and regularly can help prevent cavities.
 
 ## traveling
 - And tomorrow night they have something special planned.
@@ -68,7 +74,18 @@
 - Why are you in such a hurry?
 - The journey to Shanghai took many hours, but it was an unforgettable experience.
 - On the train, they met a Chinese professor who spoke English.
+- Harry loves to travel and he has traveled to many countries.
 
+# Festival
+- New Year's Day
+- Spring Festival
+- Easter
+- National Day
+- Halloween
+- Mid-Autumn Festival
+- Christmas
+- Dragon Boat Festival
+- Easter is a religious festival.
 
 ## driving
 - You were going well above the speed limit.
@@ -118,9 +135,10 @@ For some places, you can look out on the ocean and see whales and other see life
 
 I'd like to relax, but I have a lot on my mind.
 
-Because it was so early, there were almost no cars.
-Early tomorrow morning they are going to cross the Golden Gate Bridge and go to the north along the coast.
-The oceans are also an most important source of oxygen.
+- Because it was so early, there were almost no cars.
+- Early tomorrow morning they are going to cross the Golden Gate Bridge and go to the north along the coast.
+- The oceans are also an most important source of oxygen.
+- Why are you in such a hurry?
 
 # 2018-04-11
 今天学完了 level-4 的 unit 1。
