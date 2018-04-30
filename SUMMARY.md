@@ -36,4 +36,5 @@
   * [boost from prediction](posts/xgboost/boost_from_prediction.md)
   * [generalized linear model](posts/xgboost/generalized_linear_model.md)
   * [cross validation](posts/xgboost/cross_validation.md)
+  * [predict leaf indices](posts/xgboost/predict_leaf_indices.md)
 
