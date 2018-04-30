@@ -30,4 +30,6 @@
   * [reset](git/reset.md)
 * Tools
   * [gitbook to pdf/epub/mobi](posts/gitbook/gitbook2pdf.md)
+* xgboost
+  * [basic\_walkthrough](posts/xgboost/basic_walkthrough.md)
 
