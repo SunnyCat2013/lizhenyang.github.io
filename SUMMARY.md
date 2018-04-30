@@ -30,4 +30,11 @@
   * [reset](git/reset.md)
 * Tools
   * [gitbook to pdf/epub/mobi](posts/gitbook/gitbook2pdf.md)
+* [xgboost](xgboost.md)
+  * [basic\_walkthrough](posts/xgboost/basic_walkthrough.md)
+  * [customise-loss-function](posts/xgboost/customise-loss-function.md)
+  * [boost from prediction](posts/xgboost/boost_from_prediction.md)
+  * [generalized linear model](posts/xgboost/generalized_linear_model.md)
+  * [cross validation](posts/xgboost/cross_validation.md)
+  * [predict leaf indices](posts/xgboost/predict_leaf_indices.md)
 
