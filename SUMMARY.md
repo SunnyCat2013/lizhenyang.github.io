@@ -35,4 +35,5 @@
   * [customise-loss-function](posts/xgboost/customise-loss-function.md)
   * [boost from prediction](posts/xgboost/boost_from_prediction.md)
   * [generalized linear model](posts/xgboost/generalized_linear_model.md)
+  * cross validation
 
