@@ -30,6 +30,7 @@
   * [reset](git/reset.md)
 * Tools
   * [gitbook to pdf/epub/mobi](posts/gitbook/gitbook2pdf.md)
-* xgboost
+* [xgboost](xgboost.md)
   * [basic\_walkthrough](posts/xgboost/basic_walkthrough.md)
+  * [customise-loss-function](posts/xgboost/customise-loss-function.md)
 
