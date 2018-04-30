@@ -33,4 +33,5 @@
 * [xgboost](xgboost.md)
   * [basic\_walkthrough](posts/xgboost/basic_walkthrough.md)
   * [customise-loss-function](posts/xgboost/customise-loss-function.md)
+  * [boost from prediction](posts/xgboost/boost_from_prediction.md)
 
