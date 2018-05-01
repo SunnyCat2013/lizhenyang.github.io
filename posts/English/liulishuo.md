@@ -1,5 +1,43 @@
 # 流利说学习笔记
 
+# Time divided up
+- Look at these pie graphs.
+- They show how those people spend their days, not including weekends.
+- The one on the top shows how Emma divides up her days.
+- She is a designer who works for a large company.
+- Other factors shown in the graphs, include time for meals and commuting to work.
+- Perhaps she should spend a bit less time socializing with her friends.
+- On the other hand, socializing with her friends is something she really values.
+- As for putting on makeup, she isn't willing to change it.
+- For her, exercising, socializing and staying beautiful help her deal with the stress of work.
+- According to his graphs, he gets an average of 7 hours of sleep, which is about 29% of his time. 
+- When the traffic is really heavy, his commute is stressful.
+- It would cut his commute time by 6 hours.
+- As Emma's graph shows, the biggest portion of her day is spent working.
+- She works an average 8 hours a day, which is one third of her day.
+- She gets an average of 6 hours of sleep, which is 25% of her day.
+- That's less sleep than Martin gets.
+
+# Job
+- I guess I should have found another job first, and then quit.
+- I'll get a new job even if it pays less than before.
+- He won't take been treated badly and threatened to many times.
+- Well if you hear of any job openings, let me know, ok?
+- For now it's ok, of course it all depends on how things change.
+- What about your wife?
+She isn't happy that I don't have a job, but she understands.
+And She knows I wasn't happy working there.
+
+# Country
+- When a person is charged with breaking a law, they are tried in a court of law.
+- The goverment had finally found a way to catch him.
+- Prisons are designed to keep criminals away from other people.
+
+
+# Economy reciet
+- Once an invoice is paid, it can be used as a receipt.
+
+
 # 2018.04.27
 - Most of the world's water is in the oceans, which are large bodies of salt water.
 - 
