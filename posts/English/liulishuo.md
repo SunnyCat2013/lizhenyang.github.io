@@ -1,5 +1,57 @@
 # 流利说学习笔记
 
+# Environment
+- Cutting down forests and polluting rivers destroys the habitats of many forms of life.
+- Global warming is the result of an increase in carbon gases in our atmosphere.
+- These gases trap heat from the sun, so the Earth is getting warmer.
+- As a result, sea levels are rising and weather patterns are changing.
+- In addition, we human are destroying the habitats of many plants and animals.
+
+# Extinctions
+- The first plant didn't appear untill around 2 billion years ago.
+- Species are becoming extinct at a much faster rate than before.
+- When the dinosaurs were removed, the mammals were able to compete more successfully.
+- This particular chain of events happened over a period of months and years.
+- When the asteroid hit the Earth, it caused a huge cloud of dust to enter the atmosphere.
+- The cloud of dust blocked the sun and darkened the Earth for many months.
+- Without enough sunlight, plants and plant-eating animals quickly died.
+- With the death of so many plants and animals, the food chain collapsed.
+- It's when an asteroid collides with something.
+- Until about 580 millions years ago life forms were small and microscopic.
+
+# Al Capone 
+- Al Capone became boss at 26 when the previous leader was nearly killed.
+- His crime organization made a lot of money, more than $100 million a year.
+- Most of the money came from illegal activities, especially the sale of illegal liquor.
+- His organization also involved in gambling and prostitution.
+- The goverment had finally found a way to catch him.
+- After a trial, he was found guilty and sentenced to 11 years in prison.
+- At Alcatraz, he was diagnosed with a disease that began to take over his brain.
+- As a result, he spent much of his time in the prison hospital.
+- By the time he was released fro mprison in 1939, he was no able to lead his organization.
+- He died of a stroke and pneumonia in 1947.
+- He was found guilty of tax evasion.
+- A year later he was arrested for failure to pay taxes.
+- He quit school after finishing the 6th grade.
+- He protested himself by bribing police and public officials.
+- Though he was involved in the death of many, he was never convicted of a serious crime.
+- They were caught carrying deadly weapons.
+They bribed the police.
+They murded a police official.
+- Liquors includes alcoholic drinks such as whiskey and vodka.
+- Two drowned and five were listed as missing and presumed drowned.
+- Alcatraz was used as prison for 29 years.
+During that time, no prisoner escaped successlly.
+There were 14 escape attempts, involving 36 prisoners.
+Twenty-three were caught alive, and six were shot and killed.
+- Many has tried to escape from other prisons or were considered violent.
+- Prison life at Alcatraz was highly structured and boring.
+It was designed to teach prisoners to follow rules.
+The had four rights: food, clothing shelter, and medical care.
+Everything also was a privilege that need to be earned.
+- A notorious inmate one who is very well known.
+- If a man did not behave at another prison, he could be sent to Alcatraz.
+
 # Time divided up
 - Look at these pie graphs.
 - They show how those people spend their days, not including weekends.
@@ -30,7 +82,6 @@ And She knows I wasn't happy working there.
 
 # Country
 - When a person is charged with breaking a law, they are tried in a court of law.
-- The goverment had finally found a way to catch him.
 - Prisons are designed to keep criminals away from other people.
 
 
