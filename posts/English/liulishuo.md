@@ -1,5 +1,99 @@
 # 流利说学习笔记
-# 2018-04015
+
+# Environment
+- Cutting down forests and polluting rivers destroys the habitats of many forms of life.
+- Global warming is the result of an increase in carbon gases in our atmosphere.
+- These gases trap heat from the sun, so the Earth is getting warmer.
+- As a result, sea levels are rising and weather patterns are changing.
+- In addition, we human are destroying the habitats of many plants and animals.
+
+# Extinctions
+- The first plant didn't appear untill around 2 billion years ago.
+- Species are becoming extinct at a much faster rate than before.
+- When the dinosaurs were removed, the mammals were able to compete more successfully.
+- This particular chain of events happened over a period of months and years.
+- When the asteroid hit the Earth, it caused a huge cloud of dust to enter the atmosphere.
+- The cloud of dust blocked the sun and darkened the Earth for many months.
+- Without enough sunlight, plants and plant-eating animals quickly died.
+- With the death of so many plants and animals, the food chain collapsed.
+- It's when an asteroid collides with something.
+- Until about 580 millions years ago life forms were small and microscopic.
+
+# Al Capone 
+- Al Capone became boss at 26 when the previous leader was nearly killed.
+- His crime organization made a lot of money, more than $100 million a year.
+- Most of the money came from illegal activities, especially the sale of illegal liquor.
+- His organization also involved in gambling and prostitution.
+- The goverment had finally found a way to catch him.
+- After a trial, he was found guilty and sentenced to 11 years in prison.
+- At Alcatraz, he was diagnosed with a disease that began to take over his brain.
+- As a result, he spent much of his time in the prison hospital.
+- By the time he was released fro mprison in 1939, he was no able to lead his organization.
+- He died of a stroke and pneumonia in 1947.
+- He was found guilty of tax evasion.
+- A year later he was arrested for failure to pay taxes.
+- He quit school after finishing the 6th grade.
+- He protested himself by bribing police and public officials.
+- Though he was involved in the death of many, he was never convicted of a serious crime.
+- They were caught carrying deadly weapons.
+They bribed the police.
+They murded a police official.
+- Liquors includes alcoholic drinks such as whiskey and vodka.
+- Two drowned and five were listed as missing and presumed drowned.
+- Alcatraz was used as prison for 29 years.
+During that time, no prisoner escaped successlly.
+There were 14 escape attempts, involving 36 prisoners.
+Twenty-three were caught alive, and six were shot and killed.
+- Many has tried to escape from other prisons or were considered violent.
+- Prison life at Alcatraz was highly structured and boring.
+It was designed to teach prisoners to follow rules.
+The had four rights: food, clothing shelter, and medical care.
+Everything also was a privilege that need to be earned.
+- A notorious inmate one who is very well known.
+- If a man did not behave at another prison, he could be sent to Alcatraz.
+
+# Time divided up
+- Look at these pie graphs.
+- They show how those people spend their days, not including weekends.
+- The one on the top shows how Emma divides up her days.
+- She is a designer who works for a large company.
+- Other factors shown in the graphs, include time for meals and commuting to work.
+- Perhaps she should spend a bit less time socializing with her friends.
+- On the other hand, socializing with her friends is something she really values.
+- As for putting on makeup, she isn't willing to change it.
+- For her, exercising, socializing and staying beautiful help her deal with the stress of work.
+- According to his graphs, he gets an average of 7 hours of sleep, which is about 29% of his time. 
+- When the traffic is really heavy, his commute is stressful.
+- It would cut his commute time by 6 hours.
+- As Emma's graph shows, the biggest portion of her day is spent working.
+- She works an average 8 hours a day, which is one third of her day.
+- She gets an average of 6 hours of sleep, which is 25% of her day.
+- That's less sleep than Martin gets.
+
+# Job
+- I guess I should have found another job first, and then quit.
+- I'll get a new job even if it pays less than before.
+- He won't take been treated badly and threatened to many times.
+- Well if you hear of any job openings, let me know, ok?
+- For now it's ok, of course it all depends on how things change.
+- What about your wife?
+She isn't happy that I don't have a job, but she understands.
+And She knows I wasn't happy working there.
+
+# Country
+- When a person is charged with breaking a law, they are tried in a court of law.
+- Prisons are designed to keep criminals away from other people.
+
+
+# Economy reciet
+- Once an invoice is paid, it can be used as a receipt.
+
+
+# 2018.04.27
+- Most of the world's water is in the oceans, which are large bodies of salt water.
+- 
+
+# 2018.04.15
 竟然有近两周没有做笔记了。
 > Trust yourself, you know more than you think you do. ---- Benjamin Spock
 
@@ -58,6 +152,9 @@
 - They expand when inhaling air and contract when exhaling air.
 - The kidneys remove waste and toxins from the blood.
 - In an adult, the bladder can hold about half a liter of urine.
+- Brushing your teeth frequently and regularly can help prevent cavities.
+- The stomach is below the heart and is part of the disgestive system.
+- 
 
 ## traveling
 - And tomorrow night they have something special planned.
@@ -68,6 +165,39 @@
 - Why are you in such a hurry?
 - The journey to Shanghai took many hours, but it was an unforgettable experience.
 - On the train, they met a Chinese professor who spoke English.
+- Harry loves to travel and he has traveled to many countries.
+- The people they met were very nice, but most of them didn't speak English.
+- By then they will have been in the park for nearly 5 hours.
+
+# Festival
+- New Year's Day
+- Spring Festival
+- Easter
+- National Day
+- Halloween
+- Mid-Autumn Festival
+- Christmas
+- Dragon Boat Festival
+- Easter is a religious festival.
+- Children believe Santa Claus will put presents in their stocking on Christmas Eve.
+- Many people will make New Years's resolutions before New Year's Day.
+- I wish you a happy and prosperous New Year!
+
+# Makeup
+- Foundation 粉底
+- Nail polish 指甲油
+- Premier
+- Sunscreen 防晒霜
+- concealer 遮瑕
+- Highlighter 高光
+- Eyeliner 眼线
+- Lipstick 口红
+- Perfume 香水
+- Fake eyelash 假睫毛
+- I didn't wear any makeup yesterday.
+- She dyed her hair blonde.
+- I painted my nails black.
+- Do you watch reviews about facial masks online?
 
 
 ## driving
@@ -95,6 +225,8 @@
 - One major cause of accidents is driving too fast.
 - Accident with fire can be very serious and can result in very painful injuries.
 
+# Extinction
+- Since that time, life has evolved into many different types, or species.
 
 
 # 2018-04-03
@@ -118,9 +250,10 @@ For some places, you can look out on the ocean and see whales and other see life
 
 I'd like to relax, but I have a lot on my mind.
 
-Because it was so early, there were almost no cars.
-Early tomorrow morning they are going to cross the Golden Gate Bridge and go to the north along the coast.
-The oceans are also an most important source of oxygen.
+- Because it was so early, there were almost no cars.
+- Early tomorrow morning they are going to cross the Golden Gate Bridge and go to the north along the coast.
+- The oceans are also an most important source of oxygen.
+- Why are you in such a hurry?
 
 # 2018-04-11
 今天学完了 level-4 的 unit 1。
