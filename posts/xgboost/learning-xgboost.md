@@ -13,3 +13,7 @@ https://www.cnblogs.com/pinard/p/6140514.html
 
 
 
+# 番外
+![decision tree]('./dt-pro-con.md')
+缺点是，它只能按照坐标轴划分，不能有斜线，不能有曲线。
+如果要实现相同的斜线或者曲线，需要非常复杂的划分。看上图。
