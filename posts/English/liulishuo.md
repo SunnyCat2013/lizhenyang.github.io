@@ -1,11 +1,56 @@
 # 流利说学习笔记
 
+# Continent
+- South Asia is refered to as the Indian subcontinent.
+- A major issue for China is the continuing expansion of its deserts, which have led to dust storms each spring.
+- The traditional line between them is the Ural moutain range.
+- If a store runs out of things to sell, it needs to resupply its inventory.
+- When you use a credit card, you are taking on debt.
+- In business, one's inventory is the supply of items that are ready for sale.
+
+# Lang Lang
+- With all his success and fame, Lang Lang tries to encourage others.
+- Since then his career has grown and he has become a major star.
+- For several months, he neither played the piano nor spoke to his father.
+- One afternoon, his teacher told him he had no talent and told himi to go home.
+- Nearly 2000 students were applying for just 12 places at the Conservatory.
+- He started practicing at 5 o'clock, which upset his neighbours.
+- The left everything behind, including his mother who had to work.
+- Central Conservatory of Music.
+- His first contact with Western music was when he was just two years old.
+He watched a cartoon in which a cat played a famous piece by Franz Liszt.
+From this experience, he decided he wanted to learn to play the piano.
+When he was three and half years old, he started piano lessons.
+- He won a piano competition when he was five.
+
+
+
+# Receipt
+- A receipt shows that something has been paid for.
+- Someone with a bad temper gets angry easily and shouts at others.
+- A receipt is proof that you have paid for something.
+- Income is money received for work or from investments.
+- For a company to survive, its income needs to be more than its expenses.
+
+
+# Team
+- Good leaders make good decisions and get things done.
+- A receipt shows that something has beeb paid for.
+- People don't like to work for people who are too emotional.
+- They will support and protest their leaders and friends.
+- 
+
+
 # Environment
 - Cutting down forests and polluting rivers destroys the habitats of many forms of life.
 - Global warming is the result of an increase in carbon gases in our atmosphere.
 - These gases trap heat from the sun, so the Earth is getting warmer.
 - As a result, sea levels are rising and weather patterns are changing.
 - In addition, we human are destroying the habitats of many plants and animals.
+
+# Work
+- Are they going to pay extra?
+- When can you get started on the project?
 
 # Extinctions
 - The first plant didn't appear untill around 2 billion years ago.
