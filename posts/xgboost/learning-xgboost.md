@@ -12,6 +12,13 @@ https://cloud.tencent.com/developer/article/1005611
 https://www.cnblogs.com/pinard/p/6140514.html
 
 
+# gbdt
+在 https://blog.csdn.net/w28971023/article/details/8240756 文章里面，提到
+> 残差向量(-1, 1, -1, 1)都是它的全局最优方向
+
+这个确实之前没有想到过。
+这样理解的话，每个树，都是在原有树（或者一个组合的基础上）再优化（指向最优方向），而不是每个树都在做相同的优化，做重复的工作。这样貌似可以每个树有一个专一的优化方向，而不用每个树都胡子眉毛一把抓。。。
+
 
 # 番外
 ![decision tree]('./dt-pro-con.md')
