@@ -25,3 +25,16 @@ image 运行之后，就会产生一个 container。
 
 ## 使用 docker 执行某个文件
 docker run -d --rm --name some_name -w work_dir_in_container -v /path/to/local/dir:work_dir_in_container image:version bash run.sh parameters
+
+## 在“隐身”状态下使用 docker image 中的工具
+
+```
+From docker
+NOTE: This is just a tiny taste to let you feel that leetcode-cli is. Please use other ways above to install leetcode-cli if you like it.
+
+$ alias leetcode='docker run -it --rm skygragon/leetcode-cli'
+$ leetcode version
+To persistent user data, you can mount a folder like this:
+
+$ alias leetcode='docker run -it --rm -v /Users/skygragon/data:/root skygragon/leetcode-cli'
+```
