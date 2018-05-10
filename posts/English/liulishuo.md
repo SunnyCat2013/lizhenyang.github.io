@@ -1,5 +1,20 @@
 # 流利说学习笔记
 
+# Wars
+- Civil wars are fought between citizens of the same country and are fought within the country.
+- If citizens of a country disagree about a policy or leader, they may fight a civil war.
+- A world war is fought when countries form alliances and these alliances fight each other.
+- 
+
+
+
+# Biological
+- A virus is a small biological structure that attacks and enters cells.
+- Becteria are one-celled forms of life that are all around us.
+- Photosynthesis is one of the most important biological process.
+
+
+
 # Continent
 - South Asia is refered to as the Indian subcontinent.
 - A major issue for China is the continuing expansion of its deserts, which have led to dust storms each spring.
@@ -124,6 +139,11 @@ Everything also was a privilege that need to be earned.
 - What about your wife?
 She isn't happy that I don't have a job, but she understands.
 And She knows I wasn't happy working there.
+- Some of the highest paid professions include doctors, lawyers and scientists.
+- Many astronauts have background in engineering, physics or medicine.
+However, these professions required high levels of education and training.
+The path to becomming a doctor, for example, is a lone one.
+Doctors require a university degree, several years in medical school and several more years of experience.
 
 # Country
 - When a person is charged with breaking a law, they are tried in a court of law.
