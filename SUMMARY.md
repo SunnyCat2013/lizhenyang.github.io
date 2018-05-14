@@ -38,4 +38,5 @@
   * [cross validation](posts/xgboost/cross_validation.md)
   * [predict leaf indices](posts/xgboost/predict_leaf_indices.md)
   * [binary classification](posts/xgboost/binary_classification/binary_classification.md)
+  * [multiclass classification](posts/xgboost/multiclass_classification/multiclass_classification.md)
 
