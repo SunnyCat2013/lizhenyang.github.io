@@ -11,7 +11,13 @@ https://www.cnblogs.com/ModifyRong/p/7744987.html
 https://cloud.tencent.com/developer/article/1005611
 https://www.cnblogs.com/pinard/p/6140514.html
 
-https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf
+https://xgboost.readthedocs.io/en/latest/model.html
+# https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf
+model: 给定 x 输出 y 的数学函数。
+Objective function: model 确定，评价参数性能的函数。
+    - Training loss
+    - Regularization
+
 
 
 # gbdt
