@@ -11,6 +11,14 @@ https://www.cnblogs.com/ModifyRong/p/7744987.html
 https://cloud.tencent.com/developer/article/1005611
 https://www.cnblogs.com/pinard/p/6140514.html
 
+https://xgboost.readthedocs.io/en/latest/model.html
+# https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf
+model: 给定 x 输出 y 的数学函数。
+Objective function: model 确定，评价参数性能的函数。
+    - Training loss
+    - Regularization
+
+
 
 # gbdt
 在 https://blog.csdn.net/w28971023/article/details/8240756 文章里面，提到
@@ -24,3 +32,6 @@ https://www.cnblogs.com/pinard/p/6140514.html
 ![decision tree]('./dt-pro-con.md')
 缺点是，它只能按照坐标轴划分，不能有斜线，不能有曲线。
 如果要实现相同的斜线或者曲线，需要非常复杂的划分。看上图。
+
+# kaggle 中学习 xgboost
+https://www.kaggle.com/dansbecker/learning-to-use-xgboost/code
