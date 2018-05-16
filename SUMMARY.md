@@ -39,4 +39,5 @@
   * [predict leaf indices](posts/xgboost/predict_leaf_indices.md)
   * [binary classification](posts/xgboost/binary_classification/binary_classification.md)
   * [multiclass classification](posts/xgboost/multiclass_classification/multiclass_classification.md)
+  * [原理杂记](posts/xgboost/learning-xgboost.md)
 
