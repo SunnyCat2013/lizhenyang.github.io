@@ -18,6 +18,33 @@ Objective function: model 确定，评价参数性能的函数。
     - Training loss
     - Regularization
 
+- classification and regression trees (CART)
+simple and predictive: The tradeoff between the two is also referred as bias-variance tradeoff in machine learning.
+
+## So-called tree esamable model
+What is actually used is the so-called tree ensemble model, which sums the prediction of multiple trees together.
+![](https://raw.githubusercontent.com/dmlc/web-data/master/xgboost/model/twocart.png)
+
+两个树之间的 complement each other.
+
+## random forest and boost tree
+Now here comes the question, what is the model for random forests? It is exactly tree ensembles! So random forests and boosted trees are not different in terms of model, *the difference is how we train them*.
+
+## what is the model for random forests?
+It is exactly tree ensembles! 
+
+## Additive Training
+Instead, we use an additive strategy: fix what we have learned, and add one new tree at a time.
+只做加法处理，每次增加树的时候，只考虑当前树的损失和正则项，把之前训练得到的模型当作常量。(这个是不是上面说的“the difference is how we train them” ?)
+
+第 t 棵树的损失函数：
+$$
+obj^{(t)} = \sum^{n}_{i = 1}l(y_i, \hat{y}^{t - 1}_i} + f_t(x_i)) + \Omega (f_t) + constant 
+$$
+
+## questions
+- For example, you should be able to describe the differences and commonalities between boosted trees and random forests.
+
 
 
 # gbdt
