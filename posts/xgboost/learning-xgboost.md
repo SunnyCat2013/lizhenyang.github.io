@@ -18,6 +18,19 @@ Objective function: model 确定，评价参数性能的函数。
     - Training loss
     - Regularization
 
+- classification and regression trees (CART)
+simple and predictive: The tradeoff between the two is also referred as bias-variance tradeoff in machine learning.
+
+## So-called tree esamable model
+What is actually used is the so-called tree ensemble model, which sums the prediction of multiple trees together.
+![](https://raw.githubusercontent.com/dmlc/web-data/master/xgboost/model/twocart.png)
+
+## what is the model for random forests?
+It is exactly tree ensembles! 
+
+## questions
+- For example, you should be able to describe the differences and commonalities between boosted trees and random forests.
+
 
 
 # gbdt
