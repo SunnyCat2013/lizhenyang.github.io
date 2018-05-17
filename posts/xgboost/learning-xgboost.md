@@ -50,8 +50,9 @@ Instead, we use an additive strategy: fix what we have learned, and add one new 
 
 
 $$
-obj^{(t)} = \sum^{n}_{i = 1}l(y_i, \hat{y}^{t - 1}_i} + f_t(x_i)) + \Omega (f_t) + constant
+obj^{(t)} = \sum^{n}_{i = 1}l(y_i, \hat{y}^{t - 1}_i + f_t(x_i)) + \Omega (f_t) + constant
 $$
+
 
 
 ## questions
