@@ -40,4 +40,5 @@
   * [binary classification](posts/xgboost/binary_classification/binary_classification.md)
   * [multiclass classification](posts/xgboost/multiclass_classification/multiclass_classification.md)
   * [原理杂记](posts/xgboost/learning-xgboost.md)
+  * [dump model](posts/xgboost/learning-dump-model.md)
 
