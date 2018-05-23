@@ -78,3 +78,25 @@ $$
 
 [https://www.kaggle.com/dansbecker/learning-to-use-xgboost/code](https://www.kaggle.com/dansbecker/learning-to-use-xgboost/code)
 
+
+# xgboost.DMatrix
+
+```
+http://xgboost.readthedocs.io/en/latest/python/python_api.html#xgboost.DMatrix
+
+class xgboost.DMatrix(data, label=None, missing=None, weight=None, silent=False, feature_names=None, feature_types=None, nthread=None)
+Bases: object
+
+Data Matrix used in XGBoost.
+
+DMatrix is a internal data structure that used by XGBoost which is optimized for both memory efficiency and training speed. You can construct DMatrix from numpy.arrays
+
+Parameters:
+data (string/numpy array/scipy.sparse/pd.DataFrame) – Data source of DMatrix. When data is string type, it represents the path libsvm format txt file, or binary file that xgboost can read from.
+label (list or numpy 1-D array, optional) – Label of the training data.
+missing (float, optional) – Value in the data which needs to be present as a missing value. If None, defaults to np.nan.
+weight (list or numpy 1-D array , optional) – Weight for each instance.
+silent (boolean, optional) – Whether print messages during construction
+feature_names (list, optional) – Set names for features.
+feature_types (list, optional) – Set types for features.
+```
