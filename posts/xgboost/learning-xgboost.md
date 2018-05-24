@@ -59,6 +59,8 @@ $$
 
 * For example, you should be able to describe the differences and commonalities between boosted trees and random forests.
 
+This is how xgboost can support custom loss functions. 这个从 obj 到 custom loss funstions 这个过程并没有太明白。
+
 # gbdt
 
 在 [https://blog.csdn.net/w28971023/article/details/8240756](https://blog.csdn.net/w28971023/article/details/8240756) 文章里面，提到
