@@ -33,7 +33,7 @@ $$
 - hyperbolic tangent(平移、缩放之后的 logistic function)
 $$
 f(x) = \tanh x = \frac{e^x - e^{-x}}{e^x + e^{-x}} = \frac{e^x + e^{-x} - 2e^{-x}}{e^x + e^{-x}} = 1 - \frac{2e^{-x}}{e^x + e^{-x}} = 1 - \frac{2}{e^{-(-2)(x - 0)} + 1}
-
+$$
 
 
 
