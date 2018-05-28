@@ -10,6 +10,10 @@ distinct_file_score = df['final_score'].unique()
 
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
 
+# join/merge
+
+# loc
+
 
 
 
