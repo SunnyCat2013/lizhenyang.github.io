@@ -1,6 +1,6 @@
 # pandas 中的 DataFrame
 
-1. 取重
+1. 去重
 
 ```
 distinct_file_score = df['final_score'].unique()
