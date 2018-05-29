@@ -11,8 +11,42 @@ distinct_file_score = df['final_score'].unique()
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
 
 # join/merge
+## merge
+```
+pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
+         left_index=False, right_index=False, sort=True,
+         suffixes=('_x', '_y'), copy=True, indicator=False,
+         validate=None)
+```
 
 # loc
+
+```
+DataFrame.loc
+Access a group of rows and columns by label(s) or a boolean array.
+
+.loc[] is primarily label based, but may also be used with a boolean array.
+
+Allowed inputs are:
+
+A single label, e.g. 5 or 'a', (note that 5 is interpreted as a label of the index, and never as an integer position along the index).
+
+A list or array of labels, e.g. ['a', 'b', 'c'].
+
+A slice object with labels, e.g. 'a':'f'.
+
+Warning Note that contrary to usual python slices, both the start and the stop are included
+A boolean array of the same length as the axis being sliced, e.g. [True, False, True].
+
+A callable function with one argument (the calling Series, DataFrame or Panel) and that returns valid output for indexing (one of the above)
+
+See more at Selection by Label
+
+Raises:	
+KeyError:
+
+when any items are not found
+```
 
 
 
