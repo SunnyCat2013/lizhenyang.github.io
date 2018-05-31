@@ -20,7 +20,9 @@ CART 是很多重要的机器学习方法的基石，如，bagged decision trees
 
 > For regression predictive modeling problems the cost function that is minimized to choose split points is the sum squared error across all training samples that fall within the rectangle:
 
-sum(y – prediction)^2
+$$
+Regression Cost Function = \sum^{2}_{i = 1}(y_i - prediction_i)^2
+$$
 
 使用 square error 最小的点作为分界点。这里的 prediction ，我理解是划分之后的均值。
 
