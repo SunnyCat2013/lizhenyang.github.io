@@ -1,6 +1,9 @@
 # 学习 Decision Tree(Classification and Regression Tree)
 https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/
 
+# 问题
+1. 整体的损失函数是怎么反射求导传播的？还是说，分裂求划分的时候已经完成了次优的求解过程？
+
 > Classically, this algorithm is referred to as “decision trees”, but on some platforms like R they are referred to by the more modern term CART.
 
 原来 DT 和 CART 是一个概念啊。
@@ -67,3 +70,12 @@ $$
 影响决策树的两个非常重要的条件：
 1. 停止分裂条件。这个条件一视同仁地给出了停止分裂的条件，该方法不对当前划分里面的数据进行判断，只判断样本数量。
 2. 剪枝方法。这个对当前划分及相关子划分的数据进行计算，减少树的分支。
+
+# Pruning The Tree
+决策树的复杂度可以用决策树的分裂结点数表示。
+一般来讲，复杂度低的决策树更好一些。
+它更易解释，更不易过拟合。
+
+> The fastest and simplest pruning method is to work through each leaf node in the tree and evaluate the effect of removing it using a hold-out test set. Leaf nodes are removed only if it results in a drop in the overall cost function on the entire test set. You stop removing nodes when no further improvements can be made.
+
+剪枝的方法属于控制变量法：剪掉一个叶子结点，如果模型的整体损失下降，那么就应该剪去这个结点。就这样一直剪下去，直到没有效果的提升为止。
