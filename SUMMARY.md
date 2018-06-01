@@ -20,7 +20,7 @@
   * [LSTM](posts/torch/LSTM.md)
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
   * [CTC 学习笔记](posts/ctc/learning-ctc.md)
-  * Decision Tree or Classification and Regression Tree\(CART\)
+  * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
 * [latex](latex.md)
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
