@@ -10,20 +10,36 @@ n = int(sys.argv[2])
 res = [[0 for ni in range(n)] for mi in range(m)]
 
 count = 1
+res[0][0] = count
+count += 1
 
-for r in range(m + n - 1):
-    if r < m:
-        i = r
-        j = 0
+for r in range(1, m + n - 1):
+    if r % 2 == 1:
+        if r < m:
+            i = r
+            j = 0
+        else:
+            i = m - 1
+            j = r - i
+
+        while i >= 0 and j < n:
+            res[i][j] = count
+            count += 1
+            i -= 1
+            j += 1
     else:
-        i = m - 1
-        j = r - i
-
-    while i >= 0 and j < n:
-        res[i][j] = count
-        count += 1
-        i -= 1
-        j += 1
+        if r < n:
+            j = r
+            i = 0
+        else:
+            j = n - 1
+            i = r - j
+        
+        while j >= 0 and i < m:
+            res[i][j] = count
+            count += 1
+            j -= 1
+            i += 1
 
 for i in range(m):
     print(res[i])
