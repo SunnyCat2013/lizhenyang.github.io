@@ -43,6 +43,10 @@ Gini Index 是变了判断一个划分里面的分类结果的混乱程度。
 如在二分类中，如果全部分成同一类则 $G==0$，如果是均分的话就是 $G==\frac{1}{2}$。
 > G 越大，说明分类越混乱，我们认为划分的越不好。或者说划分作用越差。反之，则说明划分越好。
 
+## Gini Score
+$$
+Regression Cost Function = \sum^{2}_{i = 1}(y_i - prediction_i)^2 * \frac{SumOfInstancesInThisGroup_i}{SumOfAllInstances}
+$$
 
 
 
