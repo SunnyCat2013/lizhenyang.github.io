@@ -34,7 +34,16 @@ prediction 是输出区间的输出值。
 
 > For classification the Gini index function is used which provides an indication of how “pure” the leaf nodes are (how mixed the training data assigned to each node is).
 
-G = sum(pk * (1 – pk))
+$$
+G = \sum^{n}_{k = 1} p_k * (1 - p_k)
+$$
+
+Gini Index 是变了判断一个划分里面的分类结果的混乱程度。
+其中，$p_k$ 指在一个划分里面，类别为 k 的样本点占所有样本点的比率。
+如在二分类中，如果全部分成同一类则 $G==0$，如果是均分的话就是 $G==\frac{1}{2}$。
+> G 越大，说明分类越混乱，我们认为划分的越不好。或者说划分作用越差。反之，则说明划分越好。
+
+
 
 
  
