@@ -79,3 +79,11 @@ $$
 > The fastest and simplest pruning method is to work through each leaf node in the tree and evaluate the effect of removing it using a hold-out test set. Leaf nodes are removed only if it results in a drop in the overall cost function on the entire test set. You stop removing nodes when no further improvements can be made.
 
 剪枝的方法属于控制变量法：剪掉一个叶子结点，如果模型的整体损失下降，那么就应该剪去这个结点。就这样一直剪下去，直到没有效果的提升为止。
+
+
+# 总结
+1. 决策树的传统名字是 Decision Tree，现代一点的名字是 Classification And Regression Trees (CART)。
+2. CART 使用二叉树表示。
+3. 给定一个输入之后，CART 模型通过遍历二叉树分支进行预测。
+4. 树模型的生成，使用的是贪心算法寻找每次划分的分割点。
+5. 停止条件决定是模型的学习力度，剪枝提高了模型性能（适应性）。
