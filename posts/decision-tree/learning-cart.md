@@ -54,5 +54,16 @@ $$
 
 与 Gini Index 相比，Gini Score 更好地考虑了不同划分中样本个数的权重。
 
+# Stop Criterion 停止分裂的标准。
+如果，我们把训练数据里面的每个点都细分到叶子结点中，那么我们的模型就对训练数据过于拟合。
+在这种情况下，得到的模型在测试集中就可能没有太好的表现性能。
+
+所以我们需要一个判断什么时候停止细分的条件。
+比较常见的方法是限制一个样本个数的值，如果一个划分中的值小于阈值，则该结点就成为叶子结点不再细分。
 
  
+> The stopping criterion is important as it strongly influences the performance of your tree. You can use pruning after learning your tree to further lift performance.
+
+影响决策树的两个非常重要的条件：
+1. 停止分裂条件。这个条件一视同仁地给出了停止分裂的条件，该方法不对当前划分里面的数据进行判断，只判断样本数量。
+2. 剪枝方法。这个对当前划分及相关子划分的数据进行计算，减少树的分支。
