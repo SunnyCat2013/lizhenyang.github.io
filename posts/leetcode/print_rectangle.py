@@ -10,10 +10,8 @@ n = int(sys.argv[2])
 res = [[0 for ni in range(n)] for mi in range(m)]
 
 count = 1
-res[0][0] = count
-count += 1
 
-for r in range(1, m + n - 1):
+for r in range(m + n - 1):
     if r % 2 == 1:
         if r < m:
             i = r
