@@ -29,7 +29,7 @@ dtest = xgb.DMatrix('agaricus.txt.test')
 
 ```python
 params = {
-    'booster': 'gbtree',
+    'booster': 'gbtree', # Specify which booster to use: gbtree, gblinear or dart.
     'objective': 'binary:logistic', # 损失函数
     'eta': 1.0, # 学习率
     'gamma': 1.0, # minimum loss reduction required to make a further partition on a leaf node of the tree. The larger, the more conservative the algorithm will be.
