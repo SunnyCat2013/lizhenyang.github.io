@@ -59,5 +59,6 @@ Format of featmap.txt: <featureid> <featurename> <q or i or int>\n:
     - i 二选一的特征
     - q 数量值，如年龄、时间。这个值可以是空
     - int 整型特征，它的决策边界也应该是整型
+同时注意，这有一个元素之间的分割符是不可见字符。所以在 <featureid> <featurename> 不能有空格。
 ```
 
