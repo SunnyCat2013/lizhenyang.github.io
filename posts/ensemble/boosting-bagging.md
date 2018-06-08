@@ -19,6 +19,7 @@ The second group of multiclassifiers contain the hybrid methods. They use a set 
 
 第二种多分类器包含一种混合方法，它们使用多种不同学习方法进行优化。比较知名的就是 Stacking。
 
+
 > 也就是 用一种方法优化多个分类器是 ensemble ，使用多种方法优化多个分类器是 stacking？
 
 The main causes of error in learning are due to noise, bias and variance. Ensemble helps to minimize these factors. These methods are designed to improve the stability and the accuracy of Machine Learning algorithms. Combinations of multiple classifiers decrease variance, especially in the case of unstable classifiers, and may produce a more reliable classification than a single classifier.
