@@ -52,3 +52,11 @@ How does the classification stage work?
 
 
 ![prediction](https://quantdare.com/wp-content/uploads/2016/04/bb4.png)
+
+# Bagging 和 Boosting 哪个更好？
+There’s not an outright winner; it depends on the data, the simulation and the circumstances.
+Bagging and Boosting decrease the variance of your single estimate as they combine several estimates from different models. So the result may be a model with higher stability.
+
+If the problem is that the single model gets a very low performance, Bagging will rarely get a better bias. However, Boosting could generate a combined model with lower errors as it optimises the advantages and reduces pitfalls of the single model.
+
+By contrast, if the difficulty of the single model is over-fitting, then Bagging is the best option. Boosting for its part doesn’t help to avoid over-fitting; in fact, this technique is faced with this problem itself. For this reason, Bagging is effective more often than Boosting.
