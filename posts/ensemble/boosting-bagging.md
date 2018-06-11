@@ -54,9 +54,30 @@ How does the classification stage work?
 ![prediction](https://quantdare.com/wp-content/uploads/2016/04/bb4.png)
 
 # Bagging 和 Boosting 哪个更好？
-There’s not an outright winner; it depends on the data, the simulation and the circumstances.
-Bagging and Boosting decrease the variance of your single estimate as they combine several estimates from different models. So the result may be a model with higher stability.
+两者之间的优势，并没有绝对的偏向。优势取决于数据，环境。
+Bagging 和 Boosting 都降低了单个模型的预测方差，提高了模型的稳定性。
 
-If the problem is that the single model gets a very low performance, Bagging will rarely get a better bias. However, Boosting could generate a combined model with lower errors as it optimises the advantages and reduces pitfalls of the single model.
+如果单个模型的表现都不好的时候，Bagging （作为均衡值）就可能比较差。
+此时 Boosting 就可能会保留更好的子模型，降低更差的模型的影响。
 
 By contrast, if the difficulty of the single model is over-fitting, then Bagging is the best option. Boosting for its part doesn’t help to avoid over-fitting; in fact, this technique is faced with this problem itself. For this reason, Bagging is effective more often than Boosting.
+与此同时，如果单个模型的问题是过拟合，那么 Bagging 或许是个更好的选择。
+Boosting 不能帮助解决过拟合的问题。事实上，Boosting 本身就有过拟合的倾向。
+这时候，Bagging 就会更好了。
+
+# 总结
+
+相似点 | 不同点
+----|----
+两个都是集成了多个分类器，生成一个更多的分类器。而单个分类器的学习方法是相同的。| Bagging 的子分类器是相互独立的；Boosting 的子分类器，在前一个分类器不足的基础上进行改进。
+训练子集的选择都是随机抽样。| 只有 Boosting 会给样本分配权重，以着重处理比较难分类的样本。
+最终的模型都综合考量了所有子分类器（当然，有的技术会有选择） | Bagging 平等看待每个样本；Boosting 则不
+两个都能降低单个模型引起的偏差 | Boosting 尝试降低 bias。Bagging 可以减少过拟合。而 Boosting 可能会引起过拟合。
+
+
+# 疑问
+1. Boosting 每次训练模型的时候，也是随机抽样？不是全部的数据吗？
+其实是可以理解的：每次随机抽样，对样本进行分类。分的不好的样本，加大权重，再进行训练。
+
+2. 只有 Boosting 可以 reduce bias 
+所以这个 bias 是因为样本采样不均衡引起的吗？
