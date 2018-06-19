@@ -20,7 +20,6 @@
   * [LSTM](posts/torch/LSTM.md)
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
   * [CTC 学习笔记](posts/ctc/learning-ctc.md)
-  * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
 * [latex](latex.md)
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
@@ -46,4 +45,5 @@
   * [DataFrame](posts/DataFrame/pandas-data-frame.md)
 * 决策树
   * [手写决策树](posts/decision-tree/python-scratch-decision-tree.md)
+  * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
 
