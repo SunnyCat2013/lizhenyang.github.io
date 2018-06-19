@@ -44,4 +44,6 @@
   * [dump model](posts/xgboost/learning-dump-model.md)
 * pandas
   * [DataFrame](posts/DataFrame/pandas-data-frame.md)
+* 决策树
+  * [手写决策树](posts/decision-tree/python-scratch-decision-tree.md)
 
