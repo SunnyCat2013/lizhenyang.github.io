@@ -43,6 +43,7 @@
   * [dump model](posts/xgboost/learning-dump-model.md)
 * pandas
   * [DataFrame](posts/DataFrame/pandas-data-frame.md)
+  * [merge multi dataframe by using reduce](posts/DataFrame/multi-join.md)
 * 决策树
   * [手写决策树](posts/decision-tree/python-scratch-decision-tree.md)
   * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
