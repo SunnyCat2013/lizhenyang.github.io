@@ -3,6 +3,7 @@
 [https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/](https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/)
 
 # 问题
+
 1. 整体的损失函数是怎么反射求导传播的？还是说，分裂求划分的时候已经完成了次优的求解过程？
 
 > Classically, this algorithm is referred to as “decision trees”, but on some platforms like R they are referred to by the more modern term CART.
@@ -63,36 +64,40 @@ $$
 G = \sum^{n}_{i = 1}\{[\sum^{n}_{k = 1} p_k * (1 - p_k)] * \frac{SumOfInstancesInThisGroup_i}{SumOfAllInstances}\}
 $$
 
+
 与 Gini Index 相比，Gini Score 更好地考虑了不同划分中样本个数的权重。
 
 # Stop Criterion 停止分裂的标准。
-如果，我们把训练数据里面的每个点都细分到叶子结点中，那么我们的模型就对训练数据过于拟合。
+
+如果，我们把训练数据里面的每个点都细分到叶子结点中，那么我们的模型就对训练数据过于拟合。  
 在这种情况下，得到的模型在测试集中就可能没有太好的表现性能。
 
-所以我们需要一个判断什么时候停止细分的条件。
+所以我们需要一个判断什么时候停止细分的条件。  
 比较常见的方法是限制一个样本个数的值，如果一个划分中的值小于阈值，则该结点就成为叶子结点不再细分。
 
- 
 > The stopping criterion is important as it strongly influences the performance of your tree. You can use pruning after learning your tree to further lift performance.
 
-影响决策树的两个非常重要的条件：
-1. 停止分裂条件。这个条件一视同仁地给出了停止分裂的条件，该方法不对当前划分里面的数据进行判断，只判断样本数量。
+影响决策树的两个非常重要的条件：  
+1. 停止分裂条件。这个条件一视同仁地给出了停止分裂的条件，该方法不对当前划分里面的数据进行判断，只判断样本数量。  
 2. 剪枝方法。这个对当前划分及相关子划分的数据进行计算，减少树的分支。
 
 # Pruning The Tree
-决策树的复杂度可以用决策树的分裂结点数表示。
-一般来讲，复杂度低的决策树更好一些。
+
+决策树的复杂度可以用决策树的分裂结点数表示。  
+一般来讲，复杂度低的决策树更好一些。  
 它更易解释，更不易过拟合。
 
 > The fastest and simplest pruning method is to work through each leaf node in the tree and evaluate the effect of removing it using a hold-out test set. Leaf nodes are removed only if it results in a drop in the overall cost function on the entire test set. You stop removing nodes when no further improvements can be made.
 
 剪枝的方法属于控制变量法：剪掉一个叶子结点，如果模型的整体损失下降，那么就应该剪去这个结点。就这样一直剪下去，直到没有效果的提升为止。
 
-
 # 总结
-1. 决策树的传统名字是 Decision Tree，现代一点的名字是 Classification And Regression Trees (CART)。
+
+1. 决策树的传统名字是 Decision Tree，现代一点的名字是 Classification And Regression Trees \(CART\)。
 2. CART 使用二叉树表示。
 3. 给定一个输入之后，CART 模型通过遍历二叉树分支进行预测。
 4. 树模型的生成，使用的是贪心算法寻找每次划分的分割点。
 5. 停止条件决定是模型的学习力度，剪枝提高了模型性能（适应性）。
+
+
 
