@@ -48,6 +48,6 @@
   * [手写决策树](posts/decision-tree/python-scratch-decision-tree.md)
   * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
   * [Gradient Boosting Decision Tree](posts/decision-tree/gbdt.md)
-  * Random Forest
+  * [Random Forest](posts/decision-tree/random-forest.md)
   * [gbdt](posts/decision-tree/gbdt.md)
 
