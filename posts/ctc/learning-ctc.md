@@ -150,7 +150,7 @@ $$
 ## 理想预测模型
 
 $$
-h(x) = \arg\max_{l \in L^{\leq T} p(l|x)
+h(x) = \arg\max_{l \in L^{\leq T} } p(l|x)
 $$
 
 
