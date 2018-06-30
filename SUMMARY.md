@@ -50,4 +50,6 @@
   * [Gradient Boosting Decision Tree](posts/decision-tree/gbdt.md)
   * [Random Forest](posts/decision-tree/random-forest.md)
   * [gbdt](posts/decision-tree/gbdt.md)
+* maven
+  * [学习 maven](posts/maven/maven.md)
 
