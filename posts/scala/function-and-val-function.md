@@ -24,6 +24,8 @@ object test {
 
     // 使用函数 udf[input type, ..., output type](defined function)
     val dividorUDF = udf[Float, Float, Float](dividorF)
+    // or 
+    // val dividorUDF = udf(dividorF _)
 
 
     dataset.withColumn("new", dividorUDF('molecular, 'denominator)).show
