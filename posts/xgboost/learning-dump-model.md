@@ -18,6 +18,19 @@ booster[1]:
 		4:leaf=-0.96853
 	2:leaf=-6.23624
 ```
+# 读法
+以下面一行为例：
+
+```
+0:[f30<1.5] yes=1,no=2,missing=1
+```
+结点: 0
+
+选择特征: f30
+    - 特征小于 1.5，则选择结点 1
+    - 否则，选择结点 2 
+    - missing 这个暂时还不清楚。
+
 当然，它需要一个特征与文件的对照表，就是一个 feature map 文件
 
 ## Feature map 文件
@@ -46,5 +59,6 @@ Format of featmap.txt: <featureid> <featurename> <q or i or int>\n:
     - i 二选一的特征
     - q 数量值，如年龄、时间。这个值可以是空
     - int 整型特征，它的决策边界也应该是整型
+同时注意，这有一个元素之间的分割符是不可见字符。所以在 <featureid> <featurename> 不能有空格。
 ```
 

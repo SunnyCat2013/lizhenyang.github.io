@@ -39,4 +39,20 @@
   * [predict leaf indices](posts/xgboost/predict_leaf_indices.md)
   * [binary classification](posts/xgboost/binary_classification/binary_classification.md)
   * [multiclass classification](posts/xgboost/multiclass_classification/multiclass_classification.md)
+  * [原理杂记](posts/xgboost/learning-xgboost.md)
+  * [dump model](posts/xgboost/learning-dump-model.md)
+* pandas
+  * [DataFrame](posts/DataFrame/pandas-data-frame.md)
+  * [merge multi dataframe by using reduce](posts/DataFrame/multi-join.md)
+* [决策树](jue-ce-shu.md)
+  * [手写决策树](posts/decision-tree/python-scratch-decision-tree.md)
+  * [Decision Tree or Classification and Regression Tree\(CART\)](posts/decision-tree/learning-cart.md)
+  * [Gradient Boosting Decision Tree](posts/decision-tree/gbdt.md)
+  * [Random Forest](posts/decision-tree/random-forest.md)
+  * [gbdt](posts/decision-tree/gbdt.md)
+* maven
+  * [学习 maven](posts/maven/maven.md)
+* Docker
+  * [读 《Docker in action》](posts/docker/docker-in-action.md)
+  * [Docker 常用命令](posts/docker/docker-commands.md)
 
