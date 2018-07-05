@@ -15,3 +15,16 @@
 Interesting!
 
 # Submission: Transferring Files From Your Instance To Your Computer
+
+# Start!
+
+```
+gcloud compute ssh --zone=us-west1-b cs231-vm
+/home/shared/setup.sh && source ~/.bashrc
+
+cd /home/shared
+jupyter-notebook --no-browser --port=7000
+
+注意更换前缀
+http://35.197.80.166:7000/
+```
