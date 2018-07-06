@@ -55,4 +55,6 @@
 * Docker
   * [读 《Docker in action》](posts/docker/docker-in-action.md)
   * [Docker 常用命令](posts/docker/docker-commands.md)
+* svm
+  * [Linear Programming](posts/svm/linear-programming.md)
 
