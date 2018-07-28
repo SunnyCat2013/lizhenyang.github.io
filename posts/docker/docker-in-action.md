@@ -159,7 +159,7 @@ The interesting thing about content-management systems and other stateful sys- t
 docker run -d --name wp --read-only wordpress:4
 
 ## 从容器 info 里面看信息
-docker inspect --format "{{.State.Running}}" mailer
+docker inspect --format "{{\.State\.Running}}" mailer
 
 ## --read-only 文件系统里面使用 -v 来指定可以写的地方。
 # Start the container with specific volumes for read only exceptions
