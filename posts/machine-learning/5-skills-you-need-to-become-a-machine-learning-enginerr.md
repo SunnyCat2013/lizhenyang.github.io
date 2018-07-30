@@ -7,3 +7,5 @@ Second, it’s not enough to have either software engineering or data science ex
 首先，机器学习工程师并不是一个纯粹的学术角色。
 其实，你不仅要有软件工程的能力，还要有数据科学的知识。
 
+![Relative importance of core skills for different Machine Learning job roles](http://1onjea25cyhx3uvxgs4vu325-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/ML-Graph.png)
+
