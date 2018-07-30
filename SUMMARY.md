@@ -60,5 +60,6 @@
 * [leetcode](leetcode.md)
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
   * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
-  * 581. Shortest Unsorted Continuous Subarray
+* [读闲书](du-xian-shu.md)
+  * [读书清单](posts/reading/list.md)
 
