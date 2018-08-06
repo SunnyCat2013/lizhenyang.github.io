@@ -62,4 +62,7 @@
   * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
+* Coursera
+  * 机器学习-Andrew Ng
+    * week 2
 
