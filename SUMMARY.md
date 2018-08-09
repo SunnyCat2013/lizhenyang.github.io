@@ -64,5 +64,5 @@
   * [读书清单](posts/reading/list.md)
 * Coursera
   * 机器学习-Andrew Ng
-    * week 2
+    * [week 2](posts/machine-learning/coursera/week2/week2.md)
 
