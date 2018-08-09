@@ -3,7 +3,7 @@
 1. 使用 octave 写 cost function。体会了一下矩阵运算带来的便利。
 
 $$
-J(\theta) = \frac{1}{2m} \sum(h_\theta(x) - y)^2
+J(\theta) = \frac{1}{2m} \sum_{i = 1}^{m}(h_\theta(x_i) - y_i)^2
 $$
 
 2. 学习了使用梯度下降和 normal equations 两种方法求线性回归参数的方法。
