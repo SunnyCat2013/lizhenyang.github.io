@@ -21,7 +21,9 @@ grad = zeros(size(theta));
 z = X * theta; % m x n n x 1;
 h = sigmoid(z);
 
-J = (-y' * log(h) - (1 - y)' * log(1 - h)) / m + lambda * sum(theta .^2 ) / (2 * m);
+% Note that you should not regularize the parameter 0
+sum_theta = lambda * sum(theta(2:length(theta)) .^2) / (2 * m);
+J = (-y' * log(h) - (1 - y)' * log(1 - h)) / m + sum_theta;
 
 r = theta * lambda / m;
 r(1) = 0;
