@@ -9,3 +9,8 @@
 # Learning Rate and lambda
 学习率和惩罚项
 week 2 没有讲惩罚项。
+
+
+# 注意
+> Note that you should not regularize the parameter 0 - page 9
+不要在 cost function 里面加 ${\theta}_0$
