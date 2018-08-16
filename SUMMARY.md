@@ -65,4 +65,5 @@
 * Coursera
   * 机器学习-Andrew Ng
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
+    * [week 3](posts/machine-learning/coursera/week3/notes.md)
 
