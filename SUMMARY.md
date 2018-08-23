@@ -57,6 +57,15 @@
   * [Docker 常用命令](posts/docker/docker-commands.md)
 * svm
   * [Linear Programming](posts/svm/linear-programming.md)
-* leetcode
+* [leetcode](leetcode.md)
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
+  * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
+  * [86.PartitionList](posts/leetcode/86.partition-list.md)
+* [读闲书](du-xian-shu.md)
+  * [读书清单](posts/reading/list.md)
+* Coursera
+  * 机器学习-Andrew Ng
+    * [week 2](posts/machine-learning/coursera/week2/week2.md)
+    * [week 3](posts/machine-learning/coursera/week3/notes.md)
+    * week 4
 

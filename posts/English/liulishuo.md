@@ -1,5 +1,12 @@
 # 流利说学习笔记
 
+# reunion
+- He agreed to do it because her mother had offered to come and stay for a while so that jessica could attend the reunion
+- Since he and her mother didn't get along, he decided to change his schedule and work from home for a few days.
+- He really didn't want her mother to come, though he didn't say so.
+- Some who used to be good looking has lost the looks completely, and others looked much better than before.
+- It was strange how time has changed people in such differenct ways.
+
 # Wars
 - Civil wars are fought between citizens of the same country and are fought within the country.
 - If citizens of a country disagree about a policy or leader, they may fight a civil war.
