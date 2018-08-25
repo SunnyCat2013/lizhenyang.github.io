@@ -64,6 +64,7 @@
   * [155.Min\_Stack\(用差值来记录 Stack 中的最小值和当前值信息\)](posts/leetcode/155.min-stack.md)
   * 错题本
     * [162.find-peak-element](posts/leetcode/mistakes/162.find-peak-element.md)
+    * [164.maximum-gap](posts/leetcode/mistakes/164.maximum-gap.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * Coursera
