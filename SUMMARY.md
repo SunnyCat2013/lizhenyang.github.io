@@ -61,7 +61,7 @@
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
   * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
   * [86.PartitionList](posts/leetcode/86.partition-list.md)
-  * 155.Min\_Stack\(用差值来记录 Stack 中的最小值和当前值信息\)
+  * [155.Min\_Stack\(用差值来记录 Stack 中的最小值和当前值信息\)](posts/leetcode/155.min-stack.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * Coursera
