@@ -66,6 +66,7 @@
     * [162.find-peak-element](posts/leetcode/mistakes/162.find-peak-element.md)
     * [164.maximum-gap](posts/leetcode/mistakes/164.maximum-gap.md)
     * [894.all-possible-full-binary-trees](posts/leetcode/mistakes/894.all-possible-full-binary-trees.md)
+  * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * Coursera
