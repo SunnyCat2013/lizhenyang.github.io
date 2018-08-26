@@ -78,4 +78,6 @@
   * [基数排序（radix sort）](posts/sort-algorithm/radix-sort.md)
 * [电影](dian-ying.md)
   * [marvel](posts/movie/marvel.md)
+* photography
+  * [iphone](posts/photography/iphone.md)
 
