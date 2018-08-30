@@ -80,4 +80,5 @@
   * [marvel](posts/movie/marvel.md)
 * photography
   * [iphone](posts/photography/iphone.md)
+* [pointers-on-c](posts/pointers-on-c/charpt6.md)
 
