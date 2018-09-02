@@ -7,6 +7,7 @@
 - One of the most popular career for kids is to become an astronauts.
 - When she arrived, she wasn't sure she was in the right place.
 - She felt a bit awkward, and out of place.
+- She had always felt like an outsider, with only a couple of close friends.
 - At first, she didn't recognize anyone.
 - Her husband agreed to take care of things, while she was away.
 - It had been replaced by some apartment buildings.
@@ -68,4 +69,7 @@
 - There foods are carried by natural food stores and supermarkets throughout North America. 
 - People were willing to pay more for food that was free of harmful chemicals.
 - To be conscious of something means to be aware of it.
+- It was being bought because it was easy to prepare and it tasted good.
+- The market response was enthusiastic and profitable beyond their expectations.
+
 
