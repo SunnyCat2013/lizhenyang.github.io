@@ -62,10 +62,11 @@
   * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
   * [86.PartitionList](posts/leetcode/86.partition-list.md)
   * [155.Min\_Stack\(用差值来记录 Stack 中的最小值和当前值信息\)](posts/leetcode/155.min-stack.md)
-  * 错题本
+  * [错题本](posts/leetcode/cuo-ti-ben.md)
     * [162.find-peak-element](posts/leetcode/mistakes/162.find-peak-element.md)
     * [164.maximum-gap](posts/leetcode/mistakes/164.maximum-gap.md)
     * [894.all-possible-full-binary-trees](posts/leetcode/mistakes/894.all-possible-full-binary-trees.md)
+    * [897.increasing-order-search-tree.md](posts/leetcode/mistakes/897.increasing-order-search-tree.md)
   * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
   * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
 * [读闲书](du-xian-shu.md)
