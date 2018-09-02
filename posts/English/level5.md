@@ -1,5 +1,7 @@
 # 
 
+# part 2
+
 - Another popular career is to become musician or actor.
 - To become an astronaut, it's important to have the right background.
 - One of the most popular career for kids is to become an astronauts.
@@ -10,10 +12,49 @@
 - It had been replaced by some apartment buildings.
 - She graduated from middle school twenty years ago.
 - Tom was no longer good looking.
-- His wife left him, so for the first time ever, he was along.
+- His wife had left him, so for the first time ever, he was along.
 - Terrorisms involve a group of individuals rather than countries.
 - It was strange how time change people in such different ways.
 - If citizens of a country disagree about a policy or leader, they may fight a civil way.
 - It was a pleasure to be around him.
-- For example, Tommy used to be good looking and atheltic.
+- For example, Tommy used to be good looking and athletic.
+- He had had a hard time in math, expecialy in geometry.
+- For a while, he worked as a tour guide
+- She had always been shy, and she still was.
+- When they started the company, organic food was becoming more popular.
+- They knew it would be hard work, but they determined to try.
+- Many women use makeup to make themselves more physically attractive.
+- A jealous person often want to pocess the person they love.
+- Some people use their eyes of smile to flirt.
+- I have been traveling.
+- There several matters that I would like to discuss with you.
+- They want their new company to be some thing they could be proud of.
+- People were becoming more food conscious and worried about food safety.
+- To be more conscious of something means to be more aware of it.
+- Their plan was to create a business that provided healthy food to busy people.
+- When you are really sad, you may be depressed.
+- When someone is depressed they feel very sad.
+- To be depressed is the opposite of to be happy.
+- Dinner was going to be served soon, and some of the classmates were going to give speeches.
+- Jessica had never been very popular and she didn't think anyone had noticed her.
 - 
+
+- Migration takes animals to new, more favorable environments when the seasons change.
+- Some of these journeys are long and dangerous, along roads with on obvious landmarks
+- The longest journey is that of the artic tern.
+- It flies pole to pole twice a year.
+- If a tern achieves its average lifespan of twenty years, the distance it has flown will be equivalent to a journey to the moon and back.
+- Millions of migrants have had to leave their coutries and look for new homes.
+- Another amazing examples of survival is the salmon. Salmon spend most of their lives in the ocean, which is saltwater. Yet, when it's time to breed, they do so in freshwater rivers.
+- Humans are also migrat, but seldom, if ever, for seasonal variations.
+
+- Evidence for their existence comes from their effects on what we can observe, such as the motion and positions of distant galaxies.
+- Scientists tell us that what we see in the univers is only a small part of what is there.
+-
+
+- Other products followed in rapid succession.
+- As the result, at the end of five years, the company was producing over 100 frozen meals
+- Since then they have increased the number of meals to over 150, including pizzas, sanwiches and snackes.
+- There foods are carried by natural food stores and supermarkets throughout North America. 
+- People were willing to pay more for food that was free of harmful chemicals.
+- To be conscious of something means to be aware of it.
