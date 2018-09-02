@@ -67,9 +67,10 @@
     * [164.maximum-gap](posts/leetcode/mistakes/164.maximum-gap.md)
     * [894.all-possible-full-binary-trees](posts/leetcode/mistakes/894.all-possible-full-binary-trees.md)
   * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
+  * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
-* Coursera
+* [Coursera](coursera.md)
   * 机器学习-Andrew Ng
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
