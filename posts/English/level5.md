@@ -47,11 +47,17 @@
 - Millions of migrants have had to leave their coutries and look for new homes.
 - Another amazing examples of survival is the salmon. Salmon spend most of their lives in the ocean, which is saltwater. Yet, when it's time to breed, they do so in freshwater rivers.
 - Humans are also migrat, but seldom, if ever, for seasonal variations.
+- When it's breeding time, they return to the same river where they were born.
+- They are determined to finish their journey, despite the many obstacles.
+- It seems that their purpose in life is just to reproduce.
+- Salmon can adapt their bodies to survive in both saltwater and freshwater.
+- It seems as if they have a built-in map that guides them for hundreds of miles.
+- Overcoming such challenges is a great achievement, but hardly easy.
+- Seasonal variations, for example, can be one of the greatest challenges for animals to overcome.
 
 - Evidence for their existence comes from their effects on what we can observe, such as the motion and positions of distant galaxies.
 - Scientists tell us that what we see in the univers is only a small part of what is there.
--
-
+- The rest is invisible, including dark matter and dark energy.
 - Other products followed in rapid succession.
 - As the result, at the end of five years, the company was producing over 100 frozen meals
 - Since then they have increased the number of meals to over 150, including pizzas, sanwiches and snackes.
