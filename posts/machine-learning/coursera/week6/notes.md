@@ -12,3 +12,11 @@
 所以我们把数据分成 train/cross validation/test
 
 使用 train 训练，使用 cross validation 选择模型（theta 的维度），用 test 作为模型的评估。
+
+
+# Bias vs. Variance
+
+https://www.coursera.org/learn/machine-learning/supplement/81vp0/diagnosing-bias-vs-variance
+
+variance: 这个还比较好理解的，因为多项式的最高次幂越高，模型越复杂越容易过拟合呗。
+bias: 这个现在还不怎么理解。
