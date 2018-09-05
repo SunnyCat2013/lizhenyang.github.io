@@ -68,6 +68,7 @@
     * [894.all-possible-full-binary-trees](posts/leetcode/mistakes/894.all-possible-full-binary-trees.md)
     * [897.increasing-order-search-tree.md](posts/leetcode/mistakes/897.increasing-order-search-tree.md)
     * [3.longest-substring-without-repeating-characters.md](posts/leetcode/mistakes/3.longest-substring-without-repeating-characters.md)
+    * [6.zigzag-conversion.md](posts/leetcode/mistakes/6.zigzag-conversion.md)
   * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
   * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
 * [读闲书](du-xian-shu.md)
