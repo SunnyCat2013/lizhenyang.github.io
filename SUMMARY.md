@@ -71,6 +71,7 @@
     * [6.zigzag-conversion.md](posts/leetcode/mistakes/6.zigzag-conversion.md)
   * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
   * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
+  * [903.valid-permutations-for-di-sequence.md](posts/leetcode/903.valid-permutations-for-di-sequence.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * [Coursera](coursera.md)
