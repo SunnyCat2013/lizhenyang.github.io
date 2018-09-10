@@ -57,4 +57,33 @@
   * [Docker 常用命令](posts/docker/docker-commands.md)
 * svm
   * [Linear Programming](posts/svm/linear-programming.md)
+* [leetcode](leetcode.md)
+  * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
+  * [DFS & BFS](posts/leetcode/bfs-and-dfs.md)
+  * [86.PartitionList](posts/leetcode/86.partition-list.md)
+  * [155.Min\_Stack\(用差值来记录 Stack 中的最小值和当前值信息\)](posts/leetcode/155.min-stack.md)
+  * [错题本](posts/leetcode/cuo-ti-ben.md)
+    * [162.find-peak-element](posts/leetcode/mistakes/162.find-peak-element.md)
+    * [164.maximum-gap](posts/leetcode/mistakes/164.maximum-gap.md)
+    * [894.all-possible-full-binary-trees](posts/leetcode/mistakes/894.all-possible-full-binary-trees.md)
+    * [897.increasing-order-search-tree.md](posts/leetcode/mistakes/897.increasing-order-search-tree.md)
+    * [3.longest-substring-without-repeating-characters.md](posts/leetcode/mistakes/3.longest-substring-without-repeating-characters.md)
+    * [6.zigzag-conversion.md](posts/leetcode/mistakes/6.zigzag-conversion.md)
+  * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
+  * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
+  * [903.valid-permutations-for-di-sequence.md](posts/leetcode/903.valid-permutations-for-di-sequence.md)
+* [读闲书](du-xian-shu.md)
+  * [读书清单](posts/reading/list.md)
+* [Coursera](coursera.md)
+  * 机器学习-Andrew Ng
+    * [week 2](posts/machine-learning/coursera/week2/week2.md)
+    * [week 3](posts/machine-learning/coursera/week3/notes.md)
+    * week 4
+* 排序算法
+  * [基数排序（radix sort）](posts/sort-algorithm/radix-sort.md)
+* [电影](dian-ying.md)
+  * [marvel](posts/movie/marvel.md)
+* photography
+  * [iphone](posts/photography/iphone.md)
+* [pointers-on-c](posts/pointers-on-c/charpt6.md)
 
