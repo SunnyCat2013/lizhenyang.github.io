@@ -86,4 +86,6 @@
 * photography
   * [iphone](posts/photography/iphone.md)
 * [pointers-on-c](posts/pointers-on-c/charpt6.md)
+* Computer Science
+  * [Stack and Heap](posts/computer-science/stack-heap.md)
 
