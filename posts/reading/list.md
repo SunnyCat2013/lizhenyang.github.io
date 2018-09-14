@@ -1,4 +1,5 @@
 # 准备读
+https://hobbylark.com/fandoms/Getting-into-Comics-A-Beginners-Guide-to-Marvel
 # 在读
 《杀死一只知更鸟》
 《太空漫游四部曲》
