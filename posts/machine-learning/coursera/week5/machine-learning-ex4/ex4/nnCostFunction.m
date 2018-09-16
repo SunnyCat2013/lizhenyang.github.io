@@ -46,7 +46,7 @@ a2 = [ones(m, 1) a2']; % 5000x26
 z3 = Theta2 * a2'; % 10x5000
 a3 = sigmoid(z3); % 10x5000
 
-Y = zeros(m, 10);
+Y = zeros(m, size(a3, 1));
 for i = 1:m
     Y(i, y(i)) = 1;
 end
@@ -57,8 +57,7 @@ for i = 1:m
     hi = a3(:, i);
     size(1 - yi);
     size(log(1 - hi));
-    J += - (1 - yi) * log(1 - hi);
-    J += -yi * log(hi); 
+    J += -yi * log(hi) - (1 - yi) * log(1 - hi);
 end
 
 J /= m;
