@@ -62,6 +62,7 @@ end
 
 J /= m;
 
+J += (sum(sum(Theta1(:, 2:size(Theta1, 2)).^2)) + sum(sum(Theta2(:, 2:size(Theta2, 2)).^2))) * lambda / (2 * m);
 
 %
 % Part 2: Implement the backpropagation algorithm to compute the gradients
