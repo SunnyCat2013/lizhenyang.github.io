@@ -18,5 +18,11 @@
 
 https://www.coursera.org/learn/machine-learning/supplement/81vp0/diagnosing-bias-vs-variance
 
-variance: 这个还比较好理解的，因为多项式的最高次幂越高，模型越复杂越容易过拟合呗。
-bias: 这个现在还不怎么理解。
+variance: 这个还比较好理解的，因为多项式的最高次幂越高，模型越复杂越容易过拟合呗。如果 training 损失较小，而 validation 损失较大，说明过拟合。
+bias: variance 比较小的时候，training and validation data set 的损失都比较大。这个时候 bias 影响较大，说明 欠拟合（underfit）
+
+具体的可以看这个课：https://www.coursera.org/learn/machine-learning/lecture/yCAup/diagnosing-bias-vs-variance
+
+[biase-variance](./bias-variance.png)
+
+
