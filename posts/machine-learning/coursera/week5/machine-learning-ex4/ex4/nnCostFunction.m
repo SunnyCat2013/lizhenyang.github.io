@@ -101,14 +101,14 @@ for i = 1:m
     % second layer residual
     delta2 = theta2(:, 2:end)' * delta3 .* sigmoidGradient(z2); % 25 x 1
     % 
-    Delta2 += delta3 * a2'; % not 10 x 25, but 10 x 26
+    Delta2 += delta3 * a2'; % not 10 x 25, but 10 x 26. Since a2(1) = 1, So the first column is sum(delta3)
     % 
     # delta2 = delta2(2:end); % 25 x 1
     Delta1 += delta2 * a1; % 25 x 401
 
 end
 
-Theta2_grad = Delta2 / m; % 10 x 25
+Theta2_grad = Delta2 / m; % 10 x 26
 Theta1_grad = Delta1 / m; % 25 x 401
 
 
