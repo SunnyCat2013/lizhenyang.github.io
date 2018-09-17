@@ -79,6 +79,21 @@ J += (sum(sum(Theta1(:, 2:size(Theta1, 2)).^2)) + sum(sum(Theta2(:, 2:size(Theta
 %         Hint: We recommend implementing backpropagation using a for-loop
 %               over the training examples if you are implementing it for the 
 %               first time.
+for i = 1:m 
+    % forward propagation
+    a1 = X(i, :) % 1 x 401
+    theta1 = Theta1 % 25 x 401
+    z2 = theta1 * a1' % 25 x 1
+    a2 = sigmoid(z2) % 25 x 1
+    a2 = [1; a2] % 26 x 1
+    theta2 = Theta2 % 10 x 26
+    z3 = theta2 * a2' % 10 x 1
+    a3 = sigmoid(z3) % 10 x 1
+    % output layer residual
+    y = Y(i, :)' % 10 x 1
+    delta3 = a3 - y
+     
+end
 %
 % Part 3: Implement regularization with the cost function and gradients.
 %
