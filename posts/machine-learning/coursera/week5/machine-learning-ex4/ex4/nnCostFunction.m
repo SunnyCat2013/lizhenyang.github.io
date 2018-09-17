@@ -90,7 +90,7 @@ for i = 1:m
 
     z2 = theta1 * a1'; % 25 x 1
     a2 = sigmoid(z2); % 25 x 1
-    a2 = [1; a2]; % not 26 x 1, but 1 x 26
+    a2 = [1; a2]; % 26 x 1
 
     z3 = theta2 * a2; % 10 x 1
     a3 = sigmoid(z3); % 10 x 1
@@ -101,7 +101,7 @@ for i = 1:m
     % second layer residual
     delta2 = theta2(:, 2:end)' * delta3 .* sigmoidGradient(z2); % 25 x 1
     % 
-    Delta2 += delta3 * a2'; % 10 x 25
+    Delta2 += delta3 * a2'; % not 10 x 25, but 10 x 26
     % 
     # delta2 = delta2(2:end); % 25 x 1
     Delta1 += delta2 * a1; % 25 x 401
