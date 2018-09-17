@@ -101,15 +101,15 @@ for i = 1:m
     % second layer residual
     delta2 = theta2(:, 2:end)' * delta3 .* sigmoidGradient(z2); % 25 x 1
     % 
-    Delta2 += delta3 * a2'; % 10 x 26
+    Delta2 += delta3 * a2'; % 10 x 25
     % 
     # delta2 = delta2(2:end); % 25 x 1
     Delta1 += delta2 * a1; % 25 x 401
 
 end
 
-Theta2_grad = Delta2 / m;
-Theta1_grad = Delta1 / m;
+Theta2_grad = Delta2 / m; % 10 x 25
+Theta1_grad = Delta1 / m; % 25 x 401
 
 
 %
@@ -122,8 +122,11 @@ Theta1_grad = Delta1 / m;
 %
 
 
+Theta2(:, 1) = 0;
+Theta1(:, 1) = 0;
 
-
+Theta2_grad = Delta2 / m + Theta2 * lambda / m; % 10 x 25
+Theta1_grad = Delta1 / m + Theta1 * lambda / m; % 25 x 401
 
 
 
