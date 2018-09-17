@@ -48,3 +48,6 @@ https://www.coursera.org/learn/machine-learning/lecture/Kont7/learning-curves
 
 ![high-bias-data-is-not-main-point](./high-bias-data-is-not-main-point.png)
 从图中可以看出数据
+
+# 当 variance 比较高的时候，增加训练样本就比较好了。
+![train-max.png](./train-max.png)
