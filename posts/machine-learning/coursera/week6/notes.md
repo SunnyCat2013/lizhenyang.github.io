@@ -23,7 +23,7 @@ bias: variance 比较小的时候，training and validation data set 的损失�
 
 具体的可以看这个课：https://www.coursera.org/learn/machine-learning/lecture/yCAup/diagnosing-bias-vs-variance
 
-[biase-variance](./bias-variance.png)
+![biase-variance](./bias-variance.png)
 
 
 # 选择 lambda 时 validation set and test set 的作用。
@@ -33,3 +33,7 @@ bias: variance 比较小的时候，training and validation data set 的损失�
 在 validation set 上选出 lambda 的过程中，已经加入了人工筛选（在一组数据中选出最优的），不能代表该 lambda 的泛化能力（在未知数据上的表现）。
 
 
+# lambda 的大小与 validation/training 数据的关系
+![lambda-cv-train](./lambda-cv-train.png)
+当 lambda 比较小的时候，theta 受到的惩罚较小，容易过拟合。
+当 lambda 比较大的时候，theta 受到的惩罚较大（导致 theta 都比较小，甚至是 0），容易欠拟合（Bias 对结果影响较大）。
