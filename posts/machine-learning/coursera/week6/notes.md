@@ -51,3 +51,17 @@ https://www.coursera.org/learn/machine-learning/lecture/Kont7/learning-curves
 
 # 当 variance 比较高的时候，增加训练样本就比较好了。
 ![train-max.png](./train-max.png)
+
+
+# Deciding What to Do Next Revisited
+https://www.coursera.org/learn/machine-learning/supplement/llc5g/deciding-what-to-do-next-revisited
+
+Our decision process can be broken down as follows:
+
+Getting more training examples: Fixes high variance
+Trying smaller sets of features: Fixes high variance
+Adding features: Fixes high bias
+Adding polynomial features: Fixes high bias
+Decreasing λ: Fixes high bias
+Increasing λ: Fixes high variance.
+
