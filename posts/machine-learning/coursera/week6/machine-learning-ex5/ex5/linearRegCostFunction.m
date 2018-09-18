@@ -31,7 +31,7 @@ J = sum((h - y).^2) / (2 * m)  + lambda * sum(theta0 .^ 2) / (2 * m);
 
 
 
-
+grad = X' * (h - y) / m + lambda * theta0 / m;
 
 
 
