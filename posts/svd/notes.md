@@ -26,3 +26,5 @@ https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254
 https://github.com/j2kun/svd
 
 http://www-users.math.umn.edu/~lerman/math5467/svd.pdf
+
+https://www.cnblogs.com/pinard/p/6251584.html
