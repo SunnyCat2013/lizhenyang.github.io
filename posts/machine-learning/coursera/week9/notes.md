@@ -1,4 +1,5 @@
 # Difference between anomaly detection and supervised learning?
+可以说是只知道非异常数据，这个对这个数据进行建模，对异常数据应该（可能）就很敏感了。
 
 异常是不好分为一类的东西吗？异常中的每一类数量都非常少。
 ![anomaly-supervised](./anomaly-superviesd)
