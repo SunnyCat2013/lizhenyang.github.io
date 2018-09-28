@@ -40,24 +40,16 @@ Theta_grad = zeros(size(Theta));
 %                     partial derivatives w.r.t. to each element of Theta
 %
 
-jm = X * Theta' - Y;
-jm = jm(:);
+residual = X * Theta' - Y;
+jm = residual(:);
 R = R(:);
+jm(R == 0) = 0;
+jm = reshape(jm, size(Y));
 
-J = sum(jm(R == 1) .^ 2) / 2;
+J = sum(sum(jm .^ 2)) / 2 + sum(sum(Theta .^ 2)) * lambda / 2 + sum(sum(X .^ 2)) * lambda / 2;
 
-
-
-
-
-
-
-
-
-
-
-
-
+X_grad = jm * Theta + lambda * X;
+Theta_grad = jm' * X + lambda * Theta;
 
 % =============================================================
 
