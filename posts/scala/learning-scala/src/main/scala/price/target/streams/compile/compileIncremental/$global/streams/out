@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/lizhenyang/Documents/lizhenyang.github.io/posts/scala/learning-scala/src/main/scala/price/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5300f95e for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/lizhenyang/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/lizhenyang/Documents/lizhenyang.github.io/posts/scala/learning-scala/src/main/scala/price/target/scala-2.12/classes:/Users/lizhenyang/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.1.0.jar:/Users/lizhenyang/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.1.0.jar:/Users/lizhenyang/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar:/Users/lizhenyang/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar:/Users/lizhenyang/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.608620991 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
