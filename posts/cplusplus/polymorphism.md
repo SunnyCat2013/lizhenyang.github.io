@@ -1,4 +1,11 @@
 # C++ 多态（Polymorphsim）
+多态性是允许你将父对象设置成为和一个或更多的他的子对象相等的技术，赋值之后，父对象就可以根据当前赋值给它的子对象的特性以不同的方式运作。简单的说：允许将子类类型的指针赋值给父类类型的指针（一个接口，多种方法）。
+C++ 支持两种多态性：编译时多态性，运行时多态性。
+a、编译时多态性（静态多态）：通过重载函数实现
+b、运行时多态性（动态多态）：通过虚函数实现。
+
+## 多态的作用
+那么多态的作用是什么呢，封装可以使得代码模块化，继承可以扩展已存在的代码，他们的目的都是为了代码重用。而多态的目的则是为了接口重用。也就是说，不论传递过来的究竟是那个类的对象，函数都能够通过同一个接口调用到适应各自对象的实现方法。
 
 下面是 runoob.com 给的一个例子：
 
@@ -122,7 +129,7 @@ class Shape {
 
 
 # 参考
-
+http://huqunxing.site/2016/09/08/C++%20%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7%E4%B9%8B%E5%A4%9A%E6%80%81/
 http://www.runoob.com/cplusplus/cpp-polymorphism.html
 https://www.geeksforgeeks.org/polymorphism-in-c/
 https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/

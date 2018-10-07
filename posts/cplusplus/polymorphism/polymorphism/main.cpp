@@ -18,6 +18,7 @@ public:
         width = a;
         height = b;
     }
+//    virtual int area() = 0;
     virtual int area()
     {
         cout << "Parent class area :" <<endl;
@@ -33,10 +34,21 @@ public:
         return (width * height);
     }
 };
+
+class Square: public Rectangle{
+public:
+    // shape 的儿子类的 area 是虚函数吗？如果是，那么在孙子类 Square 中应该可以覆盖。
+    Square(int a, int b): Rectangle(a, b) {}
+    int area () {
+        cout << "Square class area" << endl;
+        return width * width;
+    }
+};
+
 class Triangle: public Shape{
 public:
     Triangle( int a=0, int b=0):Shape(a, b) { }
-    int area ()
+    virtual int area ()
     {
         cout << "Triangle class area :" <<endl;
         return (width * height / 2);
@@ -47,6 +59,7 @@ int main( )
 {
     Shape *shape;
     Rectangle rec(10,7);
+    Square squ(10, 7);
     Triangle  tri(10,5);
     
     // 存储矩形的地址
@@ -58,6 +71,13 @@ int main( )
     shape = &tri;
     // 调用三角形的求面积函数 area
     shape->area();
+    
+    shape = &squ;
+    shape->area(); // 预测：Square class area
+    
+    Rectangle * rectangle;
+    rectangle = &squ;
+    rectangle->area();
     
     return 0;
 }
