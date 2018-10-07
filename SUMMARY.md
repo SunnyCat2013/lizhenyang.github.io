@@ -79,6 +79,7 @@
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
     * week 4
+    * [week 6](posts/machine-learning/coursera/week6/notes.md)
 * 排序算法
   * [基数排序（radix sort）](posts/sort-algorithm/radix-sort.md)
 * [电影](dian-ying.md)
