@@ -18,22 +18,33 @@ public:
         width = a;
         height = b;
     }
-    virtual int area() = 0;
-//    virtual int area()
-//    {
-//        cout << "Parent class area :" <<endl;
-//        return 0;
-//    }
+//    virtual int area() = 0;
+    virtual int area()
+    {
+        cout << "Parent class area :" <<endl;
+        return 0;
+    }
 };
 class Rectangle: public Shape{
 public:
     Rectangle( int a=0, int b=0):Shape(a, b) { }
-    virtual int area ()
+    int area ()
     {
         cout << "Rectangle class area :" <<endl;
         return (width * height);
     }
 };
+
+class Square: public Rectangle{
+public:
+    // shape 的儿子类的 area 是虚函数吗？如果是，那么在孙子类 Square 中应该可以覆盖。
+    Square(int a, int b): Rectangle(a, b) {}
+    int area () {
+        cout << "Square class area" << endl;
+        return width * width;
+    }
+};
+
 class Triangle: public Shape{
 public:
     Triangle( int a=0, int b=0):Shape(a, b) { }
@@ -41,15 +52,6 @@ public:
     {
         cout << "Triangle class area :" <<endl;
         return (width * height / 2);
-    }
-};
-class Square: public Rectangle{
-public:
-    // shape 的儿子类的 area 是虚函数吗？如果是，那么在孙子类 Square 中应该可以覆盖。
-    Square(int a, int b): Rectangle(a, b) {}
-    int area (int a) {
-        cout << "Square class area" << endl;
-        return width;
     }
 };
 // 程序的主函数
