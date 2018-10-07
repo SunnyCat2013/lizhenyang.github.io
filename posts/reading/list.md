@@ -1,9 +1,15 @@
 # 准备读
 https://hobbylark.com/fandoms/Getting-into-Comics-A-Beginners-Guide-to-Marvel
+
+Ray Dalio:
+    - Principles
+    - How the Economic Machine Works; A Template for Understanding What is Happening Now
+    - A Template For Understanding Big Debt Crises
 # 在读
 《杀死一只知更鸟》
 《太空漫游四部曲》
 猿人不能接受使用工具，感觉现代人也不能很快接受更高级生物的知识。
+
 # 读过
 
 ##《白夜行》
