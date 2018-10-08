@@ -8,15 +8,19 @@
 
 #include <iostream>
 using namespace std;
-
+/*
+ 
+ */
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    // 该字符串是常量
     char *p = "Hello C Plus Plus";
     cout << p << endl;
     
+    // 使用常量声明
     const char *q = "Hello const char pointer";
     cout << q << endl;
     
+    // 在内存中分配存储空间
     char r[] = "Hello char array";
     cout << r << endl;
     return 0;
