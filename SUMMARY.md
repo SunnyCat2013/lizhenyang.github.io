@@ -75,7 +75,7 @@
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * [Coursera](coursera.md)
-  * 机器学习-Andrew Ng
+  * [机器学习-Andrew Ng](posts/machine-learning/coursera/notes.md)
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
     * week 4
