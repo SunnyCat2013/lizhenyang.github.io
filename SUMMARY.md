@@ -55,7 +55,7 @@
 * Docker
   * [读 《Docker in action》](posts/docker/docker-in-action.md)
   * [Docker 常用命令](posts/docker/docker-commands.md)
-* svm
+* [svm](posts/svm/notes.md)
   * [Linear Programming](posts/svm/linear-programming.md)
 * [leetcode](leetcode.md)
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
