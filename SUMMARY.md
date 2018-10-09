@@ -91,5 +91,5 @@
   * [Stack and Heap](posts/computer-science/stack-heap.md)
 * [C Plus Plus](c-plus-plus.md)
   * [Polymorphism](posts/cplusplus/polymorphism.md)
-* [cnn](cnn/notes.md)
+* [cnn](posts/cnn/notes.md)
 
