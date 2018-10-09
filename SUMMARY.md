@@ -89,7 +89,7 @@
 * [pointers-on-c](posts/pointers-on-c/charpt6.md)
 * Computer Science
   * [Stack and Heap](posts/computer-science/stack-heap.md)
-* [C Plus Plus](c-plus-plus.md)
+* [C Plus Plus](posts/cplusplus/notes.md)
   * [Polymorphism](posts/cplusplus/polymorphism.md)
 * [cnn](posts/cnn/notes.md)
 
