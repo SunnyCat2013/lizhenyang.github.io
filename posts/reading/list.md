@@ -5,6 +5,7 @@ Ray Dalio:
     - Principles
     - How the Economic Machine Works; A Template for Understanding What is Happening Now
     - A Template For Understanding Big Debt Crises
+《断层线》，前任印度央行行长 Raghuram Rajan
 # 在读
 《杀死一只知更鸟》
 《太空漫游四部曲》
