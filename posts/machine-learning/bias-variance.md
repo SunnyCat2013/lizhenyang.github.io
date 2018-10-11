@@ -4,6 +4,11 @@
 3. 导致过拟合的原因有哪些
 
 # 结构
+1. 讨论 bias 与 variance 的时候，模型的复杂度是变化的
+
+2. 讨论 正则项 的时候，模型一定要足够复杂（达到过拟合的程度），这时候 lambda 是变化的。
+
+3. 讨论样本集的大小对模型的影响的时候，模型是固定的。
 
 # Diagnosing Bias vs. Variance
 
@@ -33,7 +38,17 @@
 3. lambda 较小，对参数惩罚较小，模型复杂度体现，造成过拟合。
 
 
+# Learning Curves
+## Experience high bias
+我对这个 high bias 的理解是，模型复杂程度不足，使初始 参数 在数据的不断注入下接近当前最优。
+此时模型已经到达自己的极限，再多投入数据，也不到学习出更多信息。
+![high-bias](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bpAOvt9uEeaQlg5FcsXQDA_ecad653e01ee824b231ff8b5df7208d9_2-am.png?expiry=1539388800000&hmac=wjkumFulg4vuZcf3UAK7jgAKJSRk0pTMBJAzUwdv1wE)
 
+
+## Experiencing high variance
+当模型足够复杂的时候，多加入一些数据，使模型能够再优化一些。
+
+![high-variance](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vqlG7t9uEeaizBK307J26A_3e3e9f42b5e3ce9e3466a0416c4368ee_ITu3antfEeam4BLcQYZr8Q_37fe6be97e7b0740d1871ba99d4c2ed9_300px-Learning1.png?expiry=1539388800000&hmac=g9z14eSTayikqkZmDGxRqrS0g3KyAqBDK1xspHb3nZo)
 
 # 参考
 https://www.coursera.org/learn/machine-learning/supplement/81vp0/diagnosing-bias-vs-variance
