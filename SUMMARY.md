@@ -78,7 +78,7 @@
   * [机器学习-Andrew Ng](posts/machine-learning/coursera/notes.md)
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
-    * week 4
+    * [week 4](posts/machine-learning/coursera/week2/week-4.md)
     * [week 6](posts/machine-learning/coursera/week6/notes.md)
     * [bias vs. variance](posts/machine-learning/bias-variance.md)
 * 排序算法
