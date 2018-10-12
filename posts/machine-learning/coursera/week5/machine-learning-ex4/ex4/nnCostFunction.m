@@ -79,6 +79,39 @@ J += (sum(sum(Theta1(:, 2:size(Theta1, 2)).^2)) + sum(sum(Theta2(:, 2:size(Theta
 %         Hint: We recommend implementing backpropagation using a for-loop
 %               over the training examples if you are implementing it for the 
 %               first time.
+
+theta1 = Theta1; % 25 x 401;
+theta2 = Theta2; % 10 x 26;
+Delta1 = 0;
+Delta2 = 0;
+for i = 1:m 
+    % forward propagation
+    a1 = X(i, :); % 1 x 401
+
+    z2 = theta1 * a1'; % 25 x 1
+    a2 = sigmoid(z2); % 25 x 1
+    a2 = [1; a2]; % 26 x 1
+
+    z3 = theta2 * a2; % 10 x 1
+    a3 = sigmoid(z3); % 10 x 1
+    % output layer residual
+    y = Y(i, :)'; % 10 x 1
+    delta3 = a3 - y; % 10 x 1
+
+    % second layer residual
+    delta2 = theta2(:, 2:end)' * delta3 .* sigmoidGradient(z2); % 25 x 1
+    % 
+    Delta2 += delta3 * a2'; % not 10 x 25, but 10 x 26. Since a2(1) = 1, So the first column is sum(delta3)
+    % 
+    # delta2 = delta2(2:end); % 25 x 1
+    Delta1 += delta2 * a1; % 25 x 401
+
+end
+
+Theta2_grad = Delta2 / m; % 10 x 26
+Theta1_grad = Delta1 / m; % 25 x 401
+
+
 %
 % Part 3: Implement regularization with the cost function and gradients.
 %
@@ -89,8 +122,11 @@ J += (sum(sum(Theta1(:, 2:size(Theta1, 2)).^2)) + sum(sum(Theta2(:, 2:size(Theta
 %
 
 
+Theta2(:, 1) = 0;
+Theta1(:, 1) = 0;
 
-
+Theta2_grad = Delta2 / m + Theta2 * lambda / m; % 10 x 25
+Theta1_grad = Delta1 / m + Theta1 * lambda / m; % 25 x 401
 
 
 

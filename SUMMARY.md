@@ -55,7 +55,7 @@
 * Docker
   * [读 《Docker in action》](posts/docker/docker-in-action.md)
   * [Docker 常用命令](posts/docker/docker-commands.md)
-* svm
+* [svm](posts/svm/notes.md)
   * [Linear Programming](posts/svm/linear-programming.md)
 * [leetcode](leetcode.md)
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
@@ -75,10 +75,12 @@
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * [Coursera](coursera.md)
-  * 机器学习-Andrew Ng
+  * [机器学习-Andrew Ng](posts/machine-learning/coursera/notes.md)
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
-    * week 4
+    * [week 4](posts/machine-learning/coursera/week2/week-4.md)
+    * [week 6](posts/machine-learning/coursera/week6/notes.md)
+    * [bias vs. variance](posts/machine-learning/bias-variance.md)
 * 排序算法
   * [基数排序（radix sort）](posts/sort-algorithm/radix-sort.md)
 * [电影](dian-ying.md)
@@ -88,4 +90,7 @@
 * [pointers-on-c](posts/pointers-on-c/charpt6.md)
 * Computer Science
   * [Stack and Heap](posts/computer-science/stack-heap.md)
+* [C Plus Plus](posts/cplusplus/notes.md)
+  * [Polymorphism](posts/cplusplus/polymorphism.md)
+* [cnn](posts/cnn/notes.md)
 
