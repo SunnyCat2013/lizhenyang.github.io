@@ -50,6 +50,22 @@
 
 ![high-variance](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vqlG7t9uEeaizBK307J26A_3e3e9f42b5e3ce9e3466a0416c4368ee_ITu3antfEeam4BLcQYZr8Q_37fe6be97e7b0740d1871ba99d4c2ed9_300px-Learning1.png?expiry=1539388800000&hmac=g9z14eSTayikqkZmDGxRqrS0g3KyAqBDK1xspHb3nZo)
 
+
+# Deciding What to Do Next Revisited
+
+## Fixes high variance
+1. 加入更多数据
+2. 使用更少的特征
+3. 增大惩罚系数
+
+## Fixes high bias
+1. 加入更多特征
+2. （使用原有特征）加入更多多项式特征
+3. 减少惩罚系数
+
+
+
+
 # 参考
 https://www.coursera.org/learn/machine-learning/supplement/81vp0/diagnosing-bias-vs-variance
 https://www.cnblogs.com/ooon/p/5711516.html
