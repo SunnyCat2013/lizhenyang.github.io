@@ -20,6 +20,7 @@
   * [LSTM](posts/torch/LSTM.md)
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
   * [CTC 学习笔记](posts/ctc/learning-ctc.md)
+  * [yolo](posts/yolo/notes.md)
 * [latex](latex.md)
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
