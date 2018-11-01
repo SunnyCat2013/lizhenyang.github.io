@@ -7,10 +7,21 @@ Ray Dalio:
     - How the Economic Machine Works; A Template for Understanding What is Happening Now
     - A Template For Understanding Big Debt Crises
 《断层线》，前任印度央行行长 Raghuram Rajan
+
+《UNIX 环境高级编程》
 # 在读
 《杀死一只知更鸟》
 《太空漫游四部曲》
 猿人不能接受使用工具，感觉现代人也不能很快接受更高级生物的知识。
+
+《C 和指针》
+最近读了 
+第六章、
+
+感觉这个书，在写 C 代码时期读会非常有帮助，讲到了很多细节和不同实现的方法的对比。
+如，用指针操作数组有时候会优于下标。
+但是，如果不写 C 代码的时候看，就有点分散自己的精力了。
+所以最近不打算再看这个了。
 
 # 读过
 
