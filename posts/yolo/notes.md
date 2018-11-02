@@ -9,3 +9,7 @@ $$
 
 https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36
 https://arxiv.org/pdf/1506.02640.pdf
+https://medium.com/@chenchoulo/yolo-%E4%BB%8B%E7%B4%B9-4307e79524fe
+https://stackoverflow.com/questions/49535301/understanding-the-loss-function-in-yolo-v1-research-paper
+https://stats.stackexchange.com/questions/287486/yolo-loss-function-explanation
+https://www.kaggle.com/kmader/component-labeling-with-yolo-and-pretraining
