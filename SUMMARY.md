@@ -21,6 +21,7 @@
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
   * [CTC 学习笔记](posts/ctc/learning-ctc.md)
   * [yolo](posts/yolo/notes.md)
+  * [object-detection-nms](posts/nms/test_nms.md)
 * [latex](latex.md)
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
