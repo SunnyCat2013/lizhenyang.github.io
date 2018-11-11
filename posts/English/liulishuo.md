@@ -1,4 +1,6 @@
 # 流利说学习笔记
+- If she can't be here, we can set up a conference call.
+
 
 # reunion
 - He agreed to do it because her mother had offered to come and stay for a while so that jessica could attend the reunion
