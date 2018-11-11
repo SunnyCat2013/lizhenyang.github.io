@@ -1,5 +1,7 @@
 # 流利说学习笔记
 - If she can't be here, we can set up a conference call.
+- We use thermometers like this to measure temperature.
+
 
 
 # reunion
