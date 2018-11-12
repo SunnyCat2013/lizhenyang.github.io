@@ -3,3 +3,4 @@
 *.md~
 *.gitignore~
 posts/xgboost/demo
+*.xcodeproj
