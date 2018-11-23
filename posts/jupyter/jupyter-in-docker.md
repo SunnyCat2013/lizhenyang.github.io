@@ -1,4 +1,4 @@
-# 在 docker 中运行 jupyter
+# 在 docker 中运行 jupyter，并在本机上打开网页
 
  - docker run
  ```
