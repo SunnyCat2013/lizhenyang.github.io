@@ -76,6 +76,7 @@
   * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
   * [903.valid-permutations-for-di-sequence.md](posts/leetcode/903.valid-permutations-for-di-sequence.md)
   * [219.Contains-Duplicate-II.md](posts/leetcode/219.Contains-Duplicate-II.md)
+  * [406.Queue Reconstruction by Height](posts/leetcode/406.queue-reconstruction-by-height.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * [Coursera](coursera.md)
