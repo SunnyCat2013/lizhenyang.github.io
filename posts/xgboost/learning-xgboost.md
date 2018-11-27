@@ -72,7 +72,7 @@ This is how xgboost can support custom loss functions. 这个从 obj 到 custom 
 
 # 番外
 
-!\[decision tree\]\('./dt-pro-con.md'\)  
+!\[decision tree\]\(./dt-pro-con.png)  
 缺点是，它只能按照坐标轴划分，不能有斜线，不能有曲线。  
 如果要实现相同的斜线或者曲线，需要非常复杂的划分。看上图。
 
