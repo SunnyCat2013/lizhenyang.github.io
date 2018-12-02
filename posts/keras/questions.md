@@ -7,3 +7,9 @@
     model.compile(loss={'ctc': lambda y_true, y_pred: y_pred}, optimizer=sgd)
 ```
 因为在 ctc 中计算了损失函数，所以，就使用了一个 lambda 函数来表示损失了。
+
+# list
+
+
+
+
