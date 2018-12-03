@@ -99,4 +99,5 @@
 * [C Plus Plus](posts/cplusplus/notes.md)
   * [Polymorphism](posts/cplusplus/polymorphism.md)
 * [cnn](posts/cnn/notes.md)
+* [Photography](posts/photography/notes.md)
 
