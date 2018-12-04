@@ -28,3 +28,10 @@
 # Great Photo are MAKE, not TAKEN
 
 ![Great Photo are MADE, not TAKEN](./Great-Photo-are-MADE.png)
+
+
+# [Top 10 Composition Tips - Photography Course Pt 3](https://www.youtube.com/watch?v=5V4uuNdmRHc&index=3&list=PLG3eOzJfQr2e2OD4W0GmcSpO5oZ-c5FIu)
+
+1. Horizontal Horizons 保持地平线水平
+2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
+![Rule of Thirds](./Rule-of-Thirds.png)
