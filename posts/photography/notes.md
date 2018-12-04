@@ -35,3 +35,5 @@
 1. Horizontal Horizons 保持地平线水平
 2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
 ![Rule of Thirds](./Rule-of-Thirds.png)
+
+> Good Composition beats trying to 'fit everything in'.
