@@ -64,4 +64,5 @@
 ![Check your Backgrounds](./Check-your-Backgrounds.png)
 
 这个很好理解，不要让无关的背景分散照片的焦点。
-比如
+比如 ![elephant](./elephant.png)
+但是，背景影响画面的情况还挺多的。
