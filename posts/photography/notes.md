@@ -50,3 +50,11 @@
     <img src="./coast-far.png">
     <img src="./coast-nearly.png">
 </figure>
+
+
+这两幅图，单看第一个远景，我还挺喜欢的。但是看了第二个，我觉得那个树影让我很有亲切感。
+我猜想，是这个树把观看照片的人代入到了拍摄时的情景当中。会让人看到之后想“哦，这有个树。嗯，那拍摄者就站在这里喽（指着照片和自己眼前这片地）。”
+<figure class="half">
+    <img src="./sunset-far.png">
+    <img src="./sunset-near.png">
+</figure>
