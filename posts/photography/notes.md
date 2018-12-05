@@ -1,7 +1,7 @@
 想学习摄影，其实是想提高自己的审美能力。
 或者说，发现欣赏美的角度。
 
-> 照片就是个媒介，通过它展现你想要表达的信息。
+> 照片就是个媒介，通过它展现你想要表达的信息。不同的照片，想要表达的信息量和信息是不一样的。一幅好的照片，能传递给人的感觉是什么样的呢？这些都需要艺术家来把握。
 
 # [Photography Basic & Getting Off 'Auto' - Photography Course Pt 2](https://www.youtube.com/watch?v=My1Z2_e4EPI&index=2&list=PLG3eOzJfQr2e2OD4W0GmcSpO5oZ-c5FIu&pbjreload=10) 摆脱单反的“自动”模式
 
