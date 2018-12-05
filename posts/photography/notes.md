@@ -37,3 +37,14 @@
 ![Rule of Thirds](./Rule-of-Thirds.png)
 
 > Good Composition beats trying to 'fit everything in'.
+
+3. Framing 取景
+
+取景是有意在画面里面添加一些内容，来增加照片的层次感和一些其它的东西。
+
+如果拍一些比较远的地方的，有一些参照的话，可以让画面不至于太漂。
+
+<figure class="half">
+    <img src="./coast-far.png">
+    <img src="./coast-nearly.png">
+</figure>
