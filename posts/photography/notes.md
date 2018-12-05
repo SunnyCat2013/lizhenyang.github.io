@@ -58,3 +58,10 @@
     <img src="./sunset-far.png">
     <img src="./sunset-near.png">
 </figure>
+
+4. Check your Backgrounds!
+
+![Check your Backgrounds](./Check-your-Backgrounds.png)
+
+这个很好理解，不要让无关的背景分散照片的焦点。
+比如
