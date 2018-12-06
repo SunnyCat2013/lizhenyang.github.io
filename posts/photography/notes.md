@@ -1,6 +1,8 @@
 想学习摄影，其实是想提高自己的审美能力。
 或者说，发现欣赏美的角度。
 
+> 照片就是个媒介，通过它展现你想要表达的信息。不同的照片，想要表达的信息量和信息是不一样的。一幅好的照片，能传递给人的感觉是什么样的呢？这些都需要艺术家来把握。
+
 # [Photography Basic & Getting Off 'Auto' - Photography Course Pt 2](https://www.youtube.com/watch?v=My1Z2_e4EPI&index=2&list=PLG3eOzJfQr2e2OD4W0GmcSpO5oZ-c5FIu&pbjreload=10) 摆脱单反的“自动”模式
 
 ## 相机分类
@@ -64,4 +66,24 @@
 ![Check your Backgrounds](./Check-your-Backgrounds.png)
 
 这个很好理解，不要让无关的背景分散照片的焦点。
-比如
+比如 ![elephant](./elephant.png)
+大象远侧的观光车就在影响观者的注意力了。
+
+但是，背景影响画面的情况还挺多的。
+狮子的黄色和背景的黄色草原混在一起，不太容易引起视觉的反差。以天空为背景就好很多了。
+虽然在我这个直男的眼里差不多。。。
+<figure class="half">
+    <img src="./lion-back-yellow.png">
+    <img src="./lion-back-blue.png">
+</figure>
+
+接着看一些其它的例子，感受一下：
+<figure class="some-cases">
+    <img src="./birds-one.png">
+    <img src="./birds-two.png">
+    <img src="./birds-three.png">
+</figure>
+<figure class="some-cases">
+    <img src="./ant-one.png">
+    <img src="./ant-two.png">
+</figure>
