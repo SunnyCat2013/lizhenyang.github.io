@@ -67,4 +67,10 @@
 
 这个很好理解，不要让无关的背景分散照片的焦点。
 比如 ![elephant](./elephant.png)
+大象远侧的观光车就在影响观者的注意力了。
+
 但是，背景影响画面的情况还挺多的。
+<figure class="half">
+    <img src="./lion-back-yellow.png">
+    <img src="./lion-back-blue.png">
+</figure>
