@@ -82,6 +82,8 @@
     <img src="./birds-one.png">
     <img src="./birds-two.png">
     <img src="./birds-three.png">
+</figure>
+<figure class="some-cases">
     <img src="./ant-one.png">
     <img src="./ant-two.png">
 </figure>
