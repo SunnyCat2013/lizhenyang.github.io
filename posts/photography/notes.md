@@ -76,3 +76,12 @@
     <img src="./lion-back-yellow.png">
     <img src="./lion-back-blue.png">
 </figure>
+
+接着看一些其它的例子，感受一下：
+<figure class="some-cases">
+    <img src="./birds-one.png">
+    <img src="./birds-two.png">
+    <img src="./birds-three.png">
+    <img src="./ant-one.png">
+    <img src="./ant-two.png">
+</figure>
