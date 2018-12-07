@@ -95,10 +95,26 @@
 
 有时候为了让构图更加紧凑，就要尽量让目标事物填充画面。
 但是，如果把太多无关的东西放在画面里面，就会分散观看者的注意力，降低照片的表现力。
+如下图，主要是想显示出鲸鱼。小船是为了使鲸鱼的大小有一个对比，同时增加了画面的故事性（偶遇鲸鱼也是一件很有意思的事情吧）。
 <figure class="some-cases">
     <img src="./whale-not-fill-much.png">
-    <img src="./ant-two.png">
+    <img src="./whale-fill-much-better.png">
 </figure>
+
+下面第二幅讲述的内容是潜水遇到一个海星。第一幅有点分散，她拿了袋子。。是在偷海星么。。
+<figure class="some-cases">
+    <img src="./underwater-distracting.png">
+    <img src="./underwater.png">
+</figure>
+
+
+<figure class="some-cases">
+    <img src="./woman-and-fish.png">
+    <img src="./fish.png">
+</figure>
+
+大象的头也没必要拍全。
+![elephant head](./elephant-head.png)
 
 
 # 个人理解
