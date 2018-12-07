@@ -7,7 +7,16 @@ MFCC 是包络的前几个主要成分吗？
 
 # Learing list
 - [ ] Complex Number
-- [ ] Fourier Transform
+- [ ] Fourier Transform (https://www.youtube.com/watch?v=spUNpyF58BY)
+How ubiquitous this idea is
+measure the air pressure? 这个说法很有意思。声波的觉传播形式就是改变空气的局部气压。
+
+equilibrium
+
+麦克风只是拾取了一个各种声音的最终叠加值。
+
+The key idea is gonna be to take this graph, and sort of wrap it up around a circle.
+
 - [ ] Fast Fourier Transform
 
 # 参考
