@@ -17,6 +17,9 @@ equilibrium
 
 The key idea is gonna be to take this graph, and sort of wrap it up around a circle.
 
+3:00
+Concretely, here's what I mean by that. Imaging a rotating vector where each point in time, it's length is equal to the height of our graph for that time. So high points of the graph correspond to a greater distance from the origin.
+
 - [ ] Fast Fourier Transform
 
 # 参考
