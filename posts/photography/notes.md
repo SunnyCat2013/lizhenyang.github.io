@@ -87,3 +87,11 @@
     <img src="./ant-one.png">
     <img src="./ant-two.png">
 </figure>
+
+5. Fill the Frame
+
+
+# 个人理解
+> 4 和 5 都是为了减少那些分散注意力的东西
+
+$$内容呈现力 = \frac{要表达的内容}{图片里包含的内容}$$
