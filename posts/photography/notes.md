@@ -88,10 +88,23 @@
     <img src="./ant-two.png">
 </figure>
 
-5. Fill the Frame
+5. Fill the Frame 让主要目标填充画幅
+
+![Fill-the-Frame](./Fill-the-Frame.png)
+> Sometime, pictures could do it being cropped in a little bit tighter
+
+有时候为了让构图更加紧凑，就要尽量让目标事物填充画面。
+但是，如果把太多无关的东西放在画面里面，就会分散观看者的注意力，降低照片的表现力。
+<figure class="some-cases">
+    <img src="./whale-not-fill-much.png">
+    <img src="./ant-two.png">
+</figure>
 
 
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
 
 $$内容呈现力 = \frac{要表达的内容}{图片里包含的内容}$$
+
+那么对图像来说，就要平衡增多要表达的内容，减少无关内容的关系。
+因为减少的越多，相关要表达的内容可能就越少。
