@@ -19,6 +19,10 @@ The key idea is gonna be to take this graph, and sort of wrap it up around a cir
 
 3:00
 Concretely, here's what I mean by that. Imaging a rotating vector where each point in time, it's length is equal to the height of our graph for that time. So high points of the graph correspond to a greater distance from the origin.
+And lower points end up closer to the origin.
+
+5:09 As we change the frequency, and the graph winds up differently.
+降低频率之后，每个单周期的圈就会变宽。
 
 - [ ] Fast Fourier Transform
 
