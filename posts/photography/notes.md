@@ -116,6 +116,14 @@
 大象的头也没必要拍全。
 ![elephant head](./elephant-head.png)
 
+# 6. Leading lines
+这个线自然引导人们去看无处的人，再由无处的人的目光看到彩虹。
+这个引导线就非常牛。
+![ship rainbow](./ship-rainbow.png)
+
+> Tips: Make sure it comes in through the corner of your shot。即从相框边角的引导线，更有效。虽然还是不太明白。。。
+
+![leading line from corner](./leading-line-from-corner.png)
 
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
