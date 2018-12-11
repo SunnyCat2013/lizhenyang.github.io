@@ -34,13 +34,13 @@
 
 # [Top 10 Composition Tips - Photography Course Pt 3](https://www.youtube.com/watch?v=5V4uuNdmRHc&index=3&list=PLG3eOzJfQr2e2OD4W0GmcSpO5oZ-c5FIu)
 
-1. Horizontal Horizons 保持地平线水平
-2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
+# 1. Horizontal Horizons 保持地平线水平
+# 2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
 ![Rule of Thirds](./Rule-of-Thirds.png)
 
 > Good Composition beats trying to 'fit everything in'.
 
-3. Framing 取景
+# 3. Framing 取景
 
 取景是有意在画面里面添加一些内容，来增加照片的层次感和一些其它的东西。
 
@@ -61,7 +61,7 @@
     <img src="./sunset-near.png">
 </figure>
 
-4. Check your Backgrounds!
+# 4. Check your Backgrounds!
 
 ![Check your Backgrounds](./Check-your-Backgrounds.png)
 
@@ -88,7 +88,7 @@
     <img src="./ant-two.png">
 </figure>
 
-5. Fill the Frame 让主要目标填充画幅
+# 5. Fill the Frame 让主要目标填充画幅
 
 ![Fill-the-Frame](./Fill-the-Frame.png)
 > Sometime, pictures could do it being cropped in a little bit tighter
