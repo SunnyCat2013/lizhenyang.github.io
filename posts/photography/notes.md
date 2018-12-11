@@ -34,13 +34,13 @@
 
 # [Top 10 Composition Tips - Photography Course Pt 3](https://www.youtube.com/watch?v=5V4uuNdmRHc&index=3&list=PLG3eOzJfQr2e2OD4W0GmcSpO5oZ-c5FIu)
 
-1. Horizontal Horizons 保持地平线水平
-2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
+# 1. Horizontal Horizons 保持地平线水平
+# 2. Rule of Thirds 目标物体三分之一准责。把目标放在图片中间会显得有点怪怪的，不如放在左边或者右边三分之一处。感觉有点找黄金分隔点的意思。
 ![Rule of Thirds](./Rule-of-Thirds.png)
 
 > Good Composition beats trying to 'fit everything in'.
 
-3. Framing 取景
+# 3. Framing 取景
 
 取景是有意在画面里面添加一些内容，来增加照片的层次感和一些其它的东西。
 
@@ -61,7 +61,7 @@
     <img src="./sunset-near.png">
 </figure>
 
-4. Check your Backgrounds!
+# 4. Check your Backgrounds!
 
 ![Check your Backgrounds](./Check-your-Backgrounds.png)
 
@@ -88,7 +88,7 @@
     <img src="./ant-two.png">
 </figure>
 
-5. Fill the Frame 让主要目标填充画幅
+# 5. Fill the Frame 让主要目标填充画幅
 
 ![Fill-the-Frame](./Fill-the-Frame.png)
 > Sometime, pictures could do it being cropped in a little bit tighter
@@ -116,7 +116,31 @@
 大象的头也没必要拍全。
 ![elephant head](./elephant-head.png)
 
+# 6. Leading lines
+这个线自然引导人们去看无处的人，再由无处的人的目光看到彩虹。
+这个引导线就非常牛。
+![ship rainbow](./ship-rainbow.png)
 
+> Tips: Make sure it comes in through the corner of your shot。即从相框边角的引导线，更有效。虽然还是不太明白。。。
+
+![leading line from corner](./leading-line-from-corner.png)
+
+# 7. Anything but Eye-level & Get at the Same level as your Subject
+这个标题的意思应该是，要从不一样的角度去拍摄。
+但是对于你要拍摄的一些事物，如一个小狗、小孩、小动物，可能和他们同一个水平面上拍摄会更好。
+
+我们对日常事情可能习以为常，但是换一些高度、角度再来看待一些事情，可能会有更新奇的发现。
+
+下面这个角度让，我想起了大学时候的一个摄影老师。
+有次实践课，老师给我们示范拍摄，他就趴在地上拍。我们当时觉得有趣，大家都在拍老师。
+![bottom to top](./bottom-top.png)
+
+
+下面这两个说明对待拍摄对象的角度应该在同一水平面上。
+<figure class="some-cases">
+    <img src="./lizard-ud.png">
+    <img src="./lizard-hon.png">
+</figure>
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
 
