@@ -125,14 +125,22 @@
 
 ![leading line from corner](./leading-line-from-corner.png)
 
-# 7. Anything but Eye-level
+# 7. Anything but Eye-level & Get at the Same level as your Subject
 这个标题的意思应该是，要从不一样的角度去拍摄。
+但是对于你要拍摄的一些事物，如一个小狗、小孩、小动物，可能和他们同一个水平面上拍摄会更好。
+
 我们对日常事情可能习以为常，但是换一些高度、角度再来看待一些事情，可能会有更新奇的发现。
 
 下面这个角度让，我想起了大学时候的一个摄影老师。
 有次实践课，老师给我们示范拍摄，他就趴在地上拍。我们当时觉得有趣，大家都在拍老师。
 ![bottom to top](./bottom-top.png)
 
+
+下面这两个说明对待拍摄对象的角度应该在同一水平面上。
+<figure class="some-cases">
+    <img src="./lizard-ud.png">
+    <img src="./lizard-hon.png">
+</figure>
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
 
