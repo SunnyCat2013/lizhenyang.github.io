@@ -155,12 +155,15 @@
 羽毛的色彩
 ![feather's color](./feather.png)
 
-9. Take Vertical Photos too!
+# 9. Take Vertical Photos too!
 
 水平照，体现了“会当凌绝顶，一览众山小”的广阔画面。竖直照则表达的是山势的高耸。
 ![horizontal](./horizontal.png)
 ![vertical](./vertical.png)
 
+# 10. Break the Rules!
+这个就是说，要学会打破规则。一千个人眼里有一千个哈姆雷特。
+艺术就是仁者见仁，智者见智；萝卜白菜，各有所爱。你的照片，你喜欢，你喜欢的人喜欢，就可以了。
 
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
