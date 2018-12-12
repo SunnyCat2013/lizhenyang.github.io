@@ -152,7 +152,14 @@
     <img src="./mountain-in-eye.png">
 </figure>
 
+羽毛的色彩
 ![feather's color](./feather.png)
+
+9. Take Vertical Photos too!
+
+水平照，体现了“会当凌绝顶，一览众山小”的广阔画面。竖直照则表达的是山势的高耸。
+![horizontal](./horizontal.png)
+![vertical](./vertical.png)
 
 
 # 个人理解
