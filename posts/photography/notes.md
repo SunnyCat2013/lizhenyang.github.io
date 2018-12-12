@@ -138,8 +138,9 @@
 
 下面这两个说明对待拍摄对象的角度应该在同一水平面上。
 <figure class="some-cases">
-    <img src="./lizard-ud.png">
-    <img src="./lizard-hon.png">
+    <img src="./geckos-ud.png">
+    <img src="./geckos-hon.png">
+    <img src="./geckos-third.png">
 </figure>
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
