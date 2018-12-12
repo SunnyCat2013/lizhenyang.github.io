@@ -142,6 +142,19 @@
     <img src="./geckos-hon.png">
     <img src="./geckos-third.png">
 </figure>
+
+# 8. Look for Details
+寻找不一样的细节。
+
+下面这两个可以从说明细节带来的新奇体验。这两个图不能评价优劣，只是观察角度和要讲述的故事不一样。
+<figure class="some-cases">
+    <img src="./mountain.png">
+    <img src="./mountain-in-eye.png">
+</figure>
+
+![feather's color](./feather.png)
+
+
 # 个人理解
 > 4 和 5 都是为了减少那些分散注意力的东西
 
