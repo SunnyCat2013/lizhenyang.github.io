@@ -30,3 +30,12 @@ P 模式被称为摄影师的 Auto 模式。其中 AE 应该是指的 Aperture �
   - Flash Settings
   - White Balance
   - ISO Sensitivity
+
+- A (Aperture-priority Mode)
+A 模式，为光圈先决模式。自己设定光圈，相机根据光圈值，生成快门数据。
+
+
+
+# 参考
+
+https://www.techbang.com/posts/4993-basic-photography-classes-novice-p-a-s-m-shooting-mode-first-get-to-know
