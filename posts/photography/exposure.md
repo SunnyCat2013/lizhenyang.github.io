@@ -34,7 +34,11 @@ P 模式被称为摄影师的 Auto 模式。其中 AE 应该是指的 Aperture �
 - A (Aperture-priority Mode)
 A 模式，为光圈先决模式。自己设定光圈，相机根据光圈值，生成快门数据。
 
+- S (Shutter-priority Mode)
+S 模式，手动调节快门，相机决定光圈。
 
+- M (Manual Mode)
+光圈和曝光都手动调节。
 
 # 参考
 
