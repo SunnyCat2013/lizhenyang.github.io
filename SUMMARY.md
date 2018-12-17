@@ -100,4 +100,5 @@
   * [Polymorphism](posts/cplusplus/polymorphism.md)
 * [cnn](posts/cnn/notes.md)
 * [Photography](posts/photography/notes.md)
+  * [exposure](posts/photography/exposure.md)
 
