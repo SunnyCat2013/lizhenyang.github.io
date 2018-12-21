@@ -25,6 +25,29 @@ def solution(data):
     return imax
 
 
+# https://leetcode.com/problems/partition-equal-subset-sum/submissions/
+def solution2(data):
+    lmax = max(data, key = lambda x: x[1])[1] 
+    table = [True] + [False] * lmax
+
+    data.sort(cmp = lambda a, b: a[1] - b[1])
+    dic = {}
+    nums = []
+    for h, a, c in data:
+        dic[h] = a
+        nums += [h] * c
+
+    imax = 0
+    for i in range(len(nums)):
+        for j in range(dic[nums[i]], nums[i] - 1, -1):
+            table[j] = table[j] or table[j - nums[i]]
+            if table[j]:
+                imax = max(imax, j)
+
+    return imax
+
+
+
 def main():
     for i in range(11):
         file_name = '1239/test%d.in' % i
@@ -44,7 +67,8 @@ def main():
             out = int(inf.read())
 
         
-        res = solution(data)
+        # res = solution(data)
+        res = solution2(data)
         print 'out:', res, 'ans:', out, res == out
 
 main()
