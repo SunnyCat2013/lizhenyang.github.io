@@ -12,6 +12,14 @@ Ray Dalio:
 
 《午夜将至》
 《秦迷》
+
+## [5 books I loved in 2018](https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2018)
+Educated, by Tara Westover
+Army of None, by Paul Scharre
+Bad Blood, by John Carreyrou
+21 Lessons for the 21st Century
+The Headspace Guide to Meditation and Mindfulness
+
 # 在读
 《杀死一只知更鸟》
 《太空漫游四部曲》
