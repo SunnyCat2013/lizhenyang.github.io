@@ -11,3 +11,5 @@
 然后就是，大多数训练对于有关较强的基础力量的人来说，更有效。
 
 
+
+deadlift https://www.youtube.com/watch?v=ytGaGIn3SjE
