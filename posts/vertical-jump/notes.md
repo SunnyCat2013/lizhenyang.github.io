@@ -13,3 +13,5 @@
 
 
 deadlift https://www.youtube.com/watch?v=ytGaGIn3SjE
+
+vertical jump https://www.wikihow.com/Increase-Your-Vertical-Leap
