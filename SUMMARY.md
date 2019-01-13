@@ -12,9 +12,10 @@
   * [numpy](posts/python/learn-numpy.md)
 * Machine Learning
   * [The Method of Least Squares](posts/least-square/learning-least-square.md)
-* 学外语
+* [学外语](xue-wai-yu.md)
   * English
     * [流利说](posts/English/liulishuo.md)
+    * [Essay](posts/English/essay-weekly.md)
 * [机器学习杂记](ji-qi-xue-xi-za-ji.md)
   * [socket.error](posts/torch/shared-memory.md)
   * [LSTM](posts/torch/LSTM.md)
