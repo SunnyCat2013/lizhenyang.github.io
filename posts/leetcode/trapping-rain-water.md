@@ -28,3 +28,23 @@ class Solution(object):
 
         return res
 ```
+
+```
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        res = 0
+        h = height[0]
+        for i in range(n):
+            h = max(h, height[i])
+            if h > height[i]:
+                continue
+            for j in range(i + 1, n):
+                res = max(res, (j - i) * min(height[i], height[j]))
+
+        return res
+```
