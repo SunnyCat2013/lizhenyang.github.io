@@ -111,3 +111,44 @@ class Solution(object):
 
         return res
 ```
+
+## Using stack, much better
+
+```
+class Solution(object):
+    def trap(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        if n < 3:
+            return 0
+
+        lmax = height[0]
+        stack = [height.pop(0)]
+
+        res = 0
+        for h in height:
+            if h <= lmax:
+                stack.append(h)
+                continue
+            while len(stack) > 1:
+                rh = stack.pop()
+                res += lmax - rh
+            stack = [h]
+            lmax = h
+
+        if len(stack) < 3:
+            return res
+
+        stack = stack[::-1]
+
+        rmax = stack.pop(0)
+        for h in stack:
+            res += max(0, rmax - h)
+            rmax = max(rmax, h)
+
+        return res
+
+```
