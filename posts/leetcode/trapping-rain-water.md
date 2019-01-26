@@ -48,3 +48,66 @@ class Solution(object):
 
         return res
 ```
+
+# 42. Trapping Rain Water
+
+## Brute Force
+
+```
+# 10992 ms, faster than 0.81% of Python
+class Solution(object):
+    def trap(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        if n < 3:
+            return 0
+
+        res = 0
+        for i in range(1, n - 1):
+            left_max = height[i]
+            right_max = height[i]
+            for j in range(i):
+                left_max = max(left_max, height[j])
+
+            for j in range(i + 1, n):
+                right_max = max(right_max, height[j])
+
+            res += max(0, min(left_max, right_max) - height[i])
+
+        return res
+```
+## Dynamic Programming
+
+```
+# 64ms, faster than 20.97%
+class Solution(object):
+    def trap(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        if n < 3:
+            return 0
+
+        res = 0
+        left = []
+        right = []
+        lmax = 0
+        for h in height:
+            lmax = max(lmax, h)
+            left.append(lmax)
+
+        rmax = 0
+        for h in height[::-1]:
+            rmax = max(rmax, h)
+            right.insert(0, rmax)
+
+        for i in range(1, n - 1):
+            res += max(0, min(left[i], right[i]) - height[i])
+
+        return res
+```
