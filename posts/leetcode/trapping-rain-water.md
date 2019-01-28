@@ -115,6 +115,7 @@ class Solution(object):
 ## Using stack, much better
 
 ```
+# 28 ms, faster than 82.26%
 class Solution(object):
     def trap(self, height):
         """
