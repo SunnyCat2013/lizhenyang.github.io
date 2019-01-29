@@ -49,6 +49,38 @@ class Solution(object):
         return res
 ```
 
+改进一点，去掉无用的 heights。
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2RfZQV9XTx0XqDPk2AEVCqvtOvuCSeS6-FMKQcE9FZ6TdIUuew
+
+```
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        res = 0
+        forward = [0]
+
+        for i in range(1, n):
+            if height[i] > height[forward[-1]]:
+                forward.append(i)
+
+        backward = [n - 1]
+        for i in range(n - 2, -1, -1):
+            if height[i] > height[backward[0]]:
+                backward.insert(0, i)
+
+        for i in forward:
+            for j in backward:
+                if i < j:
+                    res = max(res, (j - i) * min(height[i], height[j]))
+
+        return res
+```
+
 # 42. Trapping Rain Water
 
 ## Brute Force
