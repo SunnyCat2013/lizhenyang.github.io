@@ -81,6 +81,34 @@ class Solution(object):
         return res
 ```
 
+## Two pointer
+昨天回家，在梦里想到了这个的 O(n) 解法，感觉好神奇。。。
+
+```
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        res = 0
+
+        left = 0
+        right = n - 1
+
+        while left < right:
+            res = max(res, (right - left) * min(height[left], height[right]))
+
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -= 1
+
+        return res
+```
+
+
 # 42. Trapping Rain Water
 
 ## Brute Force
