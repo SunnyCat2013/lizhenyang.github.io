@@ -49,6 +49,66 @@ class Solution(object):
         return res
 ```
 
+改进一点，去掉无用的 heights。
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2RfZQV9XTx0XqDPk2AEVCqvtOvuCSeS6-FMKQcE9FZ6TdIUuew
+
+```
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        res = 0
+        forward = [0]
+
+        for i in range(1, n):
+            if height[i] > height[forward[-1]]:
+                forward.append(i)
+
+        backward = [n - 1]
+        for i in range(n - 2, -1, -1):
+            if height[i] > height[backward[0]]:
+                backward.insert(0, i)
+
+        for i in forward:
+            for j in backward:
+                if i < j:
+                    res = max(res, (j - i) * min(height[i], height[j]))
+
+        return res
+```
+
+## Two pointer
+昨天回家，在梦里想到了这个的 O(n) 解法，感觉好神奇。。。
+
+```
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
+        n = len(height)
+        res = 0
+
+        left = 0
+        right = n - 1
+
+        while left < right:
+            res = max(res, (right - left) * min(height[left], height[right]))
+
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -= 1
+
+        return res
+```
+
+
 # 42. Trapping Rain Water
 
 ## Brute Force
@@ -152,4 +212,33 @@ class Solution(object):
 
         return res
 
+```
+
+# 238. Product of Array Except Self
+
+```
+# O(n)
+
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+
+        backward = [nums[-1]]
+        for i in range(n - 2, -1, -1):
+            backward.insert(0, nums[i] * backward[0])
+
+        res = [backward[1]]
+
+        pre = nums[0]
+        for i in range(1, n - 1):
+            res.append(pre * backward[i + 1])
+            pre *= nums[i]
+
+        res.append(pre)
+
+        return res
 ```
