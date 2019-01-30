@@ -213,3 +213,32 @@ class Solution(object):
         return res
 
 ```
+
+# 238. Product of Array Except Self
+
+```
+# O(n)
+
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+
+        backward = [nums[-1]]
+        for i in range(n - 2, -1, -1):
+            backward.insert(0, nums[i] * backward[0])
+
+        res = [backward[1]]
+
+        pre = nums[0]
+        for i in range(1, n - 1):
+            res.append(pre * backward[i + 1])
+            pre *= nums[i]
+
+        res.append(pre)
+
+        return res
+```
