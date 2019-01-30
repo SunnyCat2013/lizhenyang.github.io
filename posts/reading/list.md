@@ -1,4 +1,13 @@
 # 准备读
+
+《浮生六记》
+
+《三体》
+
+《李白诗集》
+
+《人间词话》
+
 https://hobbylark.com/fandoms/Getting-into-Comics-A-Beginners-Guide-to-Marvel
 《Cracking the Coding Interview》
 
