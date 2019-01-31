@@ -218,7 +218,7 @@ class Solution(object):
 
 ```
 # O(n)
-
+# 856ms
 class Solution(object):
     def productExceptSelf(self, nums):
         """
@@ -241,4 +241,36 @@ class Solution(object):
         res.append(pre)
 
         return res
+
+## insert method is time consuming!
+
+# 92ms
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        if not nums:
+            return []
+        n = len(nums)
+
+        backward = [0] * n
+        p = 1
+        for i in range(n - 1, -1, -1):
+            p = p * nums[i]
+            backward[i] = p
+
+
+        pre = nums[0]
+        backward[0] = backward[1]
+        for i in range(1, n - 1):
+            backward[i] = pre * backward[i + 1]
+            pre *= nums[i]
+
+
+        backward[-1] = pre
+
+        return backward
+
 ```
