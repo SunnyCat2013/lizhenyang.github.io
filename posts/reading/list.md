@@ -32,6 +32,9 @@ Bad Blood, by John Carreyrou
 The Headspace Guide to Meditation and Mindfulness
 
 # 在读
+《孤身绝壁》
+《基督山伯爵》
+《Life 3.0》
 《光荣与梦想》
 《太空漫游四部曲》
 猿人不能接受使用工具，感觉现代人也不能很快接受更高级生物的知识。
