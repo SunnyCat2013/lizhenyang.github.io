@@ -38,5 +38,21 @@ avoid mediating disputes.
 一个基于密码学的验证系统可以很好地替代信任模式。
 
 保护交易双方的方式如下：
+1. 通过计算的不可逆性，防止诈骗，保护商家（也就是说，计算能力一旦突破，就得重新更新算法）
+2. routine escrow mechanisms（不知道怎么翻译）保护消费者
 > Transactions that are computationally impractical to reverse would protect sellers
 from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. 
+
+
+这个文章的方案：
+为了解决传统的两方都要付出代价的交易模式，作者提出了一种 p2p 的解决方案。
+这种方案使用一种 p2p 的带有时间戳的分布式服务器，产生一种验证交易先后顺序的计算出来的证明。
+
+> In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. 
+
+
+保证这种系统安全的条件：
+可信任的计算机结点控制的 CPU 计算能力大于不可信任的计算机结点的计算能力。
+
+## 2. Transactions
+
