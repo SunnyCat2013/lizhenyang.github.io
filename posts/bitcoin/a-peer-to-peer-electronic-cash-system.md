@@ -83,3 +83,18 @@ double-spend 是一钱两花的意思？
 前面区块的 Hash 值与当前的区块，又可以给下次区块的交易提供新的 Hash 值。这样便形成了区块链。
 
 ## 4. Proof-of-Work
+实现一个结点之间平等的时间戳服务系统。
+> To implement a distributed timestamp server on a peer-to-peer basis,
+
+## 5. Network
+
+## 6. Incentive
+区块的第一个交易都获得一个新的货币。那么，一个区块多大呢？
+> The first transaction in a block is a special transaction that starts a new coin owned by the creator of the block.
+
+奖励机制可以让有更多 CPU 的一方在为系统服务时，获利更多。
+如果拥有更多的 CPU 去伪造前面的交易记录所获得的 bitcoin 要小于它为系统服务所获得的新的 bitcoin，那么它主动去攻击系统的意愿就不大。
+
+## 7. Reclaiming Disk Space
+
+## 8. Simplified Payment Verification
