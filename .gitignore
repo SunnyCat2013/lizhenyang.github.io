@@ -4,3 +4,4 @@
 *.gitignore~
 posts/xgboost/demo
 *.xcodeproj
+.ipynb_checkpoints
