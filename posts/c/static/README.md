@@ -24,3 +24,7 @@ int main(void) {
     return 0;
 }
 ```
+
+
+# Reference
+> https://www.geeksforgeeks.org/static-variables-in-c/
