@@ -37,3 +37,5 @@ https://www.svm-tutorial.com/2017/02/svms-overview-support-vector-machines/
 $$
 a \dot b = ||a|| \dot ||b|| \cos \theta = x_1 * x_2 + y_1 * y_2
 $$
+
+4. 最后把点到直线的距离变成直线法向量和点的向量之间的关系。
