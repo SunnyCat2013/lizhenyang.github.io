@@ -9,3 +9,30 @@
 
 # 参考
 https://www.svm-tutorial.com/2017/02/svms-overview-support-vector-machines/
+
+## The margin
+1. 支持向量机的目标是找分隔平面
+ - 支持向量机是什么
+ - 支持向量的作用是什么
+ - 什么时分隔平面
+ - 如何找最优超平面 
+ 
+
+2. 分隔平面要在训练数据上表面良好，同时要有良好的泛化能力
+
+## Calculate the margine
+
+1. 向量运算
+ - 向量的方向和模
+ - 加减
+ - 点乘
+ - 映射
+
+2. 计算 margine
+ - 超平面公式
+ - 计算 间隔
+
+3. dot product 定义了 \theta 和 (x_1，y_1)，(x_2, y_2) 之间的关系
+$$
+a \dot b = ||a|| \dot ||b|| \cos \theta = x_1 * x_2 + y_1 * y_2
+$$
