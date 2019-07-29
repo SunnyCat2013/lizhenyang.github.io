@@ -33,6 +33,7 @@ https://www.svm-tutorial.com/2017/02/svms-overview-support-vector-machines/
  - 计算 间隔
 
 3. dot product 定义了 \theta 和 (x_1，y_1)，(x_2, y_2) 之间的关系
+这样在知道两个向量的定义的时候，就能算出来它们之间的夹角
 $$
 a \dot b = ||a|| \dot ||b|| \cos \theta = x_1 * x_2 + y_1 * y_2
 $$
