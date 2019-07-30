@@ -1,4 +1,8 @@
 # 流利说学习笔记
+- If she can't be here, we can set up a conference call.
+- We use thermometers like this to measure temperature.
+- The freezing point of water is 0 degrees Celsius.
+
 
 # reunion
 - He agreed to do it because her mother had offered to come and stay for a while so that jessica could attend the reunion

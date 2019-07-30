@@ -12,14 +12,17 @@
   * [numpy](posts/python/learn-numpy.md)
 * Machine Learning
   * [The Method of Least Squares](posts/least-square/learning-least-square.md)
-* 学外语
+* [学外语](xue-wai-yu.md)
   * English
     * [流利说](posts/English/liulishuo.md)
+    * [Essay](posts/English/essay-weekly.md)
 * [机器学习杂记](ji-qi-xue-xi-za-ji.md)
   * [socket.error](posts/torch/shared-memory.md)
   * [LSTM](posts/torch/LSTM.md)
   * [深度学习的演化历史](posts/reading/deep-learning/deep-learning.md)
   * [CTC 学习笔记](posts/ctc/learning-ctc.md)
+  * [yolo](posts/yolo/notes.md)
+  * [object-detection-nms](posts/nms/test_nms.md)
 * [latex](latex.md)
   * [katex](posts/latex/mathematical-formula.md)
 * SQLite
@@ -55,7 +58,7 @@
 * Docker
   * [读 《Docker in action》](posts/docker/docker-in-action.md)
   * [Docker 常用命令](posts/docker/docker-commands.md)
-* svm
+* [svm](posts/svm/notes.md)
   * [Linear Programming](posts/svm/linear-programming.md)
 * [leetcode](leetcode.md)
   * [137.single\_number\_II.md](posts/leetcode/137.single_number_II.md)
@@ -69,17 +72,22 @@
     * [897.increasing-order-search-tree.md](posts/leetcode/mistakes/897.increasing-order-search-tree.md)
     * [3.longest-substring-without-repeating-characters.md](posts/leetcode/mistakes/3.longest-substring-without-repeating-characters.md)
     * [6.zigzag-conversion.md](posts/leetcode/mistakes/6.zigzag-conversion.md)
+    * [256.paint-house](posts/leetcode/mistakes/256.paint-house.md)
   * [894.all-possible-full-binary-trees](posts/leetcode/894.all-possible-full-binary-trees.md)
   * [896.monotonic-array.md](posts/leetcode/896.monotonic-array.md)
   * [903.valid-permutations-for-di-sequence.md](posts/leetcode/903.valid-permutations-for-di-sequence.md)
+  * [219.Contains-Duplicate-II.md](posts/leetcode/219.Contains-Duplicate-II.md)
+  * [406.Queue Reconstruction by Height](posts/leetcode/406.queue-reconstruction-by-height.md)
+  * [159.Longest Substring with At Most Two Distinct Characters](posts/leetcode/159.longest-substring-with-at-most-two-distinct-characters.md)
 * [读闲书](du-xian-shu.md)
   * [读书清单](posts/reading/list.md)
 * [Coursera](coursera.md)
-  * 机器学习-Andrew Ng
+  * [机器学习-Andrew Ng](posts/machine-learning/coursera/notes.md)
     * [week 2](posts/machine-learning/coursera/week2/week2.md)
     * [week 3](posts/machine-learning/coursera/week3/notes.md)
-    * week 4
+    * [week 4](posts/machine-learning/coursera/week2/week-4.md)
     * [week 6](posts/machine-learning/coursera/week6/notes.md)
+    * [bias vs. variance](posts/machine-learning/bias-variance.md)
 * 排序算法
   * [基数排序（radix sort）](posts/sort-algorithm/radix-sort.md)
 * [电影](dian-ying.md)
@@ -89,6 +97,9 @@
 * [pointers-on-c](posts/pointers-on-c/charpt6.md)
 * Computer Science
   * [Stack and Heap](posts/computer-science/stack-heap.md)
-* [C Plus Plus](c-plus-plus.md)
+* [C Plus Plus](posts/cplusplus/notes.md)
   * [Polymorphism](posts/cplusplus/polymorphism.md)
+* [cnn](posts/cnn/notes.md)
+* [Photography](posts/photography/notes.md)
+  * [exposure](posts/photography/exposure.md)
 
