@@ -47,3 +47,8 @@ $$
 2. 怎么找到最大的间隔呢？
  - 一个数据集
  - 找到两个超平面，使所有的数据都不在这两个平面里面
+
+## Uncontrained minimization
+
+> Definition:  "the gradient is a generalization of the usual concept of derivative of a function in one dimension to a function in several dimensions" (Wikipedia)
+导数是一个一维的概念，放在多维空间里，就叫 梯度 了。
