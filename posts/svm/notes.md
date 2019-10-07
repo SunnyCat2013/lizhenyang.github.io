@@ -9,3 +9,46 @@
 
 # 参考
 https://www.svm-tutorial.com/2017/02/svms-overview-support-vector-machines/
+
+## The margin
+1. 支持向量机的目标是找分隔平面
+ - 支持向量机是什么
+ - 支持向量的作用是什么
+ - 什么时分隔平面
+ - 如何找最优超平面 
+ 
+
+2. 分隔平面要在训练数据上表面良好，同时要有良好的泛化能力
+
+## Calculate the margine
+
+1. 向量运算
+ - 向量的方向和模
+ - 加减
+ - 点乘
+ - 映射
+
+2. 计算 margine
+ - 超平面公式
+ - 计算 间隔
+
+3. dot product 定义了 \theta 和 (x_1，y_1)，(x_2, y_2) 之间的关系
+这样在知道两个向量的定义的时候，就能算出来它们之间的夹角
+$$
+a \dot b = ||a|| \dot ||b|| \cos \theta = x_1 * x_2 + y_1 * y_2
+$$
+
+4. 最后把点到直线的距离变成直线法向量和点的向量之间的关系。
+
+## Understanding the math - the optimal hyperplane
+1. 找到最大间隔平面等价于找到最优超平面
+
+
+2. 怎么找到最大的间隔呢？
+ - 一个数据集
+ - 找到两个超平面，使所有的数据都不在这两个平面里面
+
+## Uncontrained minimization
+
+> Definition:  "the gradient is a generalization of the usual concept of derivative of a function in one dimension to a function in several dimensions" (Wikipedia)
+导数是一个一维的概念，放在多维空间里，就叫 梯度 了。
