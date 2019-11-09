@@ -1,6 +1,11 @@
 \documentclass{article}
 \usepackage{ctex}
+\usepackage{amsfonts}
 
+\usepackage[all]{background}
+\backgroundsetup{contents=Draft/CY\_TEC,color=blue,opacity=0.3,scale=10}
+\usepackage{amsmath}
+\newtheorem{bl}{Bezou's Lemma 定理}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -12,15 +17,50 @@
 \urlstyle{same}
 
 \title{Bezout's Lemma 学习笔记}
-\author{Li Zhenyang \thanks{lizhenyang\_2008@163.com}}
-\date{November 2019}
+%\author{Li Zhenyang \thanks{lizhenyang\_2008@163.com}}
+\date{9, November 2019}
 \begin{document}
    \maketitle
    \section{Bezout's Lemma 是什么？}
+   \begin{bl}
+       $\alpha, \beta \in \mathbb{Z}, \alpha, \beta \ne 0$。
+       如果 $d_0 = gcd(\alpha, \beta)$
+       $\alpha x + \beta y = d_0$ 有无穷多的解。且 $d_0 = min\{\alpha x + \beta y| \alpha, \beta \in \mathbb{Z}\}$。
+       如果 $\alpha, \beta$ 互质（$\alpha \bot \beta$），那么 $\alpha x + \beta y = 1$ 有解。
+       
+   \end{bl}
    
    \section{证明}
-   \section{泛化}
-   \section{一些思考}
+   如果 $\alpha \ \beta$ 中有一个为 0，比如 $\alpha = 0$，则 $gcd(0, \beta) = \beta$，那么 $ \alpha x + \beta y =  0 * x + \beta y = d_0 = \beta$。
+   此时等式的解$(\forall x,  y = 1)$。
+
+   当 $\alpha \ \beta$ 均不为 0，设 $A=\{\alpha x + \beta y;(x;y) \in \mathbb{Z}^2\}$。
+
+   首先证明 $minA = gcd(\alpha, \beta)$。假设 $minA = d_0 = \alpha x_0 + \beta y_0 $。
+   $A$ 中任意一个正元素 $p=\alpha x_1 + \beta y_1$。
+   有 
+   $$
+   p = q * d_0 + r, q \in \mathbb{Z}^+, r \in [0, d_0)
+   $$
+   $$
+   r = p - q * d_0 = \alpha x_1 + \beta y_1 - q * (\alpha x_0 + \beta y_0) = \alpha (x_1 - q * x_0) + \beta (y_1 - q * y_0) \in A
+   $$
+   因为 $r \in [0, d_0) \land r \in A$ ，即 $r$ 属于 $A$ 且不是 $A$ 的最小正整数，那么 $r = 0$。
+   则 $d_0 | p$ ，即任意的  $p \in A$ 可以被 $minA = d_0$ 整除。
+   可以推出 $d_0 | \alpha, d_0 | \beta$，因为 $\alpha, \beta \in A$。
+   因此，$ d_0$ 是 $\alpha, \beta $ 的公因数。
+   另一方面，对于 $\alpha, \beta $ 的任意公因数$d, \alpha = kd, \beta = ld$，
+   $$
+   d_0 = \alpha x_0 + \beta y_0 = (k x_0 + l y_0) d
+   $$
+   因此 $d | d_0$，所以，$d_0$ 是 $\alpha, \beta$ 的最大公因数。
+
+   这时候，我们来构造一组方程的解 
+   $$
+   \{(x_0 + \frac{k\beta}{d}, y_0 - \frac{k\alpha}{d}) | k \in \mathbb{Z}\}
+   $$
+   知方程有无穷解。
    \section{References} 
    \url{https://artofproblemsolving.com/wiki/index.php/Bezout\%27s\_Lemma}
+   \url{https://zh.wikipedia.org/wiki/%E8%B2%9D%E7%A5%96%E7%AD%89%E5%BC%8F}
 \end{document}
