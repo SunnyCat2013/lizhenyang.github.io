@@ -1,10 +1,10 @@
 \documentclass{article}
 \usepackage{ctex}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \title{AUC 学习笔记}
-\author{Li Zhenyang}
+\author{Li Zhenyang\thanks{lizhenyang\_2008@163.com}}
 \date{October 2019}
-\email{lizhenyang\_2008@163.com}
 \begin{document}
    \maketitle
    \section{AUC 是什么？}
@@ -13,7 +13,7 @@
    \section{一些思考}
    根据 [模型评估指标AUC（area under the curve）](https://blog.csdn.net/liweibin1994/article/details/79462554) 这个文章里面的一个图，AUC 可以被认为是正负样本分布的重合程度。重合程度越高，AUC 越大。当正负样本分布较接近时，AUC 接近 0.5。
    \begin{figure}[h]
-       \includegraphics[width=0.8\textwidth]{auc-and-distribution.png}
+       \includegraphics[width=0.8\textwidth]{threshold-auc.png}
        \label{auc-and-distribution}
        \caption{auc-and-distribution}
    \end{figure}
@@ -23,4 +23,7 @@
 
     \section{References} 
      https://tracholar.github.io/machine-learning/2018/01/26/auc.html 这里面解释概率的部分，写的不错。
+     \url{https://www.dataschool.io/roc-curves-and-auc-explained/}
+     \url{https://people.inf.elte.hu/kiss/13dwhdm/roc.pdf}
+     \url{http://www.navan.name/roc/} 不同阈值下的 tpr/fpr 演示。
 \end{document}
