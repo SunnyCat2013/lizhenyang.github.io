@@ -1,29 +1,43 @@
 \documentclass{article}
 \usepackage{ctex}
 \usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{amsmath}
 \usepackage{hyperref}
-\title{AUC 学习笔记}
+%\title{AUC 学习笔记}
 \author{Li Zhenyang\thanks{lizhenyang\_2008@163.com}}
-\date{October 2019}
+\date{November 2019}
 \begin{document}
    \maketitle
-   \section{AUC 是什么？}
    \section{举个例子}
+    看图\ref{auc-and-distribution} 当设置一个阈值的时候，右边都被认为是 positive ，左边是 negtive 。那么 
+    $$
+    AUC = \int_{t=0}^{t=1} \frac{N_{l=1, s > t}}{N_{l=1}} d\frac{N_{l=0, s > t}}{N_{l=0}}
+    $$
+
+    详细的讲，阈值 $t$ 从零到壹，每一个阈值都会有一个对应的数值对（$\frac{N_{l=1, s > t}}{N_{l=1}}, \frac{N_{l=0, s > t}}{N_{l=0}}$）。根据图示理解起来的话，就是(正样本在阈值右边的面积比上正样本全部的面积，负样本右边的面积比上负样本全部的面积)。
+    无论正样本负样本，都是阈值右边的面积比上当前样本的全部面积。
+
+\begin{comment}
+   \section{AUC 是什么？}
    \section{计算代码}
    \section{一些思考}
    根据 [模型评估指标AUC（area under the curve）](https://blog.csdn.net/liweibin1994/article/details/79462554) 这个文章里面的一个图，AUC 可以被认为是正负样本分布的重合程度。重合程度越高，AUC 越大。当正负样本分布较接近时，AUC 接近 0.5。
+\end{comment}
    \begin{figure}[h]
        \includegraphics[width=0.8\textwidth]{threshold-auc.png}
-       \label{auc-and-distribution}
        \caption{auc-and-distribution}
+       \label{auc-and-distribution}
    \end{figure}
 
 
    参考图 \ref{auc-and-distribution}，AUC 其实就是竖线右边的部分占篮红区域的比例。
 
     \section{References} 
-     https://tracholar.github.io/machine-learning/2018/01/26/auc.html 这里面解释概率的部分，写的不错。
-     \url{https://www.dataschool.io/roc-curves-and-auc-explained/}
-     \url{https://people.inf.elte.hu/kiss/13dwhdm/roc.pdf}
-     \url{http://www.navan.name/roc/} 不同阈值下的 tpr/fpr 演示。
+        \begin{itemize}
+            \item https://tracholar.github.io/machine-learning/2018/01/26/auc.html 这里面解释概率的部分，写的不错。
+             \item \url{https://www.dataschool.io/roc-curves-and-auc-explained/}
+             \item \url{https://people.inf.elte.hu/kiss/13dwhdm/roc.pdf}
+             \item \url{http://www.navan.name/roc/} 不同阈值下的 tpr/fpr 演示。
+        \end{itemize}
 \end{document}
