@@ -1,4 +1,67 @@
 # week 45 (2019.11.17 - 2019.11.23)
+## 1263. Minimum Moves to Move a Box to Their Target Location
+Storekeeper is a game, in which the player pushes boxes around in a warehouse, trying to get them to target locations.
+
+The game is represented by a grid of size n*m, where each element is a wall, floor or a box.
+
+Your task is move the box 'B' to the target position 'T' under the following rules:
+
+Player is represented by character 'S' and can move up, down, left, right in the grid if its a floor (empy cell).
+Floor is represented by character '.' that means free cell to walk.
+Wall is represented by character '#' that means obstacle  (impossible to walk there).
+There is only one box 'B' and one target cell 'T' in the grid.
+The box can be moved to an adjacent free cell by standing next to the box and then moving in the direction of the box. This is a push.
+The player cannot walk through the box.
+Return the minimum number of pushes to move the box to the target. If there is no way to reach the target, return -1.
+
+Example 1:
+
+![1263](./img/1263_1.png)
+
+Input: grid = [["#","#","#","#","#","#"],
+               ["#","T","#","#","#","#"],
+               ["#",".",".","B",".","#"],
+               ["#",".","#","#",".","#"],
+               ["#",".",".",".","S","#"],
+               ["#","#","#","#","#","#"]]
+Output: 3
+Explanation: We return only the number of times the box is pushed.
+
+Example 2:
+
+Input: grid = [["#","#","#","#","#","#"],
+               ["#","T","#","#","#","#"],
+               ["#",".",".","B",".","#"],
+               ["#","#","#","#",".","#"],
+               ["#",".",".",".","S","#"],
+               ["#","#","#","#","#","#"]]
+Output: -1
+
+Example 3:
+
+Input: grid = [["#","#","#","#","#","#"],
+               ["#","T",".",".","#","#"],
+               ["#",".","#","B",".","#"],
+               ["#",".",".",".",".","#"],
+               ["#",".",".",".","S","#"],
+               ["#","#","#","#","#","#"]]
+Output: 5
+Explanation:  push the box down, left, left, up and up.
+
+Example 4:
+
+Input: grid = [["#","#","#","#","#","#","#"],
+               ["#","S","#",".","B","T","#"],
+               ["#","#","#","#","#","#","#"]]
+Output: -1
+
+
+Constraints:
+
+1 <= grid.length <= 20
+1 <= grid[i].length <= 20
+grid contains only characters '.', '#',  'S' , 'T', or 'B'.
+There is only one character 'S', 'B' and 'T' in the grid.
 
 ## 1259. Handshakes That Don't Cross
 You are given an even number of people num_people that stand around a circle and each person shakes hands with someone else, so that there are num_people / 2 handshakes total.
@@ -43,7 +106,7 @@ num_people % 2 == 0
 
 ## 1258. Synonymous Sentences
 Given a list of pairs of equivalent words synonyms and a sentence text, Return all possible synonymous sentences sorted lexicographically.
- 
+
 
 Example 1:
 
@@ -57,7 +120,7 @@ Output:
 "I am happy today but was sorrow yesterday",
 "I am joy today but was sad yesterday",
 "I am joy today but was sorrow yesterday"]
- 
+
 
 Constraints:
 
@@ -79,7 +142,7 @@ If you are given regions r1, r2 and r3 such that r1 includes r3, it is guarantee
 
 It's guaranteed the smallest region exists.
 
- 
+
 
 Example 1:
 
@@ -92,7 +155,7 @@ regions = [["Earth","North America","South America"],
 region1 = "Quebec",
 region2 = "New York"
 Output: "North America"
- 
+
 
 Constraints:
 
@@ -114,7 +177,7 @@ Example 2:
 
 Input: num = 107
 Output: "101100"
- 
+
 
 Constraints:
 
@@ -128,7 +191,7 @@ Return the maximum score of any valid set of words formed by using the given let
 
 It is not necessary to use all characters in letters and each letter can only be used once. Score of letters 'a', 'b', 'c', ... ,'z' is given by score[0], score[1], ... , score[25] respectively.
 
- 
+
 
 Example 1:
 
@@ -152,7 +215,7 @@ Input: words = ["leetcode"], letters = ["l","e","t","c","o","d"], score = [0,0,1
 Output: 0
 Explanation:
 Letter "e" can only be used once.
- 
+
 
 Constraints:
 
@@ -169,7 +232,7 @@ Given a 2D grid consists of 0s (land) and 1s (water).  An island is a maximal 4-
 
 Return the number of closed islands.
 
- 
+
 
 Example 1:
 ![1254_1](./img/1254_1.png)
@@ -177,7 +240,7 @@ Example 1:
 
 Input: grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
 Output: 2
-Explanation: 
+Explanation:
 Islands in gray are closed because they are completely surrounded by water (group of 1s).
 
 Example 2:
@@ -196,7 +259,7 @@ Input: grid = [[1,1,1,1,1,1,1],
                [1,0,0,0,0,0,1],
                [1,1,1,1,1,1,1]]
 Output: 2
- 
+
 
 Constraints:
 
@@ -218,7 +281,7 @@ If there are more than one valid solution, any of them will be accepted.
 
 If no valid solution exists, return an empty 2-D array.
 
- 
+
 
 Example 1:
 
@@ -233,7 +296,7 @@ Example 3:
 
 Input: upper = 5, lower = 5, colsum = [2,1,2,0,1,0,1,2,0,1]
 Output: [[1,1,1,0,1,0,0,1,0,0],[1,0,1,0,0,0,1,1,0,1]]
- 
+
 
 Constraints:
 
@@ -246,7 +309,7 @@ Given n and m which are the dimensions of a matrix initialized by zeros and give
 
 Return the number of cells with odd values in the matrix after applying the increment to all indices.
 
- 
+
 
 Example 1:
 ![1252_1](./img/1252_1.png)
@@ -264,7 +327,7 @@ Example 2:
 Input: n = 2, m = 2, indices = [[1,1],[0,0]]
 Output: 0
 Explanation: Final matrix = [[2,2],[2,2]]. There is no odd number in the final matrix.
- 
+
 
 Constraints:
 
