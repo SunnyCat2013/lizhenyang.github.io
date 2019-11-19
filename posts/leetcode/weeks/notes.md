@@ -1,5 +1,37 @@
 # week 45 (2019.11.17 - 2019.11.23)
 
+## 1262. Greatest Sum Divisible by Three
+Given an array nums of integers, we need to find the maximum possible sum of elements of the array such that it is divisible by three.
+
+ 
+
+Example 1:
+
+Input: nums = [3,6,5,1,8]
+Output: 18
+Explanation: Pick numbers 3, 6, 1 and 8 their sum is 18 (maximum sum divisible by 3).
+Example 2:
+
+Input: nums = [4]
+Output: 0
+Explanation: Since 4 is not divisible by 3, do not pick any number.
+Example 3:
+
+Input: nums = [1,2,3,4,4]
+Output: 12
+Explanation: Pick numbers 1, 3, 4 and 4 their sum is 12 (maximum sum divisible by 3).
+ 
+
+Constraints:
+
+1 <= nums.length <= 4 * 10^4
+1 <= nums[i] <= 10^4
+
+### 理解
+给定一个数组，最大可能的可以被 3 整除的加和。
+这是个动态规划吧？
+每个元素加入还是不加入，都转向一个状态。
+
 ## 1259. Handshakes That Don't Cross
 You are given an even number of people num_people that stand around a circle and each person shakes hands with someone else, so that there are num_people / 2 handshakes total.
 
@@ -39,7 +71,8 @@ Constraints:
 
 2 <= num_people <= 1000
 num_people % 2 == 0
-
+### 理解
+一个凸多边开任意两个结点连结的可能情况数。要求连接线不能有相交的情况。
 
 ## 1258. Synonymous Sentences
 Given a list of pairs of equivalent words synonyms and a sentence text, Return all possible synonymous sentences sorted lexicographically.
@@ -67,6 +100,9 @@ synonyms[0] != synonyms[1]
 All words consist of at most 10 English letters only.
 text is a single space separated sentence of at most 10 words.
 
+### 理解
+同义词替换，可以产生的句子。
+（论证正确性：比如，无重复）
 
 ## 1257. Smallest Common Region
 You are given some lists of regions where the first region of each list includes all other regions in that list.
@@ -75,7 +111,7 @@ Naturally, if a region X contains another region Y then X is bigger than Y.
 
 Given two regions region1, region2, find out the smallest region that contains both of them.
 
-If you are given regions r1, r2 and r3 such that r1 includes r3, it is guaranteed there is no r2 such that r2 includes r3.
+If you are given regions r1, r2 and r3 such that r1 includes r3, it is guaranteed there is no r2 such that r2 includes r3.（r1/r2 不相交呗）
 
 It's guaranteed the smallest region exists.
 
@@ -100,6 +136,9 @@ Constraints:
 region1 != region2
 All strings consist of English letters and spaces with at most 20 letters.
 
+### 理解
+找到最小父区域
+
 ## 1256. Encode Number
 Given a non-negative integer num, Return its encoding string.
 
@@ -110,6 +149,7 @@ Example 1:
 
 Input: num = 23
 Output: "1000"
+
 Example 2:
 
 Input: num = 107
