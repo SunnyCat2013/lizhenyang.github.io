@@ -95,6 +95,122 @@ Constraints:
 这是个动态规划吧？
 每个元素加入还是不加入，都转向一个状态。
 
+### my solution
+```python
+class Solution(object):
+    def maxSumDivThree(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        
+    Explaination:
+        m0: the maximum possible sum of elements of the array such that it is divisible by three.
+        m1: the maximum possible sum of elements of the array such that it is divisible by three mod 1.
+        m2: the maximum possible sum of elements of the array such that it is divisible by three mod 2.
+        
+        then given number n, we can get new m0/m1/m2
+        """
+        m0 = 0
+        m1 = 0
+        m2 = 0
+        for n in nums:
+            m = n % 3
+            m0n, m1n, m2n = m0, m1, m2
+            
+            if m == 0:
+                m0n = m0 + n
+                m1n = m1 + n
+                m2n = m2 + n
+            elif m == 1:
+                if m2 % 3 == 2:
+                    m0n = max(m0, m2 + n)
+                m1n = max(m1, m0 + n)
+                if m1 % 3 == 1:
+                    m2n = max(m2, m1 + n)
+            elif m == 2:
+                if m1 % 3 == 1:
+                    m0n = max(m0, m1 + n)
+                if m2 % 3 == 2:
+                    m1n = max(m1, m2 + n)
+                m2n = max(m2, m0 + n)
+            m0, m1, m2 = m0n, m1n, m2n
+            
+        return m0
+            
+```
+
+## 1261. Find Elements in a Contaminated Binary Tree
+Given a binary tree with the following rules:
+
+root.val == 0
+If treeNode.val == x and treeNode.left != null, then treeNode.left.val == 2 * x + 1
+If treeNode.val == x and treeNode.right != null, then treeNode.right.val == 2 * x + 2
+Now the binary tree is contaminated, which means all treeNode.val have been changed to -1.
+
+You need to first recover the binary tree and then implement the FindElements class:
+
+FindElements(TreeNode* root) Initializes the object with a contamined binary tree, you need to recover it first.
+bool find(int target) Return if the target value exists in the recovered binary tree.
+ 
+
+Example 1:
+
+![1261_1](./img/1261_1.jpg)
+
+Input
+["FindElements","find","find"]
+[[[-1,null,-1]],[1],[2]]
+Output
+[null,false,true]
+Explanation
+FindElements findElements = new FindElements([-1,null,-1]); 
+findElements.find(1); // return False 
+findElements.find(2); // return True 
+
+Example 2:
+
+![1261_2](./img/1261_2.jpg)
+
+Input
+["FindElements","find","find","find"]
+[[[-1,-1,-1,-1,-1]],[1],[3],[5]]
+Output
+[null,true,true,false]
+Explanation
+FindElements findElements = new FindElements([-1,-1,-1,-1,-1]);
+findElements.find(1); // return True
+findElements.find(3); // return True
+findElements.find(5); // return False
+
+Example 3:
+![1261_3](./img/1261_3.jpg)
+
+
+Input
+["FindElements","find","find","find","find"]
+[[[-1,null,-1,-1,null,-1]],[2],[3],[4],[5]]
+Output
+[null,true,false,false,true]
+Explanation
+FindElements findElements = new FindElements([-1,null,-1,-1,null,-1]);
+findElements.find(2); // return True
+findElements.find(3); // return False
+findElements.find(4); // return False
+findElements.find(5); // return True
+ 
+
+Constraints:
+
+TreeNode.val == -1
+The height of the binary tree is less than or equal to 20
+The total number of nodes is between [1, 10^4]
+Total calls of find() is between [1, 10^4]
+0 <= target <= 10^6
+
+### 理解
+就是一个比较普通的树处理类。
+首先恢复，然后查找。
+
 ## 1259. Handshakes That Don't Cross
 You are given an even number of people num_people that stand around a circle and each person shakes hands with someone else, so that there are num_people / 2 handshakes total.
 
