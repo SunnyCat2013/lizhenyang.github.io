@@ -211,6 +211,57 @@ Total calls of find() is between [1, 10^4]
 就是一个比较普通的树处理类。
 首先恢复，然后查找。
 
+
+## 1260. Shift 2D Grid
+Given a 2D grid of size n * m and an integer k. You need to shift the grid k times.
+
+In one shift operation:
+
+Element at grid[i][j] becomes at grid[i][j + 1].
+Element at grid[i][m - 1] becomes at grid[i + 1][0].
+Element at grid[n - 1][m - 1] becomes at grid[0][0].
+Return the 2D grid after applying shift operation k times.
+
+ 
+ ```python
+ class Solution(object):
+    def shiftGrid(self, grid, k):
+        """
+        :type grid: List[List[int]]
+        :type k: int
+        :rtype: List[List[int]]
+        """
+        h = len(grid)
+        w = len(grid[0])
+        
+        k %= h * w
+        
+        arr = []
+        for i in range(h):
+            for j in range(w):
+                arr.append(grid[i][j])
+        
+        def reverse(arr, i, j):
+            while i < j:
+                arr[i], arr[j] = arr[j], arr[i]
+                i += 1
+                j -= 1
+        
+        reverse(arr, 0, h * w - 1)
+        reverse(arr, 0, k - 1)
+        reverse(arr, k, h * w - 1)
+        
+        
+        m = 0
+        for i in range(h):
+            for j in range(w):
+                grid[i][j] = arr[m]
+                m += 1
+        return grid
+ ```
+
+
+
 ## 1259. Handshakes That Don't Cross
 You are given an even number of people num_people that stand around a circle and each person shakes hands with someone else, so that there are num_people / 2 handshakes total.
 
@@ -357,6 +408,7 @@ Explanation:
 Score  a=1, c=9, d=5, g=3, o=2
 Given letters, we can form the words "dad" (5+1+5) and "good" (3+2+2+5) with a score of 23.
 Words "dad" and "dog" only get a score of 21.
+
 Example 2:
 
 Input: words = ["xxxz","ax","bx","cx"], letters = ["z","a","b","c","x","x","x"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]
@@ -365,6 +417,7 @@ Explanation:
 Score  a=4, b=4, c=4, x=5, z=10
 Given letters, we can form the words "ax" (4+5), "bx" (4+5) and "cx" (4+5) with a score of 27.
 Word "xxxz" only get a score of 25.
+
 Example 3:
 
 Input: words = ["leetcode"], letters = ["l","e","t","c","o","d"], score = [0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]
@@ -382,6 +435,12 @@ letters[i].length == 1
 score.length == 26
 0 <= score[i] <= 10
 words[i], letters[i] contains only lower case English letters.
+
+### 理解
+看了第三个例子，大概明白了。
+letters 并不一定和 words 里面的单词的字母完全对应。
+用一个就少一个。
+score 就是 26 个字母对应的分数。
 
 ## 1254. Number of Closed Islands
 Given a 2D grid consists of 0s (land) and 1s (water).  An island is a maximal 4-directionally connected group of 0s and a closed island is an island totally (all left, top, right, bottom) surrounded by 1s.
