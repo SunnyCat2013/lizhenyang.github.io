@@ -66,7 +66,7 @@ There is only one character 'S', 'B' and 'T' in the grid.
 ## 1262. Greatest Sum Divisible by Three
 Given an array nums of integers, we need to find the maximum possible sum of elements of the array such that it is divisible by three.
 
- 
+
 
 Example 1:
 
@@ -83,7 +83,7 @@ Example 3:
 Input: nums = [1,2,3,4,4]
 Output: 12
 Explanation: Pick numbers 1, 3, 4 and 4 their sum is 12 (maximum sum divisible by 3).
- 
+
 
 Constraints:
 
@@ -102,12 +102,12 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-        
+
     Explaination:
         m0: the maximum possible sum of elements of the array such that it is divisible by three.
         m1: the maximum possible sum of elements of the array such that it is divisible by three mod 1.
         m2: the maximum possible sum of elements of the array such that it is divisible by three mod 2.
-        
+
         then given number n, we can get new m0/m1/m2
         """
         m0 = 0
@@ -116,7 +116,7 @@ class Solution(object):
         for n in nums:
             m = n % 3
             m0n, m1n, m2n = m0, m1, m2
-            
+
             if m == 0:
                 m0n = m0 + n
                 m1n = m1 + n
@@ -134,9 +134,9 @@ class Solution(object):
                     m1n = max(m1, m2 + n)
                 m2n = max(m2, m0 + n)
             m0, m1, m2 = m0n, m1n, m2n
-            
+
         return m0
-            
+
 ```
 
 ## 1261. Find Elements in a Contaminated Binary Tree
@@ -151,7 +151,7 @@ You need to first recover the binary tree and then implement the FindElements cl
 
 FindElements(TreeNode* root) Initializes the object with a contamined binary tree, you need to recover it first.
 bool find(int target) Return if the target value exists in the recovered binary tree.
- 
+
 
 Example 1:
 
@@ -163,9 +163,9 @@ Input
 Output
 [null,false,true]
 Explanation
-FindElements findElements = new FindElements([-1,null,-1]); 
-findElements.find(1); // return False 
-findElements.find(2); // return True 
+FindElements findElements = new FindElements([-1,null,-1]);
+findElements.find(1); // return False
+findElements.find(2); // return True
 
 Example 2:
 
@@ -197,7 +197,7 @@ findElements.find(2); // return True
 findElements.find(3); // return False
 findElements.find(4); // return False
 findElements.find(5); // return True
- 
+
 
 Constraints:
 
@@ -222,7 +222,7 @@ Element at grid[i][m - 1] becomes at grid[i + 1][0].
 Element at grid[n - 1][m - 1] becomes at grid[0][0].
 Return the 2D grid after applying shift operation k times.
 
- 
+
  ```python
  class Solution(object):
     def shiftGrid(self, grid, k):
@@ -233,25 +233,25 @@ Return the 2D grid after applying shift operation k times.
         """
         h = len(grid)
         w = len(grid[0])
-        
+
         k %= h * w
-        
+
         arr = []
         for i in range(h):
             for j in range(w):
                 arr.append(grid[i][j])
-        
+
         def reverse(arr, i, j):
             while i < j:
                 arr[i], arr[j] = arr[j], arr[i]
                 i += 1
                 j -= 1
-        
+
         reverse(arr, 0, h * w - 1)
         reverse(arr, 0, k - 1)
         reverse(arr, k, h * w - 1)
-        
-        
+
+
         m = 0
         for i in range(h):
             for j in range(w):
@@ -480,6 +480,10 @@ Constraints:
 
 1 <= grid.length, grid[0].length <= 100
 0 <= grid[i][j] <=1
+
+
+### 理解
+寻找闭区间
 
 ## 1253. Reconstruct a 2-Row Binary Matrix
 Given the following details of a matrix with n columns and 2 rows :
