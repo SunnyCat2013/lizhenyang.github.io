@@ -1,3 +1,191 @@
+# week 47
+## 1278. Palindrome Partitioning III
+You are given a string s containing lowercase letters and an integer k. You need to :
+
+First, change some characters of s to other lowercase English letters.
+Then divide s into k non-empty disjoint substrings such that each substring is palindrome.
+Return the minimal number of characters that you need to change to divide the string.
+
+ 
+
+Example 1:
+
+Input: s = "abc", k = 2
+Output: 1 
+
+Explanation: You can split the string into "ab" and "c", and change 1 character in "ab" to make it palindrome.
+
+Example 2:
+
+Input: s = "aabbc", k = 3
+Output: 0
+
+Explanation: You can split the string into "aa", "bb" and "c", all of them are palindrome.
+
+Example 3:
+
+Input: s = "leetcode", k = 8
+Output: 0
+ 
+
+Constraints:
+
+1 <= k <= s.length <= 100.
+s only contains lowercase English letters.
+
+## 5277. Count Square Submatrices with All Ones
+Example 1:
+
+Input: matrix =
+[
+  [0,1,1,1],
+  [1,1,1,1],
+  [0,1,1,1]
+]
+Output: 15
+Explanation: 
+There are 10 squares of side 1.
+There are 4 squares of side 2.
+There is  1 square of side 3.
+Total number of squares = 10 + 4 + 1 = 15.
+Example 2:
+
+Input: matrix = 
+[
+  [1,0,1],
+  [1,1,0],
+  [1,1,0]
+]
+Output: 7
+Explanation: 
+There are 6 squares of side 1.  
+There is 1 square of side 2. 
+Total number of squares = 6 + 1 = 7.
+ 
+
+Constraints:
+
+1 <= arr.length <= 300
+1 <= arr[0].length <= 300
+0 <= arr[i][j] <= 1
+
+### 理解
+这个就是算不为零的子矩阵。
+
+## 1274. Number of Ships in a Rectangle
+(This problem is an interactive problem.)
+
+On the sea represented by a cartesian plane, each ship is located at an integer point, and each integer point may contain at most 1 ship.
+
+You have a function Sea.hasShips(topRight, bottomLeft) which takes two points as arguments and returns true if and only if there is at least one ship in the rectangle represented by the two points, including on the boundary.
+
+Given two points, which are the top right and bottom left corners of a rectangle, return the number of ships present in that rectangle.  It is guaranteed that there are at most 10 ships in that rectangle.
+
+Submissions making more than 400 calls to hasShips will be judged Wrong Answer.  Also, any solutions that attempt to circumvent the judge will result in disqualification.
+
+ 
+
+Example :
+
+![1274](./img/1274_1.png)
+
+Input: 
+ships = [[1,1],[2,2],[3,3],[5,5]], topRight = [4,4], bottomLeft = [0,0]
+Output: 3
+Explanation: From [0,0] to [4,4] we can count 3 ships within the range.
+ 
+
+Constraints:
+
+On the input ships is only given to initialize the map internally. You must solve this problem "blindfolded". In other words, you must find the answer using the given hasShips API, without knowing the ships position.
+0 <= bottomLeft[0] <= topRight[0] <= 1000
+0 <= bottomLeft[1] <= topRight[1] <= 1000
+
+
+### 理解
+Sea.hasShips 可以判断有没有船，然后让我们来算有多少个船。
+二分吗？
+
+## 1273. Delete Tree Nodes
+
+The number of nodes is nodes;
+The value of the i-th node is value[i];
+The parent of the i-th node is parent[i].
+Remove every subtree whose sum of values of nodes is zero.
+
+After doing so, return the number of nodes remaining in the tree.
+
+ 
+
+Example 1:
+
+![](./img/1273_1.png)
+
+Input: nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-1]
+Output: 2
+ 
+
+Constraints:
+
+1 <= nodes <= 10^4
+-10^5 <= value[i] <= 10^5
+parent.length == nodes
+parent[0] == -1 which indicates that 0 is the root.
+
+### 理解
+返回和为零的子树。
+
+## 1272. Remove Interval
+ 
+Given a sorted list of disjoint intervals, each interval intervals[i] = [a, b] represents the set of real numbers x such that a <= x < b.
+
+We remove the intersections between any interval in intervals and the interval toBeRemoved.
+
+Return a sorted list of intervals after all such removals.
+
+ 
+
+Example 1:
+
+Input: intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
+Output: [[0,1],[6,7]]
+Example 2:
+
+Input: intervals = [[0,5]], toBeRemoved = [2,3]
+Output: [[0,2],[3,5]]
+ 
+
+Constraints:
+
+1 <= intervals.length <= 10^4
+-10^9 <= intervals[i][0] < intervals[i][1] <= 10^9
+
+### 理解
+1. 删除交集
+2. 删除给定的区间
+
+## 1271. Hexspeak
+
+A decimal number can be converted to its Hexspeak representation by first converting it to an uppercase hexadecimal string, then replacing all occurrences of the digit 0 with the letter O, and the digit 1 with the letter I.  Such a representation is valid if and only if it consists only of the letters in the set {"A", "B", "C", "D", "E", "F", "I", "O"}.
+
+Given a string num representing a decimal integer N, return the Hexspeak representation of N if it is valid, otherwise return "ERROR".
+
+ 
+
+Example 1:
+
+Input: num = "257"
+Output: "IOI"
+Explanation:  257 is 101 in hexadecimal.
+Example 2:
+
+Input: num = "3"
+Output: "ERROR"
+
+### 理解
+转成十六进制，且只能包含 {"A", "B", "C", "D", "E", "F", "I", "O"}。其中  "I", "O" 代表一和零。
+
+
 # week 45 (2019.11.17 - 2019.11.23)
 ## 1263. Minimum Moves to Move a Box to Their Target Location
 Storekeeper is a game, in which the player pushes boxes around in a warehouse, trying to get them to target locations.
@@ -522,6 +710,9 @@ Constraints:
 1 <= colsum.length <= 10^5
 0 <= upper, lower <= colsum.length
 0 <= colsum[i] <= 2
+
+### 理解
+这个就是数独吧
 
 ## 1252. Cells with Odd Values in a Matrix
 Given n and m which are the dimensions of a matrix initialized by zeros and given an array indices where indices[i] = [ri, ci]. For each pair of [ri, ci] you have to increment all cells in row ri and column ci by 1.
