@@ -1,3 +1,93 @@
+# week 49
+## 5282. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
+User Accepted:0
+User Tried:0
+Total Accepted:0
+Total Submissions:0
+Difficulty:Hard
+Given a m x n binary matrix mat. In one step, you can choose one cell and flip it and all the four neighbours of it if they exist (Flip is changing 1 to 0 and 0 to 1). A pair of cells are called neighboors if they share one edge.
+
+Return the minimum number of steps required to convert mat to a zero matrix or -1 if you cannot.
+
+Binary matrix is a matrix with all cells equal to 0 or 1 only.
+
+Zero matrix is a matrix with all cells equal to 0.
+
+ 
+
+Example 1:
+
+![5282](./img/5282_1.png)
+
+Input: mat = [[0,0],[0,1]]
+Output: 3
+Explanation: One possible solution is to flip (1, 0) then (0, 1) and finally (1, 1) as shown.
+
+Example 2:
+
+Input: mat = [[0]]
+Output: 0
+Explanation: Given matrix is a zero matrix. We don't need to change it.
+Example 3:
+
+Input: mat = [[1,1,1],[1,0,1],[0,0,0]]
+Output: 6
+Example 4:
+
+Input: mat = [[1,0,0],[1,0,0]]
+Output: -1
+Explanation: Given matrix can't be a zero matrix
+ 
+
+Constraints:
+
+m == mat.length
+n == mat[0].length
+1 <= m <= 3
+1 <= n <= 3
+mat[i][j] is 0 or 1.
+
+### 理解
+反转成 0 矩阵
+
+## 5281. Find the Smallest Divisor Given a Threshold
+Given an array of integers nums and an integer threshold, we will choose a positive integer divisor and divide all the array by it and sum the result of the division. Find the smallest divisor such that the result mentioned above is less than or equal to threshold.
+
+Each result of division is rounded to the nearest integer greater than or equal to that element. (For example: 7/3 = 3 and 10/2 = 5).
+
+It is guaranteed that there will be an answer.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,5,9], threshold = 6
+Output: 5
+Explanation: We can get a sum to 17 (1+2+5+9) if the divisor is 1. 
+If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2). 
+Example 2:
+
+Input: nums = [2,3,5,7,11], threshold = 11
+Output: 3
+Example 3:
+
+Input: nums = [19], threshold = 5
+Output: 4
+ 
+
+Constraints:
+
+1 <= nums.length <= 5 * 10^4
+1 <= nums[i] <= 10^6
+nums.length <= threshold <= 10^6
+
+### 理解
+
+找一个数值，使每个数字除以它的累积和小于等于阈值。
+这个数字月小约好。
+就是累积和越接近阈值约好。
+
+
 # week 47
 ## 1278. Palindrome Partitioning III
 You are given a string s containing lowercase letters and an integer k. You need to :
@@ -250,6 +340,13 @@ Constraints:
 1 <= grid[i].length <= 20
 grid contains only characters '.', '#',  'S' , 'T', or 'B'.
 There is only one character 'S', 'B' and 'T' in the grid.
+
+
+### 理解
+这个问题还真是挺复杂的，我想了几个周也没想明白。
+看了 https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/discuss/431071/Python-Straightforward-2-stage-BFS-Explained 之后，开始明白下面评论里面的一句话：`So, one fact for solving this problem is that, after a push, the person will always be at the place where the box was before that push.` 所以，只需要记录`(当前 storekeeper 的位置, 当前 box 的位置)`和下一状态的位置就行了。
+hint 2 是我没看明白。
+
 
 ## 1262. Greatest Sum Divisible by Three
 Given an array nums of integers, we need to find the maximum possible sum of elements of the array such that it is divisible by three.
