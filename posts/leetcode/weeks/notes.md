@@ -1,4 +1,79 @@
 # week 49
+## 1250. Check If It Is a Good Array
+
+Given an array nums of positive integers. Your task is to select some subset of nums, multiply each element by an integer and add all these numbers. The array is said to be good if you can obtain a sum of 1 from the array by any possible subset and multiplicand.
+
+Return True if the array is good otherwise return False.
+
+ 
+
+Example 1:
+
+Input: nums = [12,5,7,23]
+Output: true
+Explanation: Pick numbers 5 and 7.
+5\*3 + 7\*(-2) = 1
+Example 2:
+
+Input: nums = [29,6,10]
+Output: true
+Explanation: Pick numbers 29, 6 and 10.
+29\*1 + 6\*(-3) + 10*(-1) = 1
+Example 3:
+
+Input: nums = [3,6]
+Output: false
+ 
+
+Constraints:
+
+1 <= nums.length <= 10^5
+1 <= nums[i] <= 10^9
+### 理解
+这个好像有个理论，但是我忘了。。。
+
+## 1249. Minimum Remove to Make Valid Parentheses
+
+Given a string s of '(' , ')' and lowercase English characters. 
+
+Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string.
+
+Formally, a parentheses string is valid if and only if:
+
+It is the empty string, contains only lowercase characters, or
+It can be written as AB (A concatenated with B), where A and B are valid strings, or
+It can be written as (A), where A is a valid string.
+ 
+
+Example 1:
+
+Input: s = "lee(t(c)o)de)"
+Output: "lee(t(c)o)de"
+Explanation: "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+Example 2:
+
+Input: s = "a)b(c)d"
+Output: "ab(c)d"
+Example 3:
+
+Input: s = "))(("
+Output: ""
+Explanation: An empty string is also valid.
+Example 4:
+
+Input: s = "(a(b(c)d)"
+Output: "a(b(c)d)"
+ 
+
+Constraints:
+
+1 <= s.length <= 10^5
+s[i] is one of  '(' , ')' and lowercase English letters.
+
+### 理解
+括号的匹配，应该不难。
+
+
 ## 5282. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 User Accepted:0
 User Tried:0
