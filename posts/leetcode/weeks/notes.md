@@ -1,3 +1,160 @@
+# week 50
+## 1293. Shortest Path in a Grid with Obstacles Elimination
+Given a m * n grid, where each cell is either 0 (empty) or 1 (obstacle). In one step, you can move up, down, left or right from and to an empty cell.
+
+Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m-1, n-1) given that you can eliminate at most k obstacles. If it is not possible to find such walk return -1.
+
+ 
+
+Example 1:
+
+Input: 
+grid = 
+[[0,0,0],
+ [1,1,0],
+ [0,0,0],
+ [0,1,1],
+ [0,0,0]], 
+k = 1
+Output: 6
+Explanation: 
+The shortest path without eliminating any obstacle is 10. 
+The shortest path with one obstacle elimination at position (3,2) is 6. Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
+ 
+
+Example 2:
+
+Input: 
+grid = 
+[[0,1,1],
+ [1,1,1],
+ [1,0,0]], 
+k = 1
+Output: -1
+Explanation: 
+We need to eliminate at least two obstacles to find such a walk.
+ 
+
+Constraints:
+
+grid.length == m
+grid[0].length == n
+1 <= m, n <= 40
+1 <= k <= m*n
+grid[i][j] == 0 or 1
+grid[0][0] == grid[m-1][n-1] == 0
+
+### 理解
+可以消减石头的最优路径。
+
+## 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+
+Given a m x n matrix mat and an integer threshold. Return the maximum side-length of a square with a sum less than or equal to threshold or return 0 if there is no such square.
+
+ 
+
+Example 1:
+
+![1292](./img/1292_1.png)
+Input: mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4
+Output: 2
+Explanation: The maximum side length of square with sum less than 4 is 2 as shown.
+Example 2:
+
+Input: mat = [[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2]], threshold = 1
+Output: 0
+Example 3:
+
+Input: mat = [[1,1,1,1],[1,0,0,0],[1,0,0,0],[1,0,0,0]], threshold = 6
+Output: 3
+Example 4:
+
+Input: mat = [[18,70],[61,1],[25,85],[14,40],[11,96],[97,96],[63,45]], threshold = 40184
+Output: 2
+ 
+
+Constraints:
+
+1 <= m, n <= 300
+m == mat.length
+n == mat[i].length
+0 <= mat[i][j] <= 10000
+0 <= threshold <= 10^5
+
+### 理解
+找有没有一个子方阵，满足子方阵的和小于阈值。
+
+## 1291. Sequential Digits
+User Accepted:2248
+User Tried:2520
+Total Accepted:2284
+Total Submissions:4991
+Difficulty:Medium
+An integer has sequential digits if and only if each digit in the number is one more than the previous digit.
+
+Return a sorted list of all the integers in the range [low, high] inclusive that have sequential digits.
+
+ 
+
+Example 1:
+
+Input: low = 100, high = 300
+Output: [123,234]
+Example 2:
+
+Input: low = 1000, high = 13000
+Output: [1234,2345,3456,4567,5678,6789,12345]
+ 
+
+Constraints:
+
+10 <= low <= high <= 10^9
+
+### 理解
+在给定数值范围内，找出每一个数字严格递增的数值，并升序输出。
+
+## 1290. Convert Binary Number in a Linked List to Integer
+
+
+Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number.
+
+Return the decimal value of the number in the linked list.
+
+ 
+
+Example 1:
+
+
+Input: head = [1,0,1]
+Output: 5
+Explanation: (101) in base 2 = (5) in base 10
+Example 2:
+
+Input: head = [0]
+Output: 0
+Example 3:
+
+Input: head = [1]
+Output: 1
+Example 4:
+
+Input: head = [1,0,0,1,0,0,1,1,1,0,0,0,0,0,0]
+Output: 18880
+Example 5:
+
+Input: head = [0,0]
+Output: 0
+ 
+
+Constraints:
+
+The Linked List is not empty.
+Number of nodes will not exceed 30.
+Each node's value is either 0 or 1.
+
+### 理解
+二进制转十进制。
+
 # week 49
 ## 1250. Check If It Is a Good Array
 
