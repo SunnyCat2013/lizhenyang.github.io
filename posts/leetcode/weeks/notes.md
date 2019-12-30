@@ -1,3 +1,174 @@
+# week 46 (2019.11.24 - 2019.11.30)
+## 1269. Number of Ways to Stay in the Same Place After Some Steps
+You have a pointer at index 0 in an array of size arrLen. At each step, you can move 1 position to the left, 1 position to the right in the array or stay in the same place  (The pointer should not be placed outside the array at any time).
+
+Given two integers steps and arrLen, return the number of ways such that your pointer still at index 0 after exactly steps steps.
+
+Since the answer may be too large, return it modulo 10^9 + 7.
+
+
+
+Example 1:
+
+Input: steps = 3, arrLen = 2
+Output: 4
+Explanation: There are 4 differents ways to stay at index 0 after 3 steps.
+Right, Left, Stay
+Stay, Right, Left
+Right, Stay, Left
+Stay, Stay, Stay
+
+Example 2:
+
+Input: steps = 2, arrLen = 4
+Output: 2
+Explanation: There are 2 differents ways to stay at index 0 after 2 steps
+Right, Left
+Stay, Stay
+
+Example 3:
+
+Input: steps = 4, arrLen = 2
+Output: 8
+
+Constraints:
+
+1 <= steps <= 500
+1 <= arrLen <= 10^6
+
+
+### 理解
+从 0 开始，给一个步数，再走到 0 。问有多少种解法。
+感觉像是一个 m * n 的累积和啥的。
+
+## 1268. Search Suggestions System
+Given an array of strings products and a string searchWord. We want to design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with the searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.
+
+Return list of lists of the suggested products after each character of searchWord is typed.
+
+
+
+Example 1:
+
+Input: products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"
+Output: [
+["mobile","moneypot","monitor"],
+["mobile","moneypot","monitor"],
+["mouse","mousepad"],
+["mouse","mousepad"],
+["mouse","mousepad"]
+]
+Explanation: products sorted lexicographically = ["mobile","moneypot","monitor","mouse","mousepad"]
+After typing m and mo all products match and we show user ["mobile","moneypot","monitor"]
+After typing mou, mous and mouse the system suggests ["mouse","mousepad"]
+Example 2:
+
+Input: products = ["havana"], searchWord = "havana"
+Output: [["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]]
+Example 3:
+
+Input: products = ["bags","baggage","banner","box","cloths"], searchWord = "bags"
+Output: [["baggage","bags","banner"],["baggage","bags","banner"],["baggage","bags"],["bags"]]
+Example 4:
+
+Input: products = ["havana"], searchWord = "tatiana"
+Output: [[],[],[],[],[],[],[]]
+
+
+Constraints:
+
+1 <= products.length <= 1000
+1 <= Σ products[i].length <= 2 * 10^4
+All characters of products[i] are lower-case English letters.
+1 <= searchWord.length <= 1000
+All characters of searchWord are lower-case English letters.
+
+
+### 理解
+这个不就是输入法提示器么。。。
+每输入一个字母，就给出三个单词，这三个单词必须以输入为前缀。
+是使用词典树吗？
+product 中的单词如果不够长怎么办？
+
+## 1267. Count Servers that Communicate
+You are given a map of a server center, represented as a m * n integer matrix grid, where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.
+
+Return the number of servers that communicate with any other server.
+
+
+
+Example 1:
+![1267_1](./img/1267_1.jpg)
+
+
+Input: grid = [[1,0],[0,1]]
+Output: 0
+Explanation: No servers can communicate with others.
+
+Example 2:
+
+![1267_2](./img/1267_2.jpg)
+
+Input: grid = [[1,0],[1,1]]
+Output: 3
+Explanation: All three servers can communicate with at least one other server.
+
+Example 3:
+![1267_3](./img/1267_3.jpg)
+
+
+Input: grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]
+Output: 4
+Explanation: The two servers in the first row can communicate with each other. The two servers in the third column can communicate with each other. The server at right bottom corner can't communicate with any other server.
+
+
+Constraints:
+
+m == grid.length
+n == grid[i].length
+1 <= m <= 250
+1 <= n <= 250
+grid[i][j] == 0 or 1
+
+## 理解
+一个电脑，与任意一个电脑同在一行或者一列，记数加一。
+
+## 1266. Minimum Time Visiting All Points
+
+On a plane there are n points with integer coordinates points[i] = [xi, yi]. Your task is to find the minimum time in seconds to visit all points.
+
+You can move according to the next rules:
+
+In one second always you can either move vertically, horizontally by one unit or diagonally (it means to move one unit vertically and one unit horizontally in one second).
+You have to visit the points in the same order as they appear in the array.
+
+
+Example 1:
+
+![1266](./img/1266_1.png)
+Input: points = [[1,1],[3,4],[-1,0]]
+Output: 7
+Explanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   
+Time from [1,1] to [3,4] = 3 seconds
+Time from [3,4] to [-1,0] = 4 seconds
+Total time = 7 seconds
+Example 2:
+
+Input: points = [[3,2],[-2,2]]
+Output: 5
+
+
+Constraints:
+
+points.length == n
+1 <= n <= 100
+points[i].length == 2
+-1000 <= points[i][0], points[i][1] <= 1000
+
+## 理解
+这是个算术题吧。
+每次移动 x/y 差值最小的方向，斜着走，然后另外一个直着走。
+
 # week 45 (2019.11.17 - 2019.11.23)
 ## 1263. Minimum Moves to Move a Box to Their Target Location
 Storekeeper is a game, in which the player pushes boxes around in a warehouse, trying to get them to target locations.
