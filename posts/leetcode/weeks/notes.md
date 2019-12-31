@@ -169,6 +169,516 @@ points[i].length == 2
 这是个算术题吧。
 每次移动 x/y 差值最小的方向，斜着走，然后另外一个直着走。
 
+# week 50
+## 1293. Shortest Path in a Grid with Obstacles Elimination
+Given a m * n grid, where each cell is either 0 (empty) or 1 (obstacle). In one step, you can move up, down, left or right from and to an empty cell.
+
+Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m-1, n-1) given that you can eliminate at most k obstacles. If it is not possible to find such walk return -1.
+
+ 
+
+Example 1:
+
+Input: 
+grid = 
+[[0,0,0],
+ [1,1,0],
+ [0,0,0],
+ [0,1,1],
+ [0,0,0]], 
+k = 1
+Output: 6
+Explanation: 
+The shortest path without eliminating any obstacle is 10. 
+The shortest path with one obstacle elimination at position (3,2) is 6. Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
+ 
+
+Example 2:
+
+Input: 
+grid = 
+[[0,1,1],
+ [1,1,1],
+ [1,0,0]], 
+k = 1
+Output: -1
+Explanation: 
+We need to eliminate at least two obstacles to find such a walk.
+ 
+
+Constraints:
+
+grid.length == m
+grid[0].length == n
+1 <= m, n <= 40
+1 <= k <= m*n
+grid[i][j] == 0 or 1
+grid[0][0] == grid[m-1][n-1] == 0
+
+### 理解
+可以消减石头的最优路径。
+
+## 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+
+Given a m x n matrix mat and an integer threshold. Return the maximum side-length of a square with a sum less than or equal to threshold or return 0 if there is no such square.
+
+ 
+
+Example 1:
+
+![1292](./img/1292_1.png)
+Input: mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4
+Output: 2
+Explanation: The maximum side length of square with sum less than 4 is 2 as shown.
+Example 2:
+
+Input: mat = [[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2],[2,2,2,2,2]], threshold = 1
+Output: 0
+Example 3:
+
+Input: mat = [[1,1,1,1],[1,0,0,0],[1,0,0,0],[1,0,0,0]], threshold = 6
+Output: 3
+Example 4:
+
+Input: mat = [[18,70],[61,1],[25,85],[14,40],[11,96],[97,96],[63,45]], threshold = 40184
+Output: 2
+ 
+
+Constraints:
+
+1 <= m, n <= 300
+m == mat.length
+n == mat[i].length
+0 <= mat[i][j] <= 10000
+0 <= threshold <= 10^5
+
+### 理解
+找有没有一个子方阵，满足子方阵的和小于阈值。
+
+## 1291. Sequential Digits
+User Accepted:2248
+User Tried:2520
+Total Accepted:2284
+Total Submissions:4991
+Difficulty:Medium
+An integer has sequential digits if and only if each digit in the number is one more than the previous digit.
+
+Return a sorted list of all the integers in the range [low, high] inclusive that have sequential digits.
+
+ 
+
+Example 1:
+
+Input: low = 100, high = 300
+Output: [123,234]
+Example 2:
+
+Input: low = 1000, high = 13000
+Output: [1234,2345,3456,4567,5678,6789,12345]
+ 
+
+Constraints:
+
+10 <= low <= high <= 10^9
+
+### 理解
+在给定数值范围内，找出每一个数字严格递增的数值，并升序输出。
+
+## 1290. Convert Binary Number in a Linked List to Integer
+
+
+Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number.
+
+Return the decimal value of the number in the linked list.
+
+ 
+
+Example 1:
+
+
+Input: head = [1,0,1]
+Output: 5
+Explanation: (101) in base 2 = (5) in base 10
+Example 2:
+
+Input: head = [0]
+Output: 0
+Example 3:
+
+Input: head = [1]
+Output: 1
+Example 4:
+
+Input: head = [1,0,0,1,0,0,1,1,1,0,0,0,0,0,0]
+Output: 18880
+Example 5:
+
+Input: head = [0,0]
+Output: 0
+ 
+
+Constraints:
+
+The Linked List is not empty.
+Number of nodes will not exceed 30.
+Each node's value is either 0 or 1.
+
+### 理解
+二进制转十进制。
+
+# week 49
+## 1250. Check If It Is a Good Array
+
+Given an array nums of positive integers. Your task is to select some subset of nums, multiply each element by an integer and add all these numbers. The array is said to be good if you can obtain a sum of 1 from the array by any possible subset and multiplicand.
+
+Return True if the array is good otherwise return False.
+
+ 
+
+Example 1:
+
+Input: nums = [12,5,7,23]
+Output: true
+Explanation: Pick numbers 5 and 7.
+5\*3 + 7\*(-2) = 1
+Example 2:
+
+Input: nums = [29,6,10]
+Output: true
+Explanation: Pick numbers 29, 6 and 10.
+29\*1 + 6\*(-3) + 10*(-1) = 1
+Example 3:
+
+Input: nums = [3,6]
+Output: false
+ 
+
+Constraints:
+
+1 <= nums.length <= 10^5
+1 <= nums[i] <= 10^9
+### 理解
+这个好像有个理论，但是我忘了。。。
+
+## 1249. Minimum Remove to Make Valid Parentheses
+
+Given a string s of '(' , ')' and lowercase English characters. 
+
+Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string.
+
+Formally, a parentheses string is valid if and only if:
+
+It is the empty string, contains only lowercase characters, or
+It can be written as AB (A concatenated with B), where A and B are valid strings, or
+It can be written as (A), where A is a valid string.
+ 
+
+Example 1:
+
+Input: s = "lee(t(c)o)de)"
+Output: "lee(t(c)o)de"
+Explanation: "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+Example 2:
+
+Input: s = "a)b(c)d"
+Output: "ab(c)d"
+Example 3:
+
+Input: s = "))(("
+Output: ""
+Explanation: An empty string is also valid.
+Example 4:
+
+Input: s = "(a(b(c)d)"
+Output: "a(b(c)d)"
+ 
+
+Constraints:
+
+1 <= s.length <= 10^5
+s[i] is one of  '(' , ')' and lowercase English letters.
+
+### 理解
+括号的匹配，应该不难。
+
+
+## 5282. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
+User Accepted:0
+User Tried:0
+Total Accepted:0
+Total Submissions:0
+Difficulty:Hard
+Given a m x n binary matrix mat. In one step, you can choose one cell and flip it and all the four neighbours of it if they exist (Flip is changing 1 to 0 and 0 to 1). A pair of cells are called neighboors if they share one edge.
+
+Return the minimum number of steps required to convert mat to a zero matrix or -1 if you cannot.
+
+Binary matrix is a matrix with all cells equal to 0 or 1 only.
+
+Zero matrix is a matrix with all cells equal to 0.
+
+ 
+
+Example 1:
+
+![5282](./img/5282_1.png)
+
+Input: mat = [[0,0],[0,1]]
+Output: 3
+Explanation: One possible solution is to flip (1, 0) then (0, 1) and finally (1, 1) as shown.
+
+Example 2:
+
+Input: mat = [[0]]
+Output: 0
+Explanation: Given matrix is a zero matrix. We don't need to change it.
+Example 3:
+
+Input: mat = [[1,1,1],[1,0,1],[0,0,0]]
+Output: 6
+Example 4:
+
+Input: mat = [[1,0,0],[1,0,0]]
+Output: -1
+Explanation: Given matrix can't be a zero matrix
+ 
+
+Constraints:
+
+m == mat.length
+n == mat[0].length
+1 <= m <= 3
+1 <= n <= 3
+mat[i][j] is 0 or 1.
+
+### 理解
+反转成 0 矩阵
+
+## 5281. Find the Smallest Divisor Given a Threshold
+Given an array of integers nums and an integer threshold, we will choose a positive integer divisor and divide all the array by it and sum the result of the division. Find the smallest divisor such that the result mentioned above is less than or equal to threshold.
+
+Each result of division is rounded to the nearest integer greater than or equal to that element. (For example: 7/3 = 3 and 10/2 = 5).
+
+It is guaranteed that there will be an answer.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,5,9], threshold = 6
+Output: 5
+Explanation: We can get a sum to 17 (1+2+5+9) if the divisor is 1. 
+If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2). 
+Example 2:
+
+Input: nums = [2,3,5,7,11], threshold = 11
+Output: 3
+Example 3:
+
+Input: nums = [19], threshold = 5
+Output: 4
+ 
+
+Constraints:
+
+1 <= nums.length <= 5 * 10^4
+1 <= nums[i] <= 10^6
+nums.length <= threshold <= 10^6
+
+### 理解
+
+找一个数值，使每个数字除以它的累积和小于等于阈值。
+这个数字月小约好。
+就是累积和越接近阈值约好。
+
+
+# week 47
+## 1278. Palindrome Partitioning III
+You are given a string s containing lowercase letters and an integer k. You need to :
+
+First, change some characters of s to other lowercase English letters.
+Then divide s into k non-empty disjoint substrings such that each substring is palindrome.
+Return the minimal number of characters that you need to change to divide the string.
+
+ 
+
+Example 1:
+
+Input: s = "abc", k = 2
+Output: 1 
+
+Explanation: You can split the string into "ab" and "c", and change 1 character in "ab" to make it palindrome.
+
+Example 2:
+
+Input: s = "aabbc", k = 3
+Output: 0
+
+Explanation: You can split the string into "aa", "bb" and "c", all of them are palindrome.
+
+Example 3:
+
+Input: s = "leetcode", k = 8
+Output: 0
+ 
+
+Constraints:
+
+1 <= k <= s.length <= 100.
+s only contains lowercase English letters.
+
+## 5277. Count Square Submatrices with All Ones
+Example 1:
+
+Input: matrix =
+[
+  [0,1,1,1],
+  [1,1,1,1],
+  [0,1,1,1]
+]
+Output: 15
+Explanation: 
+There are 10 squares of side 1.
+There are 4 squares of side 2.
+There is  1 square of side 3.
+Total number of squares = 10 + 4 + 1 = 15.
+Example 2:
+
+Input: matrix = 
+[
+  [1,0,1],
+  [1,1,0],
+  [1,1,0]
+]
+Output: 7
+Explanation: 
+There are 6 squares of side 1.  
+There is 1 square of side 2. 
+Total number of squares = 6 + 1 = 7.
+ 
+
+Constraints:
+
+1 <= arr.length <= 300
+1 <= arr[0].length <= 300
+0 <= arr[i][j] <= 1
+
+### 理解
+这个就是算不为零的子矩阵。
+
+## 1274. Number of Ships in a Rectangle
+(This problem is an interactive problem.)
+
+On the sea represented by a cartesian plane, each ship is located at an integer point, and each integer point may contain at most 1 ship.
+
+You have a function Sea.hasShips(topRight, bottomLeft) which takes two points as arguments and returns true if and only if there is at least one ship in the rectangle represented by the two points, including on the boundary.
+
+Given two points, which are the top right and bottom left corners of a rectangle, return the number of ships present in that rectangle.  It is guaranteed that there are at most 10 ships in that rectangle.
+
+Submissions making more than 400 calls to hasShips will be judged Wrong Answer.  Also, any solutions that attempt to circumvent the judge will result in disqualification.
+
+ 
+
+Example :
+
+![1274](./img/1274_1.png)
+
+Input: 
+ships = [[1,1],[2,2],[3,3],[5,5]], topRight = [4,4], bottomLeft = [0,0]
+Output: 3
+Explanation: From [0,0] to [4,4] we can count 3 ships within the range.
+ 
+
+Constraints:
+
+On the input ships is only given to initialize the map internally. You must solve this problem "blindfolded". In other words, you must find the answer using the given hasShips API, without knowing the ships position.
+0 <= bottomLeft[0] <= topRight[0] <= 1000
+0 <= bottomLeft[1] <= topRight[1] <= 1000
+
+
+### 理解
+Sea.hasShips 可以判断有没有船，然后让我们来算有多少个船。
+二分吗？
+
+## 1273. Delete Tree Nodes
+
+The number of nodes is nodes;
+The value of the i-th node is value[i];
+The parent of the i-th node is parent[i].
+Remove every subtree whose sum of values of nodes is zero.
+
+After doing so, return the number of nodes remaining in the tree.
+
+ 
+
+Example 1:
+
+![](./img/1273_1.png)
+
+Input: nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-1]
+Output: 2
+ 
+
+Constraints:
+
+1 <= nodes <= 10^4
+-10^5 <= value[i] <= 10^5
+parent.length == nodes
+parent[0] == -1 which indicates that 0 is the root.
+
+### 理解
+返回和为零的子树。
+
+## 1272. Remove Interval
+ 
+Given a sorted list of disjoint intervals, each interval intervals[i] = [a, b] represents the set of real numbers x such that a <= x < b.
+
+We remove the intersections between any interval in intervals and the interval toBeRemoved.
+
+Return a sorted list of intervals after all such removals.
+
+ 
+
+Example 1:
+
+Input: intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
+Output: [[0,1],[6,7]]
+Example 2:
+
+Input: intervals = [[0,5]], toBeRemoved = [2,3]
+Output: [[0,2],[3,5]]
+ 
+
+Constraints:
+
+1 <= intervals.length <= 10^4
+-10^9 <= intervals[i][0] < intervals[i][1] <= 10^9
+
+### 理解
+1. 删除交集
+2. 删除给定的区间
+
+## 1271. Hexspeak
+
+A decimal number can be converted to its Hexspeak representation by first converting it to an uppercase hexadecimal string, then replacing all occurrences of the digit 0 with the letter O, and the digit 1 with the letter I.  Such a representation is valid if and only if it consists only of the letters in the set {"A", "B", "C", "D", "E", "F", "I", "O"}.
+
+Given a string num representing a decimal integer N, return the Hexspeak representation of N if it is valid, otherwise return "ERROR".
+
+ 
+
+Example 1:
+
+Input: num = "257"
+Output: "IOI"
+Explanation:  257 is 101 in hexadecimal.
+Example 2:
+
+Input: num = "3"
+Output: "ERROR"
+
+### 理解
+转成十六进制，且只能包含 {"A", "B", "C", "D", "E", "F", "I", "O"}。其中  "I", "O" 代表一和零。
+
+
 # week 45 (2019.11.17 - 2019.11.23)
 ## 1263. Minimum Moves to Move a Box to Their Target Location
 Storekeeper is a game, in which the player pushes boxes around in a warehouse, trying to get them to target locations.
@@ -233,6 +743,13 @@ Constraints:
 1 <= grid[i].length <= 20
 grid contains only characters '.', '#',  'S' , 'T', or 'B'.
 There is only one character 'S', 'B' and 'T' in the grid.
+
+
+### 理解
+这个问题还真是挺复杂的，我想了几个周也没想明白。
+看了 https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/discuss/431071/Python-Straightforward-2-stage-BFS-Explained 之后，开始明白下面评论里面的一句话：`So, one fact for solving this problem is that, after a push, the person will always be at the place where the box was before that push.` 所以，只需要记录`(当前 storekeeper 的位置, 当前 box 的位置)`和下一状态的位置就行了。
+hint 2 是我没看明白。
+
 
 ## 1262. Greatest Sum Divisible by Three
 Given an array nums of integers, we need to find the maximum possible sum of elements of the array such that it is divisible by three.
@@ -693,6 +1210,9 @@ Constraints:
 1 <= colsum.length <= 10^5
 0 <= upper, lower <= colsum.length
 0 <= colsum[i] <= 2
+
+### 理解
+这个就是数独吧
 
 ## 1252. Cells with Odd Values in a Matrix
 Given n and m which are the dimensions of a matrix initialized by zeros and given an array indices where indices[i] = [ri, ci]. For each pair of [ri, ci] you have to increment all cells in row ri and column ci by 1.
